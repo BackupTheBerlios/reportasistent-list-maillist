@@ -1,0 +1,377 @@
+From jan.kodym at post.cz  Wed Nov 15 13:42:01 2006
+From: jan.kodym at post.cz (=?us-ascii?Q?Jan=20Kodym?=)
+Date: Wed, 15 Nov 2006 13:42:01 +0100 (CET)
+Subject: [Reportasistent-list] Fwd:Re: dotaz - jazyk dokumentace k SW
+	projektum
+Message-ID: <756.2322-26494-1971593420-1163594521@post.cz>
+
+Ahojte, tady je odpoved na dotaz Holanovi, jak je to s jazykem vyvojovy dokumentace. Zacinam psat vyvojovou dokumentaci. Cesky (juchuuu :-)
+
+Kody
+
+
+# ------------ P?vodn? zpr?va ------------
+# Od: Tom?? Holan <Tomas.Holan at mff.cuni.cz>
+# P?edm?t: Re: dotaz - jazyk dokumentace k SW projektum
+# Datum: 15.11.2006 13:33:51
+# ----------------------------------------
+# Jan Kodym napsal(a):
+# > Dobry den,
+# > mel bych k Vam dotaz ohledne dokumentace k SW projektu. Tyka se jazyka, 
+# > ve kterem ma byt dokumentace napsana. V pravidlech pro projekty na 
+# > strankach projektove komise jsem se docetl, ze jazykem dokumentace muze 
+# > byt cestina nebo anglictina. Nas program bude mit anglicke UI, tudiz 
+# > uzivatelska dokumentace bude anglicky, taktez i programatorska 
+# > dokumentace (kvuli pozdejsimu pripadnemu rozsirovani).
+# > Zajima mne, jak je to s dokumentaci vyvojovou; jestli slouzi pouze pro 
+# > pedagogicke ucely a je urcena jen pro projektovou komisi, ktera bude 
+# > projekt posuzovat a muze byt tedy napsana cesky nebo musi byt rovnez 
+# > anglicky, aby byla kompletni dokumentace v jednom jazyce. Vzpominam si, 
+# > ze v dubnu na obhajobach byla jednomu tymu "dvojjazycnost" dokumentace 
+# > komisi vytykana.
+# 
+#     Dobry den,
+# 
+#        dokumentace muze byt cesky, slovensky nebo anglicky,
+#        pokud bude vyvojova dokumentace cesky a zbytek anglicky, nevadi.
+# 
+#        Vadi, pokud jsou jednotlive kapitoly tehoz dokumentu v ruznych jazycich.
+# 
+#     Tomas Holan
+# 
+# 
+
+
+From jan.kodym at post.cz  Wed Nov 22 21:48:55 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Wed, 22 Nov 2006 21:48:55 +0100
+Subject: [Reportasistent-list] reseni sirotku
+Message-ID: <4564B7B7.2090506@post.cz>
+
+Ahojte,
+domyslel jsem strategii reseni sirotku a sepsal do dokumentu, kterej 
+jsem dal na SVN 
+(http://svn.berlios.de/svnroot/repos/reportasistent/trunk/Dokumenty/sirotci.txt)
+
+To Iva: potreboval bych s tim ted od tebe pomoct, funkce jsou tam na to 
+uz pripraveny, jde o to pridat neco do menu, do options a potrebuju 
+trochu poradit ohledne CSkeletonView
+
+To Deda: kdybys mel chvilku, mrkni prosim zbezne na
+
+CSkeletonView::ResolveOrphans(LPARAM mode). Tou jsem nahradil tu CSkeletonView::SignOrphans() cos dneska psal, parametr
+mode muze bejt ORP_SIGN (oznaceni sirotku) nebo ORP_DELETE (mazani sirotku). Koukni prosim na ten pripad mazani v ResolveSingleOrphan(),
+tam kde se maze AP z kostry si nejsem moc jistej, jestli je to takhle uplne koser. Je to jen par radku
+
+Mejte se
+
+Kody
+
+
+
+From jan.kodym at post.cz  Thu Nov 23 22:25:02 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Thu, 23 Nov 2006 22:25:02 +0100
+Subject: [Reportasistent-list] CppDoc
+Message-ID: <456611AE.40100@post.cz>
+
+Ahoj,
+tak jsem rozchodil ten CppDoc. Stahnout si ho muzete na 
+http://www.cppdoc.com , je to celkem maly (1,7 MB).
+Je tam u toho navod, kde je popsany, jaky jsou ty prikazy. Jak to vypada 
+se muzete podivat do C++ casti FEpluginu (FEplugin/FEplugin) kterej jsem 
+tim okomentoval.
+Pridal jsem na SVN adresar (Dokumenty/Dokumentace/CppDoc). Do nej 
+pripravim scripty pro jednotlivy casti programu, ktery kdyz spustite (a 
+mate CppDoc nainstalovany), vytvori se podadresar s nazvem casti 
+programu a v nem ta dokumentace.
+Zaroven to bude nastaveny tak, ze krome obvyklyho typu komentaru
+/**
+*
+*
+*/
+pred (tridou, metodou, promennou ...) to podporuje i
+/// za polozkou
+napr:
+ int main(); /// hlavni funkce
+
+nebo
+/**
+
+
+*/
+(tj. bez hvezdicky na zacatku kazdyho radku)
+To proto ze psat je vsude je desna pruda. Ale je to lepsi, trba to nekdy 
+bude nekdo generovat a zapomene to nastavit.
+
+Kody
+
+
+From dedekj at matfyz.cz  Wed Nov 29 10:40:48 2006
+From: dedekj at matfyz.cz (Jan Dedek)
+Date: Wed, 29 Nov 2006 10:40:48 +0100
+Subject: [Reportasistent-list] LMRA beta5
+In-Reply-To: <OF85BA29D5.1F3A2738-ONC1257234.006BA539-C1257234.006BF201@kotelna.vse.cz>
+References: <7c08ba520611280541x4d9cdbccr4a9b1b8fb213f4f8@mail.gmail.com>
+	<OF85BA29D5.1F3A2738-ONC1257234.006BA539-C1257234.006BF201@kotelna.vse.cz>
+Message-ID: <7c08ba520611290140x2dad92e4ne34014a9ea45f246@mail.gmail.com>
+
+Dobry den, vase pripominky jsme si ulozily na
+http://reportasistent.berlios.de/dokumenty/LMra_beta5_06_11_28.doc
+a pokusime se k nim co nejdrive vyjadrit.
+
+Ve ctvrtek se za Vami zkusim zastvit mezi hodinou a cvicenim DBI022.
+
+Pokud jde o muj nazor, tak:
+> antecedent a sukcedent hned za task Name nebude problem, staci, kdyz Honza Kodym predela toto poradi v complex_filter.xsl.
+
+> ps?t do antecedentu skute?nou formulku kter? vystupuje pod ?Cedents"
+tohle by nyn? snadno slo tim zpusobem, ze by se hodnota pole v dialogu
+nechala prazdna, nebo by se nastavila na nejakou "specialni hodnotu" a
+RA by tam misto ni doplnil hodnotu kter? vystupuje pod ?Cedents"
+v tomhle pripade by Honza Kodym musel prepsat transform.xsl.
+
+> Jak dostanu  konfidenci do vystupu?
+Tohle se dela pres transformaci *attr link table*, ktera vam vypsala
+zaslanou chybovou hlasku. Pred tim, nez pouzijete tuto transformaci
+musite potvrdit nejaky filtr, aby *attr link table* vedela jakou
+hypotezu ma zobrazit.
+
+Postup pro pouziti *attr link table* v dialogu aktivniho prvku:
+1) nastvit filtr (complex nebo simple), tak aby v zalozce Propeties
+zmizel cerveny napis.
+2) zmacknout Apply (resp Pouzit) - tim se volba ve fitrech ulozi
+3) nyni uz by mela jit konfigurovat transformace *attr link table* v
+zalozce Transformations
+
+Ve ctvrtek pripadne predvedu.
+
+Osobne bych velmi privital, aby v uzivatelske prirucce tento postup na
+*attr link table* byl.
+
+Zminena chybova hlaska (ERR005) uz je dokonce zdokumentovana v
+dokumnetu "lmra_beta5\User guide\Error messages.doc" v kapitole
+"2.1.4	ERR005". Kdyz byste se chtel podivat a pripadne pripominkovat
+nam ho, budeme radi, ale buhuzel je zatim nekompletni.
+
+
+Vami navrzene zmeny jeste projedname.
+
+S pozdravem Jan Dedek.
+
+
+
+2006/11/28, Jan Rauch <Rauch at vse.cz>:
+>
+> Dobry den,
+> dekuji, posilam dojmy z prvnich pokusu.
+> Chtel bych ale vedet
+> Jak dostanu  konfidenci a jine numericke charakteristiky do vystupu?
+>
+> S pozdravem
+>
+> J. Rauch
+>
+>
+> (See attached file: LMra_beta5_06_11_28.doc)
+>
+>
+>
+>
+>              "Jan Dedek"
+>              <dedekj at matfyz.cz
+>              >                                                        Komu
+>              Odeslal:                      "Jan Rauch" <Rauch at vse.cz>
+>              dedekj at gmail.com                                        Kopie
+>
+>                                                                    P?edm?t
+>              28.11.2006 14:41              LMRA beta5
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Dobry den,
+> dnes jsme uvolnili dalsi betaverzi LMRA: bera 5
+>
+> Ke stazeni na http://reportasistent.berlios.de/ v sekci DOWNLOAD.
+>
+> Doufam, ze Vam bude fungovat, kdyby ne - napiste.
+>
+> Ve finalni verzi uz o proti teto verzi nebudou velke zmeny + pribude
+> funkcni napoveda.
+>
+>
+> Pokud budete chtit testovat take zasuvku pro Ferdu, tak prejmenujte
+> souvor FEplugin.Xdll na FEplugin.dll v adresari
+> lmra_beta5\ReportAsistent\Plugin.
+> a pro jistotu jeste spustte lmra_beta5\install\vcredist_x86.exe
+>
+>
+> S pozdravcem
+> Jan Dedek
+>
+>
+>
+
+From Rauch at vse.cz  Wed Nov 29 15:47:22 2006
+From: Rauch at vse.cz (Jan Rauch)
+Date: Wed, 29 Nov 2006 15:47:22 +0100
+Subject: [Reportasistent-list] LMRA beta5
+In-Reply-To: <7c08ba520611290140x2dad92e4ne34014a9ea45f246@mail.gmail.com>
+Message-ID: <OF8FD404EA.54D2726A-ONC1257235.0050428A-C1257235.00513FA8@kotelna.vse.cz>
+
+Dobry den,
+dekuji za zpravu, neco uz jsem odhalil, 
+zbytek vykonzultujem.  Ve ctvrtek prednaska odpada, 
+v S4 je den otevrenych dveri MFF. Cviceni predpokladam 
+ze bude, urcite na jeho zacatek prijdu i kdyz 
+ocekavam slabsi ucast. 
+
+O to vic bude casu na konzultace. Muzem zacit i driv, cviceni zacina 
+v 17.20. Budu Vas cekat od 17.00 pred labem SW2 vlevo v prizemi, 
+mohu ale prijit i driv. 
+
+Pripadne navrhnete 
+
+S pozdravem 
+
+J. Rauch 
+
+ 
+ 
+
+
+
+"Jan Dedek" <dedekj at matfyz.cz> 
+Odeslal: dedekj at gmail.com
+29.11.2006 10:40
+
+Komu
+"Jan Rauch" <Rauch at vse.cz>
+Kopie
+"reportasistent-list at lists.berlios.de" 
+<reportasistent-list at lists.berlios.de>
+P?edm?t
+Re: LMRA beta5
+
+
+
+
+
+
+Dobry den, vase pripominky jsme si ulozily na
+http://reportasistent.berlios.de/dokumenty/LMra_beta5_06_11_28.doc
+a pokusime se k nim co nejdrive vyjadrit.
+
+Ve ctvrtek se za Vami zkusim zastvit mezi hodinou a cvicenim DBI022.
+
+Pokud jde o muj nazor, tak:
+> antecedent a sukcedent hned za task Name nebude problem, staci, kdyz 
+Honza Kodym predela toto poradi v complex_filter.xsl.
+
+> ps?t do antecedentu skute?nou formulku kter? vystupuje pod ?Cedents"
+tohle by nyn? snadno slo tim zpusobem, ze by se hodnota pole v dialogu
+nechala prazdna, nebo by se nastavila na nejakou "specialni hodnotu" a
+RA by tam misto ni doplnil hodnotu kter? vystupuje pod ?Cedents"
+v tomhle pripade by Honza Kodym musel prepsat transform.xsl.
+
+> Jak dostanu  konfidenci do vystupu?
+Tohle se dela pres transformaci *attr link table*, ktera vam vypsala
+zaslanou chybovou hlasku. Pred tim, nez pouzijete tuto transformaci
+musite potvrdit nejaky filtr, aby *attr link table* vedela jakou
+hypotezu ma zobrazit.
+
+Postup pro pouziti *attr link table* v dialogu aktivniho prvku:
+1) nastvit filtr (complex nebo simple), tak aby v zalozce Propeties
+zmizel cerveny napis.
+2) zmacknout Apply (resp Pouzit) - tim se volba ve fitrech ulozi
+3) nyni uz by mela jit konfigurovat transformace *attr link table* v
+zalozce Transformations
+
+Ve ctvrtek pripadne predvedu.
+
+Osobne bych velmi privital, aby v uzivatelske prirucce tento postup na
+*attr link table* byl.
+
+Zminena chybova hlaska (ERR005) uz je dokonce zdokumentovana v
+dokumnetu "lmra_beta5\User guide\Error messages.doc" v kapitole
+"2.1.4           ERR005". Kdyz byste se chtel podivat a pripadne 
+pripominkovat
+nam ho, budeme radi, ale buhuzel je zatim nekompletni.
+
+
+Vami navrzene zmeny jeste projedname.
+
+S pozdravem Jan Dedek.
+
+
+
+2006/11/28, Jan Rauch <Rauch at vse.cz>:
+>
+> Dobry den,
+> dekuji, posilam dojmy z prvnich pokusu.
+> Chtel bych ale vedet
+> Jak dostanu  konfidenci a jine numericke charakteristiky do vystupu?
+>
+> S pozdravem
+>
+> J. Rauch
+>
+>
+> (See attached file: LMra_beta5_06_11_28.doc)
+>
+>
+>
+>
+>              "Jan Dedek"
+>              <dedekj at matfyz.cz
+>              > Komu
+>              Odeslal:                      "Jan Rauch" <Rauch at vse.cz>
+>              dedekj at gmail.com Kopie
+>
+> P?edm?t
+>              28.11.2006 14:41              LMRA beta5
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Dobry den,
+> dnes jsme uvolnili dalsi betaverzi LMRA: bera 5
+>
+> Ke stazeni na http://reportasistent.berlios.de/ v sekci DOWNLOAD.
+>
+> Doufam, ze Vam bude fungovat, kdyby ne - napiste.
+>
+> Ve finalni verzi uz o proti teto verzi nebudou velke zmeny + pribude
+> funkcni napoveda.
+>
+>
+> Pokud budete chtit testovat take zasuvku pro Ferdu, tak prejmenujte
+> souvor FEplugin.Xdll na FEplugin.dll v adresari
+> lmra_beta5\ReportAsistent\Plugin.
+> a pro jistotu jeste spustte lmra_beta5\install\vcredist_x86.exe
+>
+>
+> S pozdravcem
+> Jan Dedek
+>
+>
+>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20061129/e1f84872/attachment.html>
+

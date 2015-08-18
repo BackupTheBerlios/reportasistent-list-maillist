@@ -1,0 +1,222 @@
+From honza.dedek at volny.cz  Mon Nov  7 17:51:42 2005
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 07 Nov 2005 17:51:42 +0100 (CET)
+Subject: [Reportasistent-list] test mailing listu
+Message-ID: <038773878037ecd8ad5a162062469d3a@www1.mail.volny.cz>
+
+posilam prvni zpravu do listu pro otestovani :)
+
+honza
+
+
+
+From honza.dedek at volny.cz  Wed Nov  9 17:20:31 2005
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Wed, 09 Nov 2005 17:20:31 +0100 (CET)
+Subject: [Reportasistent-list] Fwd: Re: AR2NL
+Message-ID: <2159ea0c827244b6ef4922bb87ff4a31@www1.mail.volny.cz>
+
+Cau, tak jsem na utery tez domluvil schuzku s Michalem, ktery nam
+chce predvest AR2NL. Je to pul hodky pred Simunkem, pred Rauchovo
+pracovnou. Viz zbytek emailu. Pujdu rovnou tam - necekam u sochy :)
+honza
+
+PS: Ivo a Honzo prihlaste se do naseho mail-listu, jinak vas tam
+asi soupnu sam :)
+
+----- P?VODN? ZPR?VA -----
+Od: "Koman Michal" <xkomm04 at vse.cz>
+Komu: honza.dedek at volny.cz
+P?edm?t: Re: AR2NL
+Datum: 9.11.2005 - 10:09:00
+
+?au Honzo,
+takhle je to ide?ln?. Sejdem se v t?ch 12.30, to by m?lo 
+sta?it. Sraz bych dal p?ed kabinetem Raucha.
+Tak sme domluven?.
+M?jte se, Michal
+
+
+On Wed, 09 Nov 2005 09:56:39 +0100 (CET)
+  honza.dedek at volny.cz wrote:
+>Ahoj Michale,
+>v utery mame od 13 hodin schuzku s Rauchem na ekonomce. 
+>Mohli
+>bychom se sejit pred tim? Rekneme od 12 pripadne od 12:30 
+>jestli to
+>bude rychly :) Dej vedet, kde te najdem, jestli ti to 
+>takhle
+>vyhovuje. honza
+>
+>----- P?VODN? ZPR?VA -----
+>Od: "Koman Michal" <xkomm04 at vse.cz>
+>Komu: dedekj at matfyz.cz
+>P?edm?t: AR2NL
+>Datum: 4.11.2005 - 21:39:28
+>
+>> ?au,
+>> u? jsem rozchodil syst?m AR2NL, tak se m??em n?kdy v 
+>>t?dnu 
+>> sej?t, uk??u V?m to a m??em se pomalu domlouvat, co d?l. 
+>> Zat?m se s t?m sp?? je?t? seznamuju.
+>> Napi?, kdy a kde by V?m to vyhovovalo se sej?t.
+>> 
+>> S pozdravem
+>> Michal Koman
+>> 
+>> 
+>
+
+
+
+
+
+From honza.dedek at volny.cz  Mon Nov 14 13:44:42 2005
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 14 Nov 2005 13:44:42 +0100 (CET)
+Subject: [Reportasistent-list] matabaze
+Message-ID: <88c2adc7ea047089bda9da7cf35dbbf4@www1.mail.volny.cz>
+
+Cau, kdyz byste potrebovali testovaci metabazi tak na
+http://www.volny.cz/honza.dedek/Euroregion_ot3_dedek.zip
+jich par je.
+
+honza
+
+
+-- 
+S VOLN? ADSL m?te za 399 K? m?s??n? 2x rychlej??
+internet ne? od ?esk?ho Telecomu!
+Vice informac? z?sk?te na http://adsl.volny.cz/srovnani-adsl/
+
+
+
+From honza.dedek at volny.cz  Mon Nov 14 22:02:58 2005
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 14 Nov 2005 22:02:58 +0100 (CET)
+Subject: [Reportasistent-list] ODBC applikace
+Message-ID: <a3daaf0178904a44ae3b2e724604acfd@www1.mail.volny.cz>
+
+Ahoj,
+s Martinem jsme posledni dobou resili, jeden problem s tou
+testovaci aplikaci na SVN-ku. Trochu jsem to predelal, tak je to
+ted trochu inteligentnejsi a doufam ze i funkcnejsi.
+
+Martine zkus jestli ti to takhle uz funguje, doufam ze ano.
+
+Jinak VB skripty pro Word mam uz vymysleny a dulezity casti i
+napsany.
+
+Budu ted zkouset to XML a vymyslet interface pro zasuvky.
+
+Cus honza.
+
+
+-- 
+S VOLN? ADSL m?te za 399 K? m?s??n? 2x rychlej??
+internet ne? od ?esk?ho Telecomu!
+Vice informac? z?sk?te na http://adsl.volny.cz/srovnani-adsl/
+
+
+
+From honza.dedek at volny.cz  Wed Nov 16 16:45:28 2005
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Wed, 16 Nov 2005 16:45:28 +0100 (CET)
+Subject: [Reportasistent-list] Fwd: Re: AR2NL
+Message-ID: <a2b77b267eaa9a9368319581b482f501@www2.mail.volny.cz>
+
+Cau, Michal nam poslal funkcni instalaci AR2NL.
+Ke stazeni na nasem webu http://reportasistent.berlios.de/
+
+Vytvoril jsem tam novy adresar neverejne kde to najdete.
+
+
+
+Kdo by chtel administrovat nas web:
+Pres  WinSCP pripojit k
+
+shell.berlios.de
+
+home naseho projektu je v adresari 
+/net/pork-da/export/nfs/home/groups/reportasistent
+
+WWW root v
+/net/pork-da/export/nfs/home/groups/reportasistent/htdocs
+
+
+
+----- P?VODN? ZPR?VA -----
+Od: "Koman Michal" <xkomm04 at vse.cz>
+Komu: honza.dedek at volny.cz
+P?edm?t: Re: AR2NL
+Datum: 16.11.2005 - 11:49:45
+
+?au Honzo,
+v p??loze pos?l?m LispMiner s funk?n?m AR2NL, snad s tim 
+nebude? m?t probl?my, jsou to 4MB. AR2NL, co pos?l?m, 
+funguje jen pro ?e?tinu.
+Pro spu?t?n? sta?? spustit LMAdmin a vytvo?it nov? datov? 
+zdroj (datab?ze entry.mdb a metab?ze LMEntry.mdb).
+To je asi v?e, pokud budou n?jak? probl?my, ozvi se.
+
+M?jte se,
+Michal
+
+
+
+
+From honza.dedek at volny.cz  Fri Nov 18 11:16:59 2005
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Fri, 18 Nov 2005 11:16:59 +0100 (CET)
+Subject: [Reportasistent-list] uzivatelska analyza
+Message-ID: <06e341ff05db7390dd31015d005e97ad@www1.mail.volny.cz>
+
+Ahoj,
+na posledni schuzce po nas Rauch chtel sepsat uzivatelskou analyzu.
+Neco jsem sepsal, tak se na to prosim podivejte a dejte vedet,
+jestli je to ok. Behem pristiho tydne bych to chtel poslat
+Rauchovi.
+
+Pripominam, ze ut 29.11. 13hod mame s Raucem schuzku, na ktere se
+nase analyza bude resit.
+
+ke stazeni na:
+http://reportasistent.berlios.de/dokumenty/LM_RA_uziv_analyza.doc
+
+Hezky vikend!
+honza
+
+
+
+
+
+
+
+From honza.dedek at volny.cz  Wed Nov 30 15:44:49 2005
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Wed, 30 Nov 2005 15:44:49 +0100 (CET)
+Subject: [Reportasistent-list] Report Asistnet - analyza dodatek1
+Message-ID: <188826840cbfc89ae2d91729197efbd3@www3.mail.volny.cz>
+
+Dobry den,
+posilam odkaz na zapis z posledni schuzky projektu.
+
+http://reportasistent.berlios.de/dokumenty/LM_RA_uziv_analyza_dodatek1.doc
+
+Predpokladam, ze na pristi schuzce (20.12. 13:00) domluvime
+podrobnosti k jednotlivym ativnim prvkum, predevsim pro procedury
+4FT, SD4FT, KL a SDKL.
+
+S pozdravem
+Jan Dedek.
+
+
+
+
+
+-- 
+Kompletn? a dokonal? p??prava k p?ij?mac?m zkou?k?m na gymn?zia, S?
+a V? http://www.zkousky-nanecisto.cz/
+
+
+

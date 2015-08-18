@@ -1,0 +1,84 @@
+From christoph.conrad at gmx.de  Tue May 18 13:36:44 2010
+From: christoph.conrad at gmx.de (Christoph Conrad)
+Date: Tue, 18 May 2010 13:36:44 +0200
+Subject: [Reportasistent-list] Missing author reference for CHListBox
+Message-ID: <u7hn1toy4.fsf@ID-24456.user.uni-berlin.de>
+
+Hi,
+
+i just searched via Google for Joseph M. Newcomers CHListbox class[?]
+from 2001 and found that you copied and used it unchanged within the
+reportasistent, claiming "Authors: Jan Dedek, Jan Kodym, Martin Chrz,
+Iva Bartunkova".
+
+Joseph says[?]: 
+
+,----
+| The only restrictions on its use is that (a) you may not publish it as
+| if it is your own, or claim authorship of it in a public or private
+| declaration; (b) you may not attempt to sell it for any amount of money
+| (although you are free to incorporate it into products you are selling;
+| you may not sell it standalone); (c) you may not redistribute the source
+| without retaining my authorship.
+`----
+
+That is not good style.
+
+Regards,
+Christoph
+
+[?] <http://www.flounder.com/hscroll.htm>
+[?] <http://www.flounder.com/mvp_tips.htm>
+
+
+From honza.dedek at volny.cz  Tue May 18 13:55:52 2010
+From: honza.dedek at volny.cz (honza dedek)
+Date: Tue, 18 May 2010 13:55:52 +0200
+Subject: [Reportasistent-list] Missing author reference for CHListBox
+In-Reply-To: <u7hn1toy4.fsf@ID-24456.user.uni-berlin.de>
+References: <u7hn1toy4.fsf@ID-24456.user.uni-berlin.de>
+Message-ID: <AANLkTinz6G-mhPCSPOAsbXBa2bpW1irpsorqI94VdCRf@mail.gmail.com>
+
+Oh, thank you. You are absolutely right.
+This happen by a mistake during finishing source codes of the project.
+
+I will correct that.
+
+Thank you again.
+Jan Dedek
+
+
+On Tue, May 18, 2010 at 1:36 PM, Christoph Conrad
+<christoph.conrad at gmx.de> wrote:
+> Hi,
+>
+> i just searched via Google for Joseph M. Newcomers CHListbox class[?]
+> from 2001 and found that you copied and used it unchanged within the
+> reportasistent, claiming "Authors: Jan Dedek, Jan Kodym, Martin Chrz,
+> Iva Bartunkova".
+>
+> Joseph says[?]:
+>
+> ,----
+> | The only restrictions on its use is that (a) you may not publish it as
+> | if it is your own, or claim authorship of it in a public or private
+> | declaration; (b) you may not attempt to sell it for any amount of money
+> | (although you are free to incorporate it into products you are selling;
+> | you may not sell it standalone); (c) you may not redistribute the source
+> | without retaining my authorship.
+> `----
+>
+> That is not good style.
+>
+> Regards,
+> Christoph
+>
+> [?] <http://www.flounder.com/hscroll.htm>
+> [?] <http://www.flounder.com/mvp_tips.htm>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+
+

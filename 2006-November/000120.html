@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Reportasistent-list] LMRA beta5
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/reportasistent-list/2006-November/index.html" >
+   <LINK REL="made" HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20LMRA%20beta5&In-Reply-To=%3COF8FD404EA.54D2726A-ONC1257235.0050428A-C1257235.00513FA8%40kotelna.vse.cz%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000119.html">
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Reportasistent-list] LMRA beta5</H1>
+    <B>Jan Rauch</B> 
+    <A HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20LMRA%20beta5&In-Reply-To=%3COF8FD404EA.54D2726A-ONC1257235.0050428A-C1257235.00513FA8%40kotelna.vse.cz%3E"
+       TITLE="[Reportasistent-list] LMRA beta5">Rauch at vse.cz
+       </A><BR>
+    <I>Wed Nov 29 15:47:22 CET 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000119.html">[Reportasistent-list] LMRA beta5
+</A></li>
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#120">[ date ]</a>
+              <a href="thread.html#120">[ thread ]</a>
+              <a href="subject.html#120">[ subject ]</a>
+              <a href="author.html#120">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Dobry den,
+dekuji za zpravu, neco uz jsem odhalil, 
+zbytek vykonzultujem.  Ve ctvrtek prednaska odpada, 
+v S4 je den otevrenych dveri MFF. Cviceni predpokladam 
+ze bude, urcite na jeho zacatek prijdu i kdyz 
+ocekavam slabsi ucast. 
+
+O to vic bude casu na konzultace. Muzem zacit i driv, cviceni zacina 
+v 17.20. Budu Vas cekat od 17.00 pred labem SW2 vlevo v prizemi, 
+mohu ale prijit i driv. 
+
+Pripadne navrhnete 
+
+S pozdravem 
+
+J. Rauch 
+
+ 
+ 
+
+
+
+&quot;Jan Dedek&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">dedekj at matfyz.cz</A>&gt; 
+Odeslal: <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">dedekj at gmail.com</A>
+29.11.2006 10:40
+
+Komu
+&quot;Jan Rauch&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">Rauch at vse.cz</A>&gt;
+Kopie
+&quot;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">reportasistent-list at lists.berlios.de</A>&quot; 
+&lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">reportasistent-list at lists.berlios.de</A>&gt;
+P&#345;edm&#283;t
+Re: LMRA beta5
+
+
+
+
+
+
+Dobry den, vase pripominky jsme si ulozily na
+<A HREF="http://reportasistent.berlios.de/dokumenty/LMra_beta5_06_11_28.doc">http://reportasistent.berlios.de/dokumenty/LMra_beta5_06_11_28.doc</A>
+a pokusime se k nim co nejdrive vyjadrit.
+
+Ve ctvrtek se za Vami zkusim zastvit mezi hodinou a cvicenim DBI022.
+
+Pokud jde o muj nazor, tak:
+&gt;<i> antecedent a sukcedent hned za task Name nebude problem, staci, kdyz 
+</I>Honza Kodym predela toto poradi v complex_filter.xsl.
+
+&gt;<i> ps&#225;t do antecedentu skute&#269;nou formulku kter&#225; vystupuje pod &#8222;Cedents&quot;
+</I>tohle by nyn&#237; snadno slo tim zpusobem, ze by se hodnota pole v dialogu
+nechala prazdna, nebo by se nastavila na nejakou &quot;specialni hodnotu&quot; a
+RA by tam misto ni doplnil hodnotu kter&#225; vystupuje pod &#8222;Cedents&quot;
+v tomhle pripade by Honza Kodym musel prepsat transform.xsl.
+
+&gt;<i> Jak dostanu  konfidenci do vystupu?
+</I>Tohle se dela pres transformaci *attr link table*, ktera vam vypsala
+zaslanou chybovou hlasku. Pred tim, nez pouzijete tuto transformaci
+musite potvrdit nejaky filtr, aby *attr link table* vedela jakou
+hypotezu ma zobrazit.
+
+Postup pro pouziti *attr link table* v dialogu aktivniho prvku:
+1) nastvit filtr (complex nebo simple), tak aby v zalozce Propeties
+zmizel cerveny napis.
+2) zmacknout Apply (resp Pouzit) - tim se volba ve fitrech ulozi
+3) nyni uz by mela jit konfigurovat transformace *attr link table* v
+zalozce Transformations
+
+Ve ctvrtek pripadne predvedu.
+
+Osobne bych velmi privital, aby v uzivatelske prirucce tento postup na
+*attr link table* byl.
+
+Zminena chybova hlaska (ERR005) uz je dokonce zdokumentovana v
+dokumnetu &quot;lmra_beta5\User guide\Error messages.doc&quot; v kapitole
+&quot;2.1.4           ERR005&quot;. Kdyz byste se chtel podivat a pripadne 
+pripominkovat
+nam ho, budeme radi, ale buhuzel je zatim nekompletni.
+
+
+Vami navrzene zmeny jeste projedname.
+
+S pozdravem Jan Dedek.
+
+
+
+2006/11/28, Jan Rauch &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">Rauch at vse.cz</A>&gt;:
+&gt;<i>
+</I>&gt;<i> Dobry den,
+</I>&gt;<i> dekuji, posilam dojmy z prvnich pokusu.
+</I>&gt;<i> Chtel bych ale vedet
+</I>&gt;<i> Jak dostanu  konfidenci a jine numericke charakteristiky do vystupu?
+</I>&gt;<i>
+</I>&gt;<i> S pozdravem
+</I>&gt;<i>
+</I>&gt;<i> J. Rauch
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> (See attached file: LMra_beta5_06_11_28.doc)
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>              &quot;Jan Dedek&quot;
+</I>&gt;<i>              &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">dedekj at matfyz.cz</A>
+</I>&gt;<i>              &gt; Komu
+</I>&gt;<i>              Odeslal:                      &quot;Jan Rauch&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">Rauch at vse.cz</A>&gt;
+</I>&gt;<i>              <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">dedekj at gmail.com</A> Kopie
+</I>&gt;<i>
+</I>&gt;<i> P&#345;edm&#283;t
+</I>&gt;<i>              28.11.2006 14:41              LMRA beta5
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> Dobry den,
+</I>&gt;<i> dnes jsme uvolnili dalsi betaverzi LMRA: bera 5
+</I>&gt;<i>
+</I>&gt;<i> Ke stazeni na <A HREF="http://reportasistent.berlios.de/">http://reportasistent.berlios.de/</A> v sekci DOWNLOAD.
+</I>&gt;<i>
+</I>&gt;<i> Doufam, ze Vam bude fungovat, kdyby ne - napiste.
+</I>&gt;<i>
+</I>&gt;<i> Ve finalni verzi uz o proti teto verzi nebudou velke zmeny + pribude
+</I>&gt;<i> funkcni napoveda.
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> Pokud budete chtit testovat take zasuvku pro Ferdu, tak prejmenujte
+</I>&gt;<i> souvor FEplugin.Xdll na FEplugin.dll v adresari
+</I>&gt;<i> lmra_beta5\ReportAsistent\Plugin.
+</I>&gt;<i> a pro jistotu jeste spustte lmra_beta5\install\vcredist_x86.exe
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> S pozdravcem
+</I>&gt;<i> Jan Dedek
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/reportasistent-list/attachments/20061129/e1f84872/attachment.html">https://lists.berlios.de/pipermail/reportasistent-list/attachments/20061129/e1f84872/attachment.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000119.html">[Reportasistent-list] LMRA beta5
+</A></li>
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#120">[ date ]</a>
+              <a href="thread.html#120">[ thread ]</a>
+              <a href="subject.html#120">[ subject ]</a>
+              <a href="author.html#120">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/reportasistent-list">More information about the Reportasistent-list
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,661 @@
+From iva.b at volny.cz  Tue May  2 22:42:48 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Tue, 02 May 2006 22:42:48 +0200 (CEST)
+Subject: [Reportasistent-list] prezentace na Keg
+Message-ID: <52f00895ce79a2d176800341c2386be6@www4.mail.volny.cz>
+
+Ahojky,
+
+prezentace na KEG je na nasem webu v dokumentech.
+http://reportasistent.berlios.de/dokumenty
+Nejak me nenapada, co tam napsat k tem zasuvkam - nepripsali byste
+tam neco?
+
+Iva
+
+
+-- 
+S bruslemi Elite, kila navic shodite!
+In-line brusle s Nike Air systemem za super cenu!
+http://www.sportobchod.cz/in-line
+
+
+
+From jan.kodym at post.cz  Tue May  2 23:49:31 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Tue, 02 May 2006 23:49:31 +0200
+Subject: [Reportasistent-list] prezentace na Keg
+In-Reply-To: <52f00895ce79a2d176800341c2386be6@www4.mail.volny.cz>
+References: <52f00895ce79a2d176800341c2386be6@www4.mail.volny.cz>
+Message-ID: <4457D3EB.1010905@post.cz>
+
+Tam by to spis chtelo nejakej obrazek/diagram a ty moc vytvaret neumim 
+:-) Muzu se o to zejtra pokusit. V nejhorsim tam jenom neco napisu a pak 
+pripadne reknu na seminari. BTW uz vite, jestli prijde nejakej 
+zahranicni host a prezentace bude muset bejt anglicky?
+
+Kody
+
+
+Iva Bartunkova napsal(a):
+> Ahojky,
+>
+> prezentace na KEG je na nasem webu v dokumentech.
+> http://reportasistent.berlios.de/dokumenty
+> Nejak me nenapada, co tam napsat k tem zasuvkam - nepripsali byste
+> tam neco?
+>
+> Iva
+>
+>
+>   
+
+
+From honza.dedek at volny.cz  Wed May 10 13:28:38 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Wed, 10 May 2006 13:28:38 +0200 (CEST)
+Subject: [Reportasistent-list] beta2
+Message-ID: <1312d3f4aa49a9e1e270441ae8a53cdb@www2.mail.volny.cz>
+
+Ahoj,
+vecer (okolo jedenacte hodiny) bych chtel pro Raucha udelat novou
+release beta-verzi. Tak dodelejte a comitnete, co chcete aby tam
+bylo a pripadne napiste specialni prani ohledne toho co tam ma byt,
+co jeste rychle pridat/predelat.
+
+honza
+
+
+-- 
+JARNI HIT! S bruslemi Elite, kila navic shodite!
+In-line brusle s Nike Air systemem za super cenu!
+http://www.sportobchod.cz/in-line
+
+
+
+From honza.dedek at volny.cz  Mon May 15 12:10:15 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 15 May 2006 12:10:15 +0200 (CEST)
+Subject: [Reportasistent-list] =?iso-8859-2?Q?hled=E1m_bug?=
+Message-ID: <414abf82c86e100db2efd9cf2913a72b@www2.mail.volny.cz>
+
+Ahoj,
+minuly tyden u Racha nam RA zahadne spadnul a marne si lamu hlavu
+nad tim proc. V labu to bohuzel nepada :) Tak zkuste jestli se u
+vas ta chyba neprojevi. A pak bychom to zkusili vystopovat.
+
+Prosim zkuste:
+- Spustit RA
+- Otevrit dialog pro prvek attr_link
+- V dialogu zmacknout tlacitko pro refresh (Word) Stylu
+-- ted by to bud melo spadnout nebo naplnit combobox wordovskymi
+styly. Pokud to naplni styly, tak je to ok. Pokud ne - dejte mi
+vedet.
+
+Predpokladam ze chyba vznika s nejakou zvlastni instalci Wordu.
+Doma i v labu mi to funguje. Spadlo to jen u Raucha. Dost by me
+zajimalo cim to je, ale nechce se mi ho s tim otravovat. (Mozna se
+na to u nej podivame az bude dalsi schuzka, ale extra s tim za nim
+nepujdu..)
+
+Mej te se!
+honza
+
+Co se moji dasi prace tyka: Zkusim ted udelat tem COM objekt aby
+sel RA vyvolat z Wordu.
+
+
+
+
+
+
+-- 
+JARNI HIT! S bruslemi Elite, kila navic shodite!
+In-line brusle s Nike Air systemem za super cenu!
+http://www.sportobchod.cz/in-line
+
+
+
+From jan.kodym at post.cz  Mon May 15 13:03:39 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Mon, 15 May 2006 13:03:39 +0200
+Subject: [Reportasistent-list] bug
+Message-ID: <4468600B.6020507@post.cz>
+
+Ahojte,
+
+To Deda: zkousel jsem to, cos chtel, ale shodit se mi to bohuzel 
+(bohudik:-) nepovedlo.
+
+To vsichni:  na SVN jsem pridal adresar FEplugin. Zatim ho prosim 
+ignorujte, je to spis pro moji potrebu a preventivne, protoze posledni 
+dobou mi nejak zahadne porad odchazi disky atd. a nahoda je blbec. 
+Nepokouselte se to pridat do workspacu ReportAsistent nebo tak neco, 
+bude to samostatnej projekt. Zatim by vam to nefungovalo, pac je 
+zapotrebi pro kompilaci mit urcity soucasti Ferdovskejch zdrojaku a 
+prelozenejch knihoven na danym miste, coz mam zatim jen ja u sebe v 
+kompu :-) Premejslim, jestli davat Ferdovsky zdrojaky na nase SVN. Asi 
+bude lepsi, kdyz si pak udelate vlastni adresar a budete si je sami 
+stahovat primo pomoci Ferdovskyho SVN a kompilovat :-) To vam pak reknu, 
+pripadne najdeme lepsi reseni.
+
+Dale jsem se pokousel nejak udelat, aby pri dlouhejch operacich typu 
+otevirani zdroje nebo nacitani dat (coz zrovna v zasuvce Ferdy muze 
+trvat dost dlouho na to, aby si uzivatel zacal myslet, ze to vytuhlo a 
+uz to nerozdejcha) program nezamrznul a zobrazil nejakej Progress Bar, 
+nejlepe takovej, jak tam porad behaj ty prouzky dokola, protoze u 
+techhle operaci se neda dost dobre urcit, v jakym stadiu ta operace je, 
+kolik zbyva do konce atd. Chtel jsem to napsat v .NETu ve Ferdovsky 
+zasuvce, ale pak me napadlo, ze by bylo asi lepsi to udelat uz na urovni 
+metod tridy CDataSourcesManager, konkretne ConnectNewSource(), 
+ConnecSource() atd. a pripadne i CallPerformProc(), ktera sosa ze 
+zasuvek data. Aby to bylo rovnou pro vsechny zasuvky. Martin rikal neco 
+jako ze nacitani 4000 hypotez z LM zasuvky je taky docela husty :-)
+Bude zapotrebi pustit v jednom vlakne tu operaci a v jinym ten dialog s 
+progressbarem (treba pro jednoduchost i bez moznosti stornovat 
+operaci:-), kterej bude cekat, dokud operace neskonci, obcas se trochu 
+ozivi, ale zase nebude zrat moc casu procesoru nejakym aktivnim cekanim 
+(napr. cyklicky testovat, jestli vlakno s operaci neskoncilo). Asi bych 
+byl schopnej to "nejak" splacat, aby to fungovalo, ale ne uplne dle vyse 
+uvedenejch pozadavku. Neni mezi vami nekdo, kdo tyhle problematice 
+trochu vic rozumi? Urcite existuje nejaky standardni reseni, ale mne se 
+ho nepovedlo najit. Muzem se o tom nekdy pobavit, neni to zase nejaka 
+priorita.
+
+Mejte se
+
+Kody
+
+
+From honza.dedek at volny.cz  Mon May 15 21:27:27 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 15 May 2006 21:27:27 +0200 (CEST)
+Subject: [Reportasistent-list] bug
+In-Reply-To: <4468600B.6020507@post.cz>
+References: <4468600B.6020507@post.cz>
+Message-ID: <da5611fa7dab6babfb208bcd8516d6e2@www1.mail.volny.cz>
+
+Cau!
+Jak pises ten progress bar neni moc velka priorita. Ale kdyz by ses
+tim chtel zabyvat tak v MFC je trida CWinThread prip. funkce
+AfxBeginThread a v helpu k tomu nejdes hodne informaci jak na to.
+Ale aby se v RA dal posunovat nejakej progressbar, tak by se musely
+zmenit/pridat funkce v SockInterface, aby si ty vlakna prubezne
+mohly predavat informace o stavu "vypoctu". V Jave jsou na to
+nejaky pekny konstrukce, mozna by se to naslo u Hnetynky na
+strankach - kdyz bys chtel inspiraci.. Taky v JagrLib to tusim
+bylo. Ale nic z toho si nevybavim moc presne bohuzel. Musel bych
+hledat.. Jednodusi reseni by bylo jen zobrazovat nejakou nic
+nerikajici animaci - jako ze se pracuje, bez informace jak dlouho
+to jeste bude trvat.
+
+cus honza
+
+----- P?VODN? ZPR?VA -----
+Od: "Jan Kodym" <jan.kodym at post.cz>
+Komu: reportasistent-list at lists.berlios.de
+P?edm?t: [Reportasistent-list] bug
+Datum: 15.5.2006 - 13:04:31
+
+> Ahojte,
+> 
+> To Deda: zkousel jsem to, cos chtel, ale shodit se mi to
+> bohuzel 
+> (bohudik:-) nepovedlo.
+> 
+> To vsichni:  na SVN jsem pridal adresar FEplugin. Zatim ho
+> prosim 
+> ignorujte, je to spis pro moji potrebu a preventivne, protoze
+> posledni 
+> dobou mi nejak zahadne porad odchazi disky atd. a nahoda je
+> blbec. 
+> Nepokouselte se to pridat do workspacu ReportAsistent nebo tak
+> neco, 
+> bude to samostatnej projekt. Zatim by vam to nefungovalo, pac
+> je 
+> zapotrebi pro kompilaci mit urcity soucasti Ferdovskejch
+> zdrojaku a 
+> prelozenejch knihoven na danym miste, coz mam zatim jen ja u
+> sebe v 
+> kompu :-) Premejslim, jestli davat Ferdovsky zdrojaky na nase
+> SVN. Asi 
+> bude lepsi, kdyz si pak udelate vlastni adresar a budete si je
+> sami 
+> stahovat primo pomoci Ferdovskyho SVN a kompilovat :-) To vam
+> pak reknu, 
+> pripadne najdeme lepsi reseni.
+> 
+> Dale jsem se pokousel nejak udelat, aby pri dlouhejch operacich
+> typu 
+> otevirani zdroje nebo nacitani dat (coz zrovna v zasuvce Ferdy
+> muze 
+> trvat dost dlouho na to, aby si uzivatel zacal myslet, ze to
+> vytuhlo a 
+> uz to nerozdejcha) program nezamrznul a zobrazil nejakej
+> Progress Bar, 
+> nejlepe takovej, jak tam porad behaj ty prouzky dokola, protoze
+> u 
+> techhle operaci se neda dost dobre urcit, v jakym stadiu ta
+> operace je, 
+> kolik zbyva do konce atd. Chtel jsem to napsat v .NETu ve
+> Ferdovsky 
+> zasuvce, ale pak me napadlo, ze by bylo asi lepsi to udelat uz
+> na urovni 
+> metod tridy CDataSourcesManager, konkretne ConnectNewSource(), 
+> ConnecSource() atd. a pripadne i CallPerformProc(), ktera sosa
+> ze 
+> zasuvek data. Aby to bylo rovnou pro vsechny zasuvky. Martin
+> rikal neco 
+> jako ze nacitani 4000 hypotez z LM zasuvky je taky docela husty
+> :-)
+> Bude zapotrebi pustit v jednom vlakne tu operaci a v jinym ten
+> dialog s 
+> progressbarem (treba pro jednoduchost i bez moznosti stornovat 
+> operaci:-), kterej bude cekat, dokud operace neskonci, obcas se
+> trochu 
+> ozivi, ale zase nebude zrat moc casu procesoru nejakym aktivnim
+> cekanim 
+> (napr. cyklicky testovat, jestli vlakno s operaci neskoncilo).
+> Asi bych 
+> byl schopnej to "nejak" splacat, aby to fungovalo, ale ne uplne
+> dle vyse 
+> uvedenejch pozadavku. Neni mezi vami nekdo, kdo tyhle
+> problematice 
+> trochu vic rozumi? Urcite existuje nejaky standardni reseni,
+> ale mne se 
+> ho nepovedlo najit. Muzem se o tom nekdy pobavit, neni to zase
+> nejaka 
+> priorita.
+> 
+> Mejte se
+> 
+> Kody
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+
+
+-- 
+JARNI HIT!
+Kil se snadno zbavite, s koleckaci ELITE!
+http://www.sportobchod.cz/inline-brusle-nike-dorfin-elite-alu.htm&redir=32
+
+
+
+
+From honza.dedek at volny.cz  Mon May 15 21:29:53 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 15 May 2006 21:29:53 +0200 (CEST)
+Subject: [Reportasistent-list] bug
+In-Reply-To: <4468600B.6020507@post.cz>
+References: <4468600B.6020507@post.cz>
+Message-ID: <b62fa8e992d66e59b032b5901dedd8f0@www1.mail.volny.cz>
+
+Cau!
+Jak pises ten progress bar neni moc velka priorita. Ale kdyz by ses
+tim chtel zabyvat tak v MFC je trida CWinThread prip. funkce
+AfxBeginThread a v helpu k tomu nejdes hodne informaci jak na to.
+Ale aby se v RA dal posunovat nejakej progressbar, tak by se musely
+zmenit/pridat funkce v SockInterface, aby si ty vlakna prubezne
+mohly predavat informace o stavu "vypoctu". V Jave jsou na to
+nejaky pekny konstrukce, mozna by se to naslo u Hnetynky na
+strankach - kdyz bys chtel inspiraci.. Taky v JagrLib to tusim
+bylo. Ale nic z toho si nevybavim moc presne bohuzel. Musel bych
+hledat.. Jednodusi reseni by bylo jen zobrazovat nejakou nic
+nerikajici animaci - jako ze se pracuje, bez informace jak dlouho
+to jeste bude trvat.
+
+cus honza
+
+----- P?VODN? ZPR?VA -----
+Od: "Jan Kodym" <jan.kodym at post.cz>
+Komu: reportasistent-list at lists.berlios.de
+P?edm?t: [Reportasistent-list] bug
+Datum: 15.5.2006 - 13:04:31
+
+> Ahojte,
+> 
+> To Deda: zkousel jsem to, cos chtel, ale shodit se mi to
+> bohuzel 
+> (bohudik:-) nepovedlo.
+> 
+> To vsichni:  na SVN jsem pridal adresar FEplugin. Zatim ho
+> prosim 
+> ignorujte, je to spis pro moji potrebu a preventivne, protoze
+> posledni 
+> dobou mi nejak zahadne porad odchazi disky atd. a nahoda je
+> blbec. 
+> Nepokouselte se to pridat do workspacu ReportAsistent nebo tak
+> neco, 
+> bude to samostatnej projekt. Zatim by vam to nefungovalo, pac
+> je 
+> zapotrebi pro kompilaci mit urcity soucasti Ferdovskejch
+> zdrojaku a 
+> prelozenejch knihoven na danym miste, coz mam zatim jen ja u
+> sebe v 
+> kompu :-) Premejslim, jestli davat Ferdovsky zdrojaky na nase
+> SVN. Asi 
+> bude lepsi, kdyz si pak udelate vlastni adresar a budete si je
+> sami 
+> stahovat primo pomoci Ferdovskyho SVN a kompilovat :-) To vam
+> pak reknu, 
+> pripadne najdeme lepsi reseni.
+> 
+> Dale jsem se pokousel nejak udelat, aby pri dlouhejch operacich
+> typu 
+> otevirani zdroje nebo nacitani dat (coz zrovna v zasuvce Ferdy
+> muze 
+> trvat dost dlouho na to, aby si uzivatel zacal myslet, ze to
+> vytuhlo a 
+> uz to nerozdejcha) program nezamrznul a zobrazil nejakej
+> Progress Bar, 
+> nejlepe takovej, jak tam porad behaj ty prouzky dokola, protoze
+> u 
+> techhle operaci se neda dost dobre urcit, v jakym stadiu ta
+> operace je, 
+> kolik zbyva do konce atd. Chtel jsem to napsat v .NETu ve
+> Ferdovsky 
+> zasuvce, ale pak me napadlo, ze by bylo asi lepsi to udelat uz
+> na urovni 
+> metod tridy CDataSourcesManager, konkretne ConnectNewSource(), 
+> ConnecSource() atd. a pripadne i CallPerformProc(), ktera sosa
+> ze 
+> zasuvek data. Aby to bylo rovnou pro vsechny zasuvky. Martin
+> rikal neco 
+> jako ze nacitani 4000 hypotez z LM zasuvky je taky docela husty
+> :-)
+> Bude zapotrebi pustit v jednom vlakne tu operaci a v jinym ten
+> dialog s 
+> progressbarem (treba pro jednoduchost i bez moznosti stornovat 
+> operaci:-), kterej bude cekat, dokud operace neskonci, obcas se
+> trochu 
+> ozivi, ale zase nebude zrat moc casu procesoru nejakym aktivnim
+> cekanim 
+> (napr. cyklicky testovat, jestli vlakno s operaci neskoncilo).
+> Asi bych 
+> byl schopnej to "nejak" splacat, aby to fungovalo, ale ne uplne
+> dle vyse 
+> uvedenejch pozadavku. Neni mezi vami nekdo, kdo tyhle
+> problematice 
+> trochu vic rozumi? Urcite existuje nejaky standardni reseni,
+> ale mne se 
+> ho nepovedlo najit. Muzem se o tom nekdy pobavit, neni to zase
+> nejaka 
+> priorita.
+> 
+> Mejte se
+> 
+> Kody
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+
+
+-- 
+JARNI HIT!
+Kil se snadno zbavite, s koleckaci ELITE!
+http://www.sportobchod.cz/inline-brusle-nike-dorfin-elite-alu.htm&redir=32
+
+
+
+
+From jan.kodym at post.cz  Thu May 25 19:05:10 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Thu, 25 May 2006 19:05:10 +0200
+Subject: [Reportasistent-list] prosba - Ferdovska zasuvka
+Message-ID: <4475E3C6.7020803@post.cz>
+
+Ahojte,
+mel bych k vam prosbicku: potreboval bych vyzkouset, jestli u sebe 
+rozchodite Ferdovskou zasuvku. Potrebny programovy vybaveni jsem 
+pridal/pridam na SVN. (zaroven tam je adresar FEProjekty, kde jsou 
+ukazky Ferdovskejch projektu)
+Prikladam navod, jak to udelat, aby se to dalo rozchodit. Neni to zase 
+uplna sranda, je nutny par veci nainstalovat/pozmenit. Ale snazil jsem 
+se to udelat v dany chvili co nejjednodussi a potrebuju vyzkouset, 
+jestli to funguje taky jinde nez u me a taky to dat do "provozu", aby se 
+s tim pracovalo a ja vedel pripadne, jestli ta zasuvka hazi nejaky chyby 
+nebo vraci blby data a tak.
+Diky a mejte se, pripadny dotazy rad zodpovim/pripadny problemy pomuzu 
+vyresit.
+
+p.s. Deda mi v tomhle asi moc nepomuze, protoze v labu asi pristupovy 
+prava nedovoli neco instalovat. Potreboval bych teda asi spis vas, 
+Martine a Ivo :-) Pripadne Dedo, jestli se dostanes na komp jinde nez v 
+labu, treba doma
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Instalace Ferdovsk? z?suvky do betaverze LM.doc
+Type: application/msword
+Size: 26624 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20060525/e113800f/attachment.doc>
+
+From jan.kodym at post.cz  Sun May 28 18:51:27 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Sun, 28 May 2006 18:51:27 +0200
+Subject: [Reportasistent-list] schuzka?
+Message-ID: <4479D50F.3060300@post.cz>
+
+Ahojte,
+myslim, ze bychom si zase meli udelat schuzku, kde by se zhodnotil 
+soucasnej stav projektu a stanovil plan dalsiho vyvoje vzhledem k planum 
+jednotlivejch lidi (zkousky, prazdniny), aby se podarilo vse stihnout. 
+Takze by bylo vhodny, abychom se sesli vsichni, pripadne i za 
+pritomnosti Raucha. Nasel by se nekdy tento tyden na to cas? Ja muzu 
+kdykoliv krome stredy odpoledne (cca 16:00) a ctvrtka dopoledne a 
+nejspis i patku odpoledne. Myslim, ze sejit se a probrat tyhle veci co 
+nejdriv je dost dulezity.
+Mejte se
+
+Kody
+
+p.s. nikdo se mi zatim neozval ohledne ty Ferdovsky zasuvky, jak jsem 
+tuhle posilal maila. Zkouseli jste to nekdo?
+
+
+From honza.dedek at volny.cz  Mon May 29 11:38:30 2006
+From: honza.dedek at volny.cz (honza dedek)
+Date: Mon, 29 May 2006 11:38:30 +0200
+Subject: [Reportasistent-list] schuzka?
+References: <4479D50F.3060300@post.cz>
+Message-ID: <000401c68303$a8596810$6601a8c0@pcdedek>
+
+Ahoj.
+Do Prahy prijedu ve stredu okolo poledne. Na schuzku pak muzu skoro 
+kdykoliv - cely zbytek tydne mam volny.
+
+honza
+
+
+----- Original Message ----- 
+From: "Jan Kodym" <jan.kodym at post.cz>
+To: "Projekt LM-RA" <reportasistent-list at lists.berlios.de>
+Sent: Sunday, May 28, 2006 6:51 PM
+Subject: [Reportasistent-list] schuzka?
+
+
+> Ahojte,
+> myslim, ze bychom si zase meli udelat schuzku, kde by se zhodnotil 
+> soucasnej stav projektu a stanovil plan dalsiho vyvoje vzhledem k planum 
+> jednotlivejch lidi (zkousky, prazdniny), aby se podarilo vse stihnout. 
+> Takze by bylo vhodny, abychom se sesli vsichni, pripadne i za pritomnosti 
+> Raucha. Nasel by se nekdy tento tyden na to cas? Ja muzu kdykoliv krome 
+> stredy odpoledne (cca 16:00) a ctvrtka dopoledne a nejspis i patku 
+> odpoledne. Myslim, ze sejit se a probrat tyhle veci co nejdriv je dost 
+> dulezity.
+> Mejte se
+>
+> Kody
+>
+> p.s. nikdo se mi zatim neozval ohledne ty Ferdovsky zasuvky, jak jsem 
+> tuhle posilal maila. Zkouseli jste to nekdo?
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+
+
+
+From iva.b at volny.cz  Mon May 29 20:43:04 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Mon, 29 May 2006 20:43:04 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka tento tyden
+Message-ID: <5f9d6f5594765047e5e8518f8fa950ee@www3.mail.volny.cz>
+
+Ahojky, 
+ja jdu v pa dopoledne na Zk, takze nejlip by se mi hodil patek
+odpoledne.  Iva
+
+
+
+From martin.chrz at email.cz  Mon May 29 22:18:20 2006
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Mon, 29 May 2006 22:18:20 +0200 (CEST)
+Subject: [Reportasistent-list] =?us-ascii?Q?Re=3A=20=5BReportasistent=2Dlist=5D=20schuzka=20tento=20tyden?=
+In-Reply-To: <5f9d6f5594765047e5e8518f8fa950ee@www3.mail.volny.cz>
+Message-ID: <510.901-21816-1621717166-1148933900@email.cz>
+
+Ahoj, me se hodi cela streda, ctvrtek mam zabitej a patek nebudu v Praze. Muzem se asi dohodnout rovnou na pristi tyden, protoze vypada, ze nenajdeme spolecny cas...:(
+> ------------ P?vodn? zpr?va ------------
+> Od: Iva Bartunkova <iva.b at volny.cz>
+> P?edm?t: [Reportasistent-list] schuzka tento tyden
+> Datum: 29.5.2006 20:43:22
+> ----------------------------------------
+> Ahojky, 
+> ja jdu v pa dopoledne na Zk, takze nejlip by se mi hodil patek
+> odpoledne.  Iva
+> 
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+> 
+> 
+
+Martin Chrz
+martin.chrz at email.cz
+
+
+From iva.b at volny.cz  Tue May 30 08:33:38 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Tue, 30 May 2006 08:33:38 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka tenhle tyden
+Message-ID: <4a88313aebdea8612d4f12cf5a9a51c5@www2.mail.volny.cz>
+
+Ahojda,
+
+a co streda pozdeji vecer? Od 19:30 treba? To bychom se shodnout
+mohli, ne?
+
+Iva
+
+
+
+From jan.kodym at post.cz  Tue May 30 10:36:18 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Tue, 30 May 2006 10:36:18 +0200
+Subject: [Reportasistent-list] schuzka tenhle tyden
+In-Reply-To: <4a88313aebdea8612d4f12cf5a9a51c5@www2.mail.volny.cz>
+References: <4a88313aebdea8612d4f12cf5a9a51c5@www2.mail.volny.cz>
+Message-ID: <447C0402.4050900@post.cz>
+
+Zrovna streda odpoledne/vecer je prakticky jedinej cas tento tyden, kdy 
+nemuzu :-/.
+Jinak kdybychom se bavili o pristim tydnu, tak v pondeli muzu tak do 
+sesti a pak kdykoliv v utery a stredu. Ve ctvrtek muzu dopoledne nebo po 
+poledni, ale nejpozdeji ve dve musim bejt na Florenci, pac vecer a v 
+patek hrajem na jazzfestu. Je mi celkem jasny, ze asi mate oproti me 
+dost prace s ucenim na zkousky nebo praci, ale to je prave jeden z 
+duvodu, proc bychom se meli sejit a na zaklade toho se domluvit, jak dal.
+
+Kody
+
+Iva Bartunkova napsal(a):
+> Ahojda,
+>
+> a co streda pozdeji vecer? Od 19:30 treba? To bychom se shodnout
+> mohli, ne?
+>
+> Iva
+>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+> __________ Informace od NOD32 1.1566 (20060530) __________
+>
+> Tato zprava byla proverena antivirovym systemem NOD32.
+> http://www.nod32.cz
+>
+>
+>
+>   
+
+
+From martin.chrz at email.cz  Tue May 30 16:43:15 2006
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Tue, 30 May 2006 16:43:15 +0200 (CEST)
+Subject: [Reportasistent-list] =?us-ascii?Q?Re=3A=20=5BReportasistent=2Dlist=5D=20schuzka=20tenhle=20tyden?=
+In-Reply-To: <447C0402.4050900@post.cz>
+Message-ID: <510.901-28688-511395887-1149000195@email.cz>
+
+Ahoj, ohledne pristiho tydne: zatim mi vyhovuje cokoli, krome utery dopoledne, jinak od pondeli do patku budu v Praze. Snad si tedy najdeme spolecny cas:) Mejte se.
+Martin
+
+> ------------ P?vodn? zpr?va ------------
+> Od: Jan Kodym <jan.kodym at post.cz>
+> P?edm?t: Re: [Reportasistent-list] schuzka tenhle tyden
+> Datum: 30.5.2006 11:00:30
+> ----------------------------------------
+> Zrovna streda odpoledne/vecer je prakticky jedinej cas tento tyden, kdy 
+> nemuzu :-/.
+> Jinak kdybychom se bavili o pristim tydnu, tak v pondeli muzu tak do 
+> sesti a pak kdykoliv v utery a stredu. Ve ctvrtek muzu dopoledne nebo po 
+> poledni, ale nejpozdeji ve dve musim bejt na Florenci, pac vecer a v 
+> patek hrajem na jazzfestu. Je mi celkem jasny, ze asi mate oproti me 
+> dost prace s ucenim na zkousky nebo praci, ale to je prave jeden z 
+> duvodu, proc bychom se meli sejit a na zaklade toho se domluvit, jak dal.
+> 
+> Kody
+> 
+> Iva Bartunkova napsal(a):
+> > Ahojda,
+> >
+> > a co streda pozdeji vecer? Od 19:30 treba? To bychom se shodnout
+> > mohli, ne?
+> >
+> > Iva
+> >
+> > _______________________________________________
+> > Reportasistent-list mailing list
+> > Reportasistent-list at lists.berlios.de
+> > http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> >
+> > __________ Informace od NOD32 1.1566 (20060530) __________
+> >
+> > Tato zprava byla proverena antivirovym systemem NOD32.
+> > http://www.nod32.cz
+> >
+> >
+> >
+> >   
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+> 
+> 
+
+Martin Chrz
+martin.chrz at email.cz
+
+

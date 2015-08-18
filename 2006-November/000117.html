@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Reportasistent-list] reseni sirotku
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/reportasistent-list/2006-November/index.html" >
+   <LINK REL="made" HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20reseni%20sirotku&In-Reply-To=%3C4564B7B7.2090506%40post.cz%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000116.html">
+   <LINK REL="Next"  HREF="000118.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Reportasistent-list] reseni sirotku</H1>
+    <B>Jan Kodym</B> 
+    <A HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20reseni%20sirotku&In-Reply-To=%3C4564B7B7.2090506%40post.cz%3E"
+       TITLE="[Reportasistent-list] reseni sirotku">jan.kodym at post.cz
+       </A><BR>
+    <I>Wed Nov 22 21:48:55 CET 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000116.html">[Reportasistent-list] Fwd:Re: dotaz - jazyk dokumentace k SW	projektum
+</A></li>
+        <LI>Next message: <A HREF="000118.html">[Reportasistent-list] CppDoc
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#117">[ date ]</a>
+              <a href="thread.html#117">[ thread ]</a>
+              <a href="subject.html#117">[ subject ]</a>
+              <a href="author.html#117">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ahojte,
+domyslel jsem strategii reseni sirotku a sepsal do dokumentu, kterej 
+jsem dal na SVN 
+(<A HREF="http://svn.berlios.de/svnroot/repos/reportasistent/trunk/Dokumenty/sirotci.txt">http://svn.berlios.de/svnroot/repos/reportasistent/trunk/Dokumenty/sirotci.txt</A>)
+
+To Iva: potreboval bych s tim ted od tebe pomoct, funkce jsou tam na to 
+uz pripraveny, jde o to pridat neco do menu, do options a potrebuju 
+trochu poradit ohledne CSkeletonView
+
+To Deda: kdybys mel chvilku, mrkni prosim zbezne na
+
+CSkeletonView::ResolveOrphans(LPARAM mode). Tou jsem nahradil tu CSkeletonView::SignOrphans() cos dneska psal, parametr
+mode muze bejt ORP_SIGN (oznaceni sirotku) nebo ORP_DELETE (mazani sirotku). Koukni prosim na ten pripad mazani v ResolveSingleOrphan(),
+tam kde se maze AP z kostry si nejsem moc jistej, jestli je to takhle uplne koser. Je to jen par radku
+
+Mejte se
+
+Kody
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000116.html">[Reportasistent-list] Fwd:Re: dotaz - jazyk dokumentace k SW	projektum
+</A></li>
+	<LI>Next message: <A HREF="000118.html">[Reportasistent-list] CppDoc
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#117">[ date ]</a>
+              <a href="thread.html#117">[ thread ]</a>
+              <a href="subject.html#117">[ subject ]</a>
+              <a href="author.html#117">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/reportasistent-list">More information about the Reportasistent-list
+mailing list</a><br>
+</body></html>

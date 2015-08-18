@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Reportasistent-list] XMLDOM
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/reportasistent-list/2006-March/index.html" >
+   <LINK REL="made" HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20XMLDOM&In-Reply-To=%3C440C1084.4040500%40post.cz%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000033.html">
+   <LINK REL="Next"  HREF="000037.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Reportasistent-list] XMLDOM</H1>
+    <B>Jan Kodym</B> 
+    <A HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20XMLDOM&In-Reply-To=%3C440C1084.4040500%40post.cz%3E"
+       TITLE="[Reportasistent-list] XMLDOM">jan.kodym at post.cz
+       </A><BR>
+    <I>Mon Mar  6 11:35:48 CET 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000033.html">[Reportasistent-list] XMLDOM
+</A></li>
+        <LI>Next message: <A HREF="000037.html">[Reportasistent-list] XMLDOM
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#34">[ date ]</a>
+              <a href="thread.html#34">[ thread ]</a>
+              <a href="subject.html#34">[ subject ]</a>
+              <a href="author.html#34">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Jo, presne podle techhle navodu jsem se pokousel tu zkusebni aplikaci 
+vytvorit a nepovedlo se mi to :-)
+Jinak jo, vytvareni toho XML vystupu, co se vraci jadru, by se mohlo bez 
+DOMu obejit, ale ja chci ten DOM pouzivat i na jiny veci. Treba kazda 
+zasuvka bude obsahovat dve tabulky - jednu pro seznam pripojenejch 
+zdroju ty zasuvky a druhou pro seznam identifikatoru AP, kterejm rozumi 
+a jmena funkci, ktery zadost o tyhle prvky obslouzi. Zdroje i AP budou 
+nekde na disku v konfiguracnich souborech a konstruktor ty zasuvky je 
+natahne nejak do pameti, tam se bude jednak vyhledavat a jednak i 
+upravovat (pridat/odebrat zdroj atd.) a na konci se zase ulozi do toho 
+souboru. Kdyby ty konfiguracni soubory byly XML a &quot;natazeni do pameti&quot; 
+znamenalo vytvorit DOM, tak by to jednak bylo hezky a jednak spousta 
+veci (vyhledavani, pridavani, implementace tech tabulek) by byla 
+vpodstate zadarmo.
+
+Kody
+
+<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">honza.dedek at volny.cz</A> napsal(a):
+&gt;<i> Ahoj, to je legrace, ja se v tom MSXML DOM zatim taky moc nevyznam,
+</I>&gt;<i> ale kouknu na to, a u delam nejakou ukazkovou aplikaci (pocitam
+</I>&gt;<i> zitra nebo pozitri) na osobni ani casove delsi konzultaci to tenhle
+</I>&gt;<i> tyden moc nevidim - budu vyhanet bacily.
+</I>&gt;<i>
+</I>&gt;<i> Hlavni problem je pocitam v praci s Windows COM-objekty + v tom co
+</I>&gt;<i> jsem udelal je pouzit Smart pointer (ma tusim predefinovany &quot;-&gt;&quot;
+</I>&gt;<i> operator) no sranda :-)
+</I>&gt;<i>
+</I>&gt;<i> Zkuste se zatim zamerit na veci okolo, pripadne badejte dal, na
+</I>&gt;<i> nektere veci clovek potrebuje vic casu..
+</I>&gt;<i>
+</I>&gt;<i> Nebo pokud mate nejake schudnejsi reseni, lepsi knihovnu - sem s
+</I>&gt;<i> tim.
+</I>&gt;<i>
+</I>&gt;<i> doporucuju stranky:
+</I>&gt;<i> MSXML DOM skrz Smart pointer:
+</I>&gt;<i> <A HREF="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/b24aafc2-bf1b-4702-bf1c-b7ae3597eb0c.asp">http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/b24aafc2-bf1b-4702-bf1c-b7ae3597eb0c.asp</A>
+</I>&gt;<i>
+</I>&gt;<i> hezky priklad jak naplnit MSXML DOM (skrz Smart pointer):
+</I>&gt;<i> <A HREF="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/89277447-8512-4f66-9d05-a063c63aca54.asp">http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/89277447-8512-4f66-9d05-a063c63aca54.asp</A>
+</I>&gt;<i>
+</I>&gt;<i> Jeste pro Kodyho:
+</I>&gt;<i> Nebylo by pro tebe nejjednodusi to jen nasypat do stringu, bez
+</I>&gt;<i> pouziti knihovny? - Mozna ne, nevim, jen me to napadlo.
+</I>&gt;<i>
+</I>&gt;<i> Zatim ahoj honza.
+</I>&gt;<i>
+</I>&gt;<i> ----- P&#366;VODN&#205; ZPR&#193;VA -----
+</I>&gt;<i> Od: &quot;Jan Kodym&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">jan.kodym at post.cz</A>&gt;
+</I>&gt;<i> Komu: <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">reportasistent-list at lists.berlios.de</A>
+</I>&gt;<i> P&#345;edm&#283;t: [Reportasistent-list] XMLDOM
+</I>&gt;<i> Datum: 5.3.2006 - 14:20:08
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>&gt;&gt;<i> Ahojte,
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> mel bych jednu prosbu (hlavne asi na Dedu, pripadne na Ivu).
+</I>&gt;&gt;<i> Potreboval bych se co nejrychlejs naucit zaklady, jak se
+</I>&gt;&gt;<i> pracuje ve Visual C++ s tim DOM modelem XML. Tedka se o to
+</I>&gt;&gt;<i> pokousim, jednak z nejaky dokumentace a tutorialu a jednak z
+</I>&gt;&gt;<i> ty aplikace ReportAsistent, kde uz je to nejak zabudovany.
+</I>&gt;&gt;<i> Akorat mam z toho dost blbej pocit, nejak se mi nedari z toho
+</I>&gt;&gt;<i> vytahnout presne to, co potrebuju a prijde mi, ze nad tim
+</I>&gt;&gt;<i> zbytecne travim spoustu casu, kterej bych mohl venovat praci
+</I>&gt;&gt;<i> na necem jinym. Potreboval bych vytvorit jednoduchouckou
+</I>&gt;&gt;<i> aplikaci (klidne konzolovou), ktera by umela z xml souboru
+</I>&gt;&gt;<i> udelat DOM, umela ulozit DOM do souboru a pripadne nejak
+</I>&gt;&gt;<i> modifikovat ten strom nebo v nem neco najit. Za prvy se mi
+</I>&gt;&gt;<i> nepodarilo ani podle tutorialu vytvorit zkusebni aplikaci -
+</I>&gt;&gt;<i> vzdycky to narazilo na nejakej technickej problem - i kdyz tam
+</I>&gt;&gt;<i> presne popisovali, jak se ma co udelat, vcetne stazeni a
+</I>&gt;&gt;<i> instalace xmlinst atd - vzdycky mi to nekde krachlo, kdyz tam
+</I>&gt;&gt;<i> psali &quot;pripojte knihovnu blabla, kterou najdete v blabla&quot; a ja
+</I>&gt;&gt;<i> tam nic takovyho nenasel ... kdyz jsem zkoumal ten nas program
+</I>&gt;&gt;<i> ReportAsistent, mam zase problem v tom, ze to co asi potrebuju
+</I>&gt;&gt;<i> je tam utopeny ve spouste jinejch veci, kterejm nerozumim a
+</I>&gt;&gt;<i> nevim, jestli je taky potrebuju nebo ne atd.a kdybych to mel
+</I>&gt;&gt;<i> zkoumat, zabralo by mi to jeste vic casu ... proste nemam moc
+</I>&gt;&gt;<i> schopnost, kdyz potrebuju rychle pracovat s necim, o cem toho
+</I>&gt;&gt;<i> nic moc nevim, abych se v tom rychle zorientoval a byl rychle
+</I>&gt;&gt;<i> schopnej to aspon nejak rozchodil ... pomohlo by mi, kdyby
+</I>&gt;&gt;<i> nekdo, kdo s tim umi prakticky zachazet, si na me nasel
+</I>&gt;&gt;<i> hodinku, pomohl mi vytvorit jednoduchouckou aplikaci a
+</I>&gt;&gt;<i> vysvetlil mi, ze &quot;tohle je dulezity&quot;, &quot;tohle je sice taky
+</I>&gt;&gt;<i> dulezity kvuli tomu a tomu ale to neres, proste to tam
+</I>&gt;&gt;<i> zkopiruj&quot; pripadne &quot;tohle je uplne na neco jinyho, to tam bejt
+</I>&gt;&gt;<i> nemusi&quot;. Mozna vas tim zbytecne zdrzuju, kdyz vy jste si to
+</I>&gt;&gt;<i> taky treba museli vycist v manualech, ale zase toho casu do
+</I>&gt;&gt;<i> 17.3. zas tak moc neni, tak bych ho chtel vyuzit co
+</I>&gt;&gt;<i> nejrozumnejs, ne tri ctvrte z nej neco marne hledat v
+</I>&gt;&gt;<i> manualech.
+</I>&gt;&gt;<i> Tak kdybyste si nekdo myslel, ze mi muzete pomoct, budu moc
+</I>&gt;&gt;<i> rad. Cas mam vpodstate kdykoliv. A kdyby se nekdo, kdo tomu
+</I>&gt;&gt;<i> taky nerozumi a chtel by, toho chtel taky zucastnit (tohle
+</I>&gt;&gt;<i> budem pouzivat asi vsichni), muzem se domluvit nejak hromadne.
+</I>&gt;&gt;<i> Ja bych uvital, aby to bylo co nejdriv.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Mejte se
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Kody
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>     
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Reportasistent-list mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">Reportasistent-list at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="http://lists.berlios.de/mailman/listinfo/reportasistent-list">http://lists.berlios.de/mailman/listinfo/reportasistent-list</A>
+</I>&gt;<i>
+</I>&gt;<i> __________ Informace od NOD32 1.1431 (20060305) __________
+</I>&gt;<i>
+</I>&gt;<i> Tato zprava byla proverena antivirovym systemem NOD32.
+</I>&gt;<i> <A HREF="http://www.nod32.cz">http://www.nod32.cz</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000033.html">[Reportasistent-list] XMLDOM
+</A></li>
+	<LI>Next message: <A HREF="000037.html">[Reportasistent-list] XMLDOM
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#34">[ date ]</a>
+              <a href="thread.html#34">[ thread ]</a>
+              <a href="subject.html#34">[ subject ]</a>
+              <a href="author.html#34">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/reportasistent-list">More information about the Reportasistent-list
+mailing list</a><br>
+</body></html>

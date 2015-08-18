@@ -1,0 +1,205 @@
+From jan.kodym at post.cz  Wed Jul 12 17:03:37 2006
+From: jan.kodym at post.cz (=?us-ascii?Q?Jan=20Kodym?=)
+Date: Wed, 12 Jul 2006 17:03:37 +0200 (CEST)
+Subject: [Reportasistent-list] =?us-ascii?Q?mail=20od=20Raucha?=
+Message-ID: <1273.2224-28839-742929018-1152716617@post.cz>
+
+Ahojte,
+
+preposilam vam mail, co mi dneska poslal Rauch.
+Prvni casti nemusite venovat pozornost - snad jen kdybyste nekdo pochopil to s tema kruhama a chtel mi to vysvetlit :-)
+Dulezita je vsak ta druha.
+
+Mejte se
+
+Kody
+
+# ------------ P?vodn? zpr?va ------------
+# Od: Jan Rauch <Rauch at vse.cz>
+# P?edm?t: Re: LM-RA vizualizace
+# Datum: 12.7.2006 14:34:25
+# ----------------------------------------
+# Dobry den,
+# dekuji za zpravu. Take se omlouvam  ze jsem neposlal
+# navrhy vizualizace ale nemel jsem bohuzel cas je podrobneji rozpracovat.
+# Mam trochu rozmyslene  vyjadreni asociacnich pravidel
+# pomoci ruznych kruhovych
+# vyseci v soustrednych kruzich -
+# vetsi (napriklad) deleny v pomeru
+# (a+b)/(a+b+c+d = 360 stupnu)
+# a mensi v pomeru a/(a+b) a ruzne variace pro
+# 4ft a SD4ft. Ale mozna to mate taky, takze pockam
+# co mi poslete.
+# 
+# Jsem v Praze s malymi prestavkami az do 12.8.,
+# pak budu ale asi tri tydny temer nedosazitelny.
+# 
+# Poslete co mate pokud mozno brzo, predpokladanou schuzku je treba udelat do
+# 12.8.
+# 
+# Pomalu se take dokoncuje novy AR2NL (pan Koman).
+# 
+# S pozdravem
+# 
+# J. Rauch
+# 
+# 
+# 
+# 
+# 
+#                                                                            
+#              Jan Kodym                                                     
+#              <jan.kodym at post.c                                             
+#              z>                                                       Komu 
+#                                            rauch at vse.cz                    
+#              12.07.2006 11:24                                        Kopie 
+#                                                                            
+#                                                                    P?edm?t 
+#                                            LM-RA vizualizace               
+#                                                                            
+#                                                                            
+#                                                                            
+#                                                                            
+#                                                                            
+#                                                                            
+# 
+# 
+# 
+# 
+# Dobry den,
+# omlouvame se za zdrzeni nove betaverze LM-RA, mela by byt v kratke dobe.
+# Chtel bych vsak, aby uz obsahovala co nejvice vizualizaci aktivnich
+# prvku. Jiz jsou hotove vizualizace pro vsechny typy hypotez - ruzne typy
+# kontingencnich tabulek a grafu vcetne ruznych moznosti jejich nastaveni
+# (typ grafu, zobrazeni tabulky vcetne souctu radku/sloupcu a barevneho
+# zvyrazneni hodnot). I u techto hotovych radi uvitame Vase pripominky, co
+# na nich zmenit, pridat, vylepsit. Dale uvitame jakekoliv dalsi Vase
+# napady na vizualizace pro ostatni aktivni prvky. Seznam aktivnich prvku
+# v podobe, v jake jsme je nakonec implementovali, vcetne popisu jejich
+# jednotlivych polozek, Vam poslu .
+# 
+# S pozdravem
+# 
+# J. Kodym
+# 
+# 
+# 
+# 
+
+
+From honza.dedek at volny.cz  Fri Jul 21 01:58:38 2006
+From: honza.dedek at volny.cz (honza dedek)
+Date: Fri, 21 Jul 2006 01:58:38 +0200
+Subject: [Reportasistent-list] beta3
+Message-ID: <000501c6ac58$6eca77a0$6601a8c0@pcdedek>
+
+Ahoj tak snad mame treti betu.
+
+Ke stazeni na:
+http://developer.berlios.de/project/showfiles.php?group_id=4999
+
+Jsou tam snad funkcni obe zasuvky.
+Dal jsem tam ukazkove ferdovske projekty 
+(lmra_beta3\ReportAsistent\FEProjects).
+Vypada to, ze je to konecne nezavisle no adresari ve kterem to bezi (trochu 
+jsem predelal LMplugin).
+A je tam ten kousek dokumentace, co mame.
+
+Tak to ted trochu testuju a Ferdovska zasuvka mi pretala vracet data. No 
+snad je chyba na me strane..
+A asi to u Ferda zasuvky s tou nezavislosti na adresari nebude tak horky :-)
+
+A az budete psat Rauchovi nebo s nim mluivit:
+Mohl by u sebe na pocitaci znovu zkusit to "<<refresh" tlacitku u text stylu 
+v dilaogu pro attr_link?
+..posledne to na tom spadlo tusim.
+
+Jo a kdyz by nefungovalo gerovani do wordu tak zkuste starej
+lmra_beta2\VB-LMRA_WordLoader\LMRA_WordLoader.exe
+prepsat novym. Treba to zabere :-)
+
+honza
+
+
+
+
+From jan.kodym at post.cz  Fri Jul 21 10:20:34 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Fri, 21 Jul 2006 10:20:34 +0200
+Subject: [Reportasistent-list] beta3
+In-Reply-To: <000501c6ac58$6eca77a0$6601a8c0@pcdedek>
+References: <000501c6ac58$6eca77a0$6601a8c0@pcdedek>
+Message-ID: <44C08E51.4080103@post.cz>
+
+Ahoj,
+ Ferdovska zasuvka by mela bejt nezavisla na adresari. Zkousel jsem ted 
+tu betaverzi a funguje mi. Pokud by byl problem s adresarem, vubec by se 
+nepripojila. Jestli ti fungovala a najednou prestala vracet data, tak 
+bud tam zadny data nebyly :-) nebo pravdepodobne odesel jeden z tech Ice 
+procesu. Pokud mas to standardni nastaveni ferdy bez ty sluzby (tj. ve 
+FrontEndConfig.xml je <StopIceGridLocaly>true</StopIceGridLocaly>) tak 
+zavreni jakyhokoliv zdroje ukonci ty procesy, ktery ale pouzivaj i ty 
+ostatni otevreny zdroje a prestane to vracet data. Nebo jestli jsi treba 
+nemel soubezne s tim otevrenyho Ferdu a pak jsi ho zavrel.
+(Tak ted jsem si s tim chvili hral, nastavil jsem tu sluzbu a taky mi to 
+nic nevracelo. Dokonce uplne odesel Ferda a musel jsem ho reinstalovat. 
+Je s tim docela sranda. Ale zkus ten srandovni navod, jak jsem ti vcera 
+psal. Odinstaluj sluzbu, pust Ferdu normalne. Pritom se presvedci, ze 
+bezi iceboxnet.exe, nekdy nabehne Ferda i bez nej, to je pak vlevo dole 
+v tom strome jen jedna polozka. Pak killni icegridnode.exe, zavri Ferdu, 
+on zbuchne...nainstaluj sluzbu, nastav konfiguracni soubor ... a uz mi 
+to beha :-))) Ale overil jsem si, ze to neni nejakou zavislosti na 
+adresari.
+
+Jo a zkousel jsem to "<<refresh" u text stylu a zbuchlo mi to taky..
+
+Mejte se
+
+Kody
+ 
+
+honza dedek napsal(a):
+> Ahoj tak snad mame treti betu.
+>
+> Ke stazeni na:
+> http://developer.berlios.de/project/showfiles.php?group_id=4999
+>
+> Jsou tam snad funkcni obe zasuvky.
+> Dal jsem tam ukazkove ferdovske projekty 
+> (lmra_beta3\ReportAsistent\FEProjects).
+> Vypada to, ze je to konecne nezavisle no adresari ve kterem to bezi (trochu 
+> jsem predelal LMplugin).
+> A je tam ten kousek dokumentace, co mame.
+>
+> Tak to ted trochu testuju a Ferdovska zasuvka mi pretala vracet data. No 
+> snad je chyba na me strane..
+> A asi to u Ferda zasuvky s tou nezavislosti na adresari nebude tak horky :-)
+>
+> A az budete psat Rauchovi nebo s nim mluivit:
+> Mohl by u sebe na pocitaci znovu zkusit to "<<refresh" tlacitku u text stylu 
+> v dilaogu pro attr_link?
+> ..posledne to na tom spadlo tusim.
+>
+> Jo a kdyz by nefungovalo gerovani do wordu tak zkuste starej
+> lmra_beta2\VB-LMRA_WordLoader\LMRA_WordLoader.exe
+> prepsat novym. Treba to zabere :-)
+>
+> honza
+>
+>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://bat.berlios.de/mailman/listinfo/reportasistent-list
+>
+> __________ Informace od NOD32 1.1671 (20060720) __________
+>
+> Tato zprava byla proverena antivirovym systemem NOD32.
+> http://www.nod32.cz
+>
+>
+>
+>   
+
+
+

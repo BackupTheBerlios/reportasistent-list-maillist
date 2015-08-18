@@ -1,0 +1,69 @@
+From honza.dedek at volny.cz  Sun Jan  8 00:34:08 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Sun, 08 Jan 2006 00:34:08 +0100 (CET)
+Subject: [Reportasistent-list] nova verze v SVN
+Message-ID: <9cb852f2e635659ddd00deb71ae6f8bc@www2.mail.volny.cz>
+
+Ahojte,
+tak jsem si zase trochu zaprogramoval a z naseho SVN si muzete
+stahnout novou verzi "metabase_load_pok1".
+
+Umi to hodne jednoduse nacist kostru statickych prvku z XML souboru
+do widowsiho TreeView32 a vybranou cast vygenerovat do Wordu. Neni
+to uplne odladene, ale celkem slusne funkcni.
+
+Pokud vam to nebude fungovat tak zkuste nainstalovat MSXML alespon
+verze 3 (google MSXML download) a/nebo spustit LMRA_WordLoader.exe
+z adresare VB-LMRA_WordLoader (LMRA_WordLoader.exe registruje moji
+knihovnu z VB do win-registry - prozatimni reseni).
+
+Programoval jsem to jako navod jak, pouzivat MSXML. S knihovnou
+MSXML 4.0 Microsoft dodava moc hezkou SDK dokumentaci ke stazeni a
+nainstalovani.
+
+Pokud budou dotazy tak sem s nima :)
+
+
+
+Vaham do ceho se dal pustit. Rad bych zacal s XSLT - transformacemi
+aktivnich prvku na staticke, ale chtelo by to nejake zdroje k tem
+aktivnim prvkum.. Tak asi zacnu zapas s Ferdou.
+
+Cauves!
+honza
+
+
+
+
+
+
+
+
+From honza.dedek at volny.cz  Mon Jan 16 13:24:46 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 16 Jan 2006 13:24:46 +0100 (CET)
+Subject: [Reportasistent-list] zapis ze schuzky 10.1.
+Message-ID: <f4073c540c83f125114d36ba41be6fde@www1.mail.volny.cz>
+
+Posilam odkaz na dokument se zapisem z posledni schuzky projektu.
+Snad se na tom shodneme.
+
+http://reportasistent.berlios.de/dokumenty/schuzka_10_1_2006.doc
+
+Trochu jsem tam i rozebral, nas ukol na pristi schuzku. Bylo by
+dobre, abychom se co nejdrive domluvili, kdo to udela, pripadne,
+jak si praci rozdelime.
+
+Hezky den a uspech u zkousek!
+honza
+
+
+
+
+
+
+
+
+
+
+

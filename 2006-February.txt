@@ -1,0 +1,1174 @@
+From martin.chrz at email.cz  Tue Feb  7 08:47:54 2006
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Tue, 07 Feb 2006 08:47:54 +0100 (CET)
+Subject: [Reportasistent-list] =?us-ascii?Q?projektova=20schuzka?=
+Message-ID: <132.155-12775-1729805111-1139298474@email.cz>
+
+Ahoj,
+
+bylo by dobre se sejit a vytvorit dokument, kde popiseme "workflow", t.j. navrh dialogu, vzhled a popis prace v nasem prostredi. Prej se nabidla Iva, ze se neco pokusi sepsat, coz neni spatny napad, vzhledem k tomu, ze by mela psat uzivatelske rozhrani. Bylo by ale dobry, kdybychom u toho byli i ja s Kodym, protoze mame prakticke zkusenosti s dolovanim v *-Mineru, coz se bude urcite hodit. Honzu z toho tentokrat vynechame:) Napiste, jak jste na tom casove. Ja mam docela plno, nicmene volno bych mel mit 8., 9.2. (streda, ctvrtek) dopoledne a dale 15., 16., 17. (streda, ctvrtek, patek) - tam jeste nevim presne casy, ale kdyz se dohodneme s dostatecnym predstihem, tak nebude problem. Nejlepsi asi bude sejit se v labu na Maly Strane.
+
+Pekny den
+
+Martin Chrz
+martin.chrz at email.cz
+
+
+From jan.kodym at post.cz  Tue Feb  7 10:04:55 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Tue, 7 Feb 2006 10:04:55 +0100
+Subject: [Reportasistent-list] workflow
+Message-ID: <001101c62bc5$9060c310$0b030a0a@kody>
+
+Ahoj,
+ted ve stredu a ve ctvrtek to moc realne nevidim, protoze ve ctvrtek mam Datovky. A pristi tejden-to bude zalezet natom, jestli me tedka Koubek vyhodi (s cimz tak nejak pocitam :-) tak tam pudu znova pristi stredu a pripadne i patek. Ale to uz bych tak nehrotil. Takze pristi stredu odpoledne (zkouska je od jedny,prej neni problem tam prosedet pres dve hodiny:-) nebo ve ctvrtek klidne. Kdybych to dal uz ted, tak muzu tu stredu i driv.
+Mejte se
+
+Kody
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20060207/d57e726f/attachment.html>
+
+From honza.dedek at volny.cz  Tue Feb  7 16:46:50 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Tue, 07 Feb 2006 16:46:50 +0100 (CET)
+Subject: [Reportasistent-list] projektova schuzka
+In-Reply-To: <132.155-12775-1729805111-1139298474@email.cz>
+References: <132.155-12775-1729805111-1139298474@email.cz>
+Message-ID: <b968c88f9184c0f1dc410f0ee1ccddb9@www1.mail.volny.cz>
+
+ahoj,
+jestli ta schuzka bude az pristi tyden - tak to nejsem v Praze,
+tenhle tyden bych se zucasnil, jestli me tam chcete :)
+
+jinak si myslim ze kolektivni vypracovavani se neumerne protahne,
+spis bych doporucil at to nekdo udela cely sam (prip kazdy clovek
+kousek - a kdyz na me zadny kousek nezbude, budu moc rad - dik :) a
+pak se to uz jen spolecne lehce doladi, klidne i az u Racha
+
+mejte se
+honza
+
+
+----- P?VODN? ZPR?VA -----
+Od: martin.chrz at email.cz
+Komu: reportasistent-list at lists.berlios.de
+P?edm?t: [Reportasistent-list] projektova schuzka
+Datum: 7.2.2006 - 8:48:06
+
+> Ahoj,
+> 
+> bylo by dobre se sejit a vytvorit dokument, kde popiseme
+> "workflow", t.j. navrh dialogu, vzhled a popis prace v nasem
+> prostredi. Prej se nabidla Iva, ze se neco pokusi sepsat, coz
+> neni spatny napad, vzhledem k tomu, ze by mela psat
+> uzivatelske rozhrani. Bylo by ale dobry, kdybychom u toho byli
+> i ja s Kodym, protoze mame prakticke zkusenosti s dolovanim v
+> *-Mineru, coz se bude urcite hodit. Honzu z toho tentokrat
+> vynechame:) Napiste, jak jste na tom casove. Ja mam docela
+> plno, nicmene volno bych mel mit 8., 9.2. (streda, ctvrtek)
+> dopoledne a dale 15., 16., 17. (streda, ctvrtek, patek) - tam
+> jeste nevim presne casy, ale kdyz se dohodneme s dostatecnym
+> predstihem, tak nebude problem. Nejlepsi asi bude sejit se v
+> labu na Maly Strane.
+> 
+> Pekny den
+> 
+> Martin Chrz
+> martin.chrz at email.cz
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+
+
+
+From iva.b at volny.cz  Tue Feb  7 20:02:12 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Tue, 07 Feb 2006 20:02:12 +0100 (CET)
+Subject: [Reportasistent-list] schuzka
+Message-ID: <5892b282e23f567387263bda3d1cde56@www2.mail.volny.cz>
+
+Ahojky,
+v patek delam vycislitelnost, pristi stredu datovky, takze pristi
+streda pozdeji odpoledne je takovej pro me docela realnej termin
+:-) IVA
+
+
+
+From martin.chrz at email.cz  Wed Feb  8 20:47:38 2006
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Wed, 08 Feb 2006 20:47:38 +0100 (CET)
+Subject: [Reportasistent-list] schuzka
+Message-ID: <53.82-1489-1779771517-1139428058@email.cz>
+
+Ahoj,
+
+myslim, ze se tedy muzeme sejit v labu ve stredu 15. dejme tomu v 15:30. To by nam melo vsem vyhovovat. Bohuzel se budem muset obejit bez Dedy, ale on to snad nejak prekousne:)
+Mejte se a uzivejte volna:)
+
+Martin
+
+
+From iva.b at volny.cz  Fri Feb 17 10:00:51 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Fri, 17 Feb 2006 10:00:51 +0100 (CET)
+Subject: [Reportasistent-list] =?iso-8859-2?Q?z=E1pis_ze_sch=F9zky_t=FDmu_16.2.06?=
+Message-ID: <c9a76bc4e94004670ef06ea370218a28@www1.mail.volny.cz>
+
+Ahojky,
+
+sepsala jsem, na cem jsme se vcera(16.2.) dohodli. Sepsala jsem
+tak? ?koly pro ka?d?ho z n?s, kter? je nutn? ud?lat do p???t?
+sch?zky. Je to v p?ilo?en?m .rtf dokumentu.
+
+P???t? sch?zka t?mu bude ve ?tvrtek 23.2., dejte v?det, kdy m?te
+kdo ?as. Sch?zku s Rauchem nejsp?? ud?l?me kr?tce pot?.
+
+D?do, pros?m o p?id?n? tohoto dokumentu na n?? web a taky o
+znovuvysv?tlen?, jak se do na?eho webov?ho prostoru dostat -
+berlios mi zru?il ??et.
+
+M?jte se 
+Iva
+
+Obsah .rtf dokumentu:
+
+Z?pis sch?zky t?mu 16.2.06
+
+Dohodnuto:
+
+- Prvek kostry Odkaz na atribut bude ?e?en jako samostatn? prvek (i
+p?esto, ?e rozsek? text na krat?? text?ky), mo?nost ?e?en? odkazu
+jako sou??sti prvku text byla zam?tnuta. Volba c?le odkazu bude
+u?ivatelsky vypadat stejn? jako vypad? volba c?le pro z?stupce ve
+windowsov?m programu Pr?zkumn?k. Odkaz sm? ukazovat jen na koncov?
+listy kostry, kter? samy nejsou odkazem.
+
+- K ulo?en? a znovuna?ten? kostry bude slou?it speci?ln? XML
+dokument. Kostra bude v pam?ti dr?ena jen jako MFC strom, XML
+reprezentace bude slou?it pouze k ulo?en? a znovuna?ten?.
+
+-N?vrh u?ivatelsk?ho prost?ed?
+
+-P?i vkl?d?n? nov?ho aktivn?ho prvku se u?ivateli nab?dnou v?echny
+aktivn? prvky, kter? se mohou vyskytnout v ji? p?ipojen?ch
+metab?z?ch (mohou vyskytnout = typ z?suvky, p?es kter? je metab?ze
+p?ipojena, je umo??uje), tedy se samotn? metab?ze nebude
+prohled?vat.
+
+- ?koly ze sch?zky 10.1.2006 jsou bu? hotovy nebo budou vyhotoveny
+spln?n?m ?kol? z t?to sch?zky. Zb?v?: 	- n?pov?da u?ivateli
+(prozat?m odlo?eno)
+	- dialog pro prvek podmno?ina hypot?z (odlo?eno, nejprve Martin
+ud?l? obecn? n?vrh hierarchie aktivn?ch prvk? a obecn? sou??sti a
+rozd?ly dialog? pro n?)  
+
+	- TODO: Iva sem je?t? p?id? konkr?tn? rozpis ?kol? z 10.1. - a
+p?ip??e kdo co spln?n?m sv?ch ?kol? n??e vyhotov? 
+
+-?koly do p???t? sch?zky t?mu (?tvrtek 23.2.06):
+
+KODY: Akce napojen? extern?ho zdroje. Po?et mo?n?ch met?b?zov?ch
+zdroj? pro jednu kostru (mohou b?t p?es r?zn? z?suvky?), ?e?en?
+odkaz? na tyto zdroje ( v prvc?ch ? nebo pro celou kostru a v
+prvc?ch pouze relativn?? nebo..?). Vliv zvolen?ho ?e?en? na
+kop?rov?n? prvk? mezi kostrami. ?e?en? kop?rov?n? mezi kostrami s
+r?zn?mi p?ipojen?mi zdroji, p??padn? i p?ipojen?mi p?es jin?
+z?suvky.
+
+MARTIN: Navrhnout hierarchii aktivn?ch prvk?.  Navrhnout stavov?
+diagram pr?ce dialog? pro aktivn? prvky. (Podle tohoto stavov?ho
+diagramu Iva navrhne UI)
+
+D?DA: Navrhnout ?e?en? problematiky z?sk?v?n? informac? ze zdrojov?
+metab?ze a aktualizace zdrojov? metab?ze (lidov? ?e?eno: kdy je
+pot?eba do metab?ze ??hnout?): p??pad kdy se zm?n? zdroj - bude to
+editor kostry kontrolovat pr?b??n?? Nebo na vy??d?n? u?ivatele?
+Nebo pouze p?i generov?n? v?sledn?ho dokumentu? Jak to bude p?i
+ukl?d?n? a znovuna?ten? kostry? Jak se budou ?e?it situace, kdy
+u?ivatel chce n?jak? atribut aktivn?ho prvku, a p?i tom v met?b?z?
+tenhle prvek dan? atribut nem? - jak a kdy se to u?ivatel dov??
+
+IVA: N?vrh u?ivatelsk?ho prost?ed? z n??rtu p?en?st minim?ln? do
+screenshotov?ho prototypu, l?pe do funk?n?ho prototypu: hlavn?
+obrazovka programu, menu programu, toolbar, dialog pro statick?
+prvek text, dialog pro prvek Odkaz na atribut, dialog pro vlo?en?
+nov?ho prvku.
+
+V?stupy ?e?en? ?kol?: Lep?? ne? ?e?en? popsat textem, bude ur?it?
+nakreslit vhodn? UML diagramy (p. Rauchovi jsme sl?bili stavov?,
+ale ?asto mohou b?t vhodn?j?? datov?=class diagramy, sequence
+diagramy atd. - to u? bude p??mo sou??st dokumentace na?eho
+projektu.) 
+
+V?ichni: ve?ker? v?stupy na?? pr?ce by m?ly b?t k dispozici na
+webu, chyb? nap?. Kodyho prezentace o aktivn?ch a statick?ch
+prvc?ch => ?kol pro n?s v?echny je zajisti si p??stup do na?eho
+webov?ho prostoru (D?da je snad jedin?, kdo v? jak se tam dostat) a
+d?vat tam v?echny v?stupy ozna?en? datem kdy byly vytvo?eny.
+
+Zapsala dne 17.2. Iva
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SchuzkaTymu160206.rtf
+Type: application/msword
+Size: 4760 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20060217/83807020/attachment.doc>
+
+From honza.dedek at volny.cz  Sun Feb 19 22:34:48 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Sun, 19 Feb 2006 22:34:48 +0100 (CET)
+Subject: [Reportasistent-list] =?iso-8859-2?Q?Re:_[Reportasistent-list]_z=E1pis_ze_sch=F9zky_t=FDmu_16.2.06?=
+In-Reply-To: <c9a76bc4e94004670ef06ea370218a28@www1.mail.volny.cz>
+References: <c9a76bc4e94004670ef06ea370218a28@www1.mail.volny.cz>
+Message-ID: <f2b8e201419d18e80b814c6ee70ead64@www4.mail.volny.cz>
+
+Ivo: Zkusil jsem te vykopnout a znovu pridat do berlios projektu,
+pokud to nezabere asi se budes muset zaregistrovat pod novym
+jmenem. Ale mezi administratory jsi, tak mozna mas i pristup k
+webu.. 
+
+navod jak na berlios web:
+1) Spustit WinSCP (v labu "C:\Program Files\ssh\WinSCP2.exe")
+2) Pripojit se pod vlastnim berlios user name na shell.berlios.de
+3) prepnot adresar (Ctrl + o) na 
+/net/pork-da/export/nfs/home/groups/reportasistent
+4) v adresari htdocs je koren naseho webu
+
+alternativa: pres ssh pripojit shell.berlios.de a ve stejnem
+adresari jako vyse nejak vytvorit prislusny dokument.
+
+
+
+
+odpovedi a pripominky k predchozimu mailu:
+
+nejsem si jisty, jestli vim jak vypada volba cile v pruzkumniku :)
+ale to pro porojekt asi nebude zasadni :))
+
+
+Ad kostra:
+1) Co je to MFC strom?
+2) Neni lepsi XML DOM strom v pameti? (viz MSXML knihovna a
+interface IXMLDOMDocument) Jdou na tom primo delat XSLT
+transformace, spostet XPath dotazy a spousta dasich vychytavek.
+CTreeCtrl z MFC bych pouzil jako graficke rozhrani pro praci s
+kostrou. Tak jsem to o vanocich hodne jednoduse naprogramoval do
+posledni verze "metabase_load_pok1" v nasem SVN. (viz dopis
+https://lists.berlios.de/pipermail/reportasistent-list/2006-January/000007.html)
+
+
+
+Bohuzel neumim UML, tak me to snad casem naucite :)
+
+
+
+Ad prace s metabazi:
+Jako obsah aktivniho prvku bych ukladal informace nutne k provedeni
+dotazu v externim zdroji.  (lidove: Kde se v metabazi najdou data
+potebna k vizualizaci (vygenerovani) aktivniho prvku)
+
+Do metabaze by se melo sahat:
+1) Vzdy, kdyz se z aktivniho prvku dela staticky.
+2) Pri konfiguraci aktivniho prvku - uzivatel by mel videt, jaky by
+byl vystup aktivniho prvku v dobe, kdyz prvek konfiguruje.
+
+Zmeny v napojenem zdroji bych osobne v programu vubec nedetekoval.
+Mozna by bylo vhodne varovat uzivatele, kdyz pripoji zdroj, jak se
+zmena ve zdroji, muze projevit.
+
+Ad atribut chybejici v metabazi:
+Pokud v metabazi kyzeny atribut neni, atribut aktivniho prvku bude
+mit prazdnou hodnotu.
+
+Ad datum vytvoreni dokumentu: co se mych praci tyka - datum
+vytvoreni souboru (file created) odpovida datu sepsani.
+
+
+
+
+Timto povazuju svuj ukol za vyreseny, reklamace prosim primo na
+moji hlavu :)
+
+Mejte se!
+honza
+
+
+
+
+----- P?VODN? ZPR?VA -----
+Od: "Iva Bartunkova" <iva.b at volny.cz>
+Komu: reportasistent-list at lists.berlios.de
+P?edm?t: [Reportasistent-list] z?pis ze sch?zky t?mu 16.2.06
+Datum: 17.2.2006 - 10:01:06
+
+> Ahojky,
+> 
+> sepsala jsem, na cem jsme se vcera(16.2.) dohodli. Sepsala jsem
+> tak? ?koly pro ka?d?ho z n?s, kter? je nutn? ud?lat do p???t?
+> sch?zky. Je to v p?ilo?en?m .rtf dokumentu.
+> 
+> P???t? sch?zka t?mu bude ve ?tvrtek 23.2., dejte v?det, kdy
+> m?te
+> kdo ?as. Sch?zku s Rauchem nejsp?? ud?l?me kr?tce pot?.
+> 
+> D?do, pros?m o p?id?n? tohoto dokumentu na n?? web a taky o
+> znovuvysv?tlen?, jak se do na?eho webov?ho prostoru dostat -
+> berlios mi zru?il ??et.
+> 
+> M?jte se 
+> Iva
+> 
+> Obsah .rtf dokumentu:
+> 
+> Z?pis sch?zky t?mu 16.2.06
+> 
+> Dohodnuto:
+> 
+> - Prvek kostry Odkaz na atribut bude ?e?en jako samostatn?
+> - prvek (i
+> p?esto, ?e rozsek? text na krat?? text?ky), mo?nost ?e?en?
+> odkazu
+> jako sou??sti prvku text byla zam?tnuta. Volba c?le odkazu bude
+> u?ivatelsky vypadat stejn? jako vypad? volba c?le pro z?stupce
+> ve
+> windowsov?m programu Pr?zkumn?k. Odkaz sm? ukazovat jen na
+> koncov?
+> listy kostry, kter? samy nejsou odkazem.
+> 
+> - K ulo?en? a znovuna?ten? kostry bude slou?it speci?ln? XML
+> dokument. Kostra bude v pam?ti dr?ena jen jako MFC strom, XML
+> reprezentace bude slou?it pouze k ulo?en? a znovuna?ten?.
+> 
+> -N?vrh u?ivatelsk?ho prost?ed?
+> 
+> -P?i vkl?d?n? nov?ho aktivn?ho prvku se u?ivateli nab?dnou
+> -v?echny
+> aktivn? prvky, kter? se mohou vyskytnout v ji? p?ipojen?ch
+> metab?z?ch (mohou vyskytnout = typ z?suvky, p?es kter? je
+> metab?ze
+> p?ipojena, je umo??uje), tedy se samotn? metab?ze nebude
+> prohled?vat.
+> 
+> - ?koly ze sch?zky 10.1.2006 jsou bu? hotovy nebo budou
+> - vyhotoveny
+> spln?n?m ?kol? z t?to sch?zky. Zb?v?: 	- n?pov?da u?ivateli
+> (prozat?m odlo?eno)
+> - dialog pro prvek podmno?ina hypot?z (odlo?eno, nejprve Martin
+> ud?l? obecn? n?vrh hierarchie aktivn?ch prvk? a obecn? sou??sti
+> a
+> rozd?ly dialog? pro n?)  
+> 
+> - TODO: Iva sem je?t? p?id? konkr?tn? rozpis ?kol? z 10.1. - a
+> p?ip??e kdo co spln?n?m sv?ch ?kol? n??e vyhotov? 
+> 
+> -?koly do p???t? sch?zky t?mu (?tvrtek 23.2.06):
+> 
+> KODY: Akce napojen? extern?ho zdroje. Po?et mo?n?ch
+> met?b?zov?ch
+> zdroj? pro jednu kostru (mohou b?t p?es r?zn? z?suvky?), ?e?en?
+> odkaz? na tyto zdroje ( v prvc?ch ? nebo pro celou kostru a v
+> prvc?ch pouze relativn?? nebo..?). Vliv zvolen?ho ?e?en? na
+> kop?rov?n? prvk? mezi kostrami. ?e?en? kop?rov?n? mezi kostrami
+> s
+> r?zn?mi p?ipojen?mi zdroji, p??padn? i p?ipojen?mi p?es jin?
+> z?suvky.
+> 
+> MARTIN: Navrhnout hierarchii aktivn?ch prvk?.  Navrhnout
+> stavov?
+> diagram pr?ce dialog? pro aktivn? prvky. (Podle tohoto
+> stavov?ho
+> diagramu Iva navrhne UI)
+> 
+> D?DA: Navrhnout ?e?en? problematiky z?sk?v?n? informac? ze
+> zdrojov?
+> metab?ze a aktualizace zdrojov? metab?ze (lidov? ?e?eno: kdy je
+> pot?eba do metab?ze ??hnout?): p??pad kdy se zm?n? zdroj - bude
+> to
+> editor kostry kontrolovat pr?b??n?? Nebo na vy??d?n? u?ivatele?
+> Nebo pouze p?i generov?n? v?sledn?ho dokumentu? Jak to bude p?i
+> ukl?d?n? a znovuna?ten? kostry? Jak se budou ?e?it situace, kdy
+> u?ivatel chce n?jak? atribut aktivn?ho prvku, a p?i tom v
+> met?b?z?
+> tenhle prvek dan? atribut nem? - jak a kdy se to u?ivatel dov??
+> 
+> IVA: N?vrh u?ivatelsk?ho prost?ed? z n??rtu p?en?st minim?ln?
+> do
+> screenshotov?ho prototypu, l?pe do funk?n?ho prototypu: hlavn?
+> obrazovka programu, menu programu, toolbar, dialog pro statick?
+> prvek text, dialog pro prvek Odkaz na atribut, dialog pro
+> vlo?en?
+> nov?ho prvku.
+> 
+> V?stupy ?e?en? ?kol?: Lep?? ne? ?e?en? popsat textem, bude
+> ur?it?
+> nakreslit vhodn? UML diagramy (p. Rauchovi jsme sl?bili
+> stavov?,
+> ale ?asto mohou b?t vhodn?j?? datov?=class diagramy, sequence
+> diagramy atd. - to u? bude p??mo sou??st dokumentace na?eho
+> projektu.) 
+> 
+> V?ichni: ve?ker? v?stupy na?? pr?ce by m?ly b?t k dispozici na
+> webu, chyb? nap?. Kodyho prezentace o aktivn?ch a statick?ch
+> prvc?ch => ?kol pro n?s v?echny je zajisti si p??stup do na?eho
+> webov?ho prostoru (D?da je snad jedin?, kdo v? jak se tam
+> dostat) a
+> d?vat tam v?echny v?stupy ozna?en? datem kdy byly vytvo?eny.
+> 
+> Zapsala dne 17.2. Iva
+> 
+> 
+
+
+
+From iva.b at volny.cz  Wed Feb 22 09:24:47 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Wed, 22 Feb 2006 09:24:47 +0100 (CET)
+Subject: [Reportasistent-list] schuzka ctvrtek 22.2.
+Message-ID: <0bc8ca35ca3926ddf67b23b7d3e3ebcc@www2.mail.volny.cz>
+
+Ahojky,
+
+tak kdy se vam zitra hodi schuzka tymu?
+Me nejlepe mezi 14:00-17:20. Pri nejhorsim taky 10:30-11:30.
+
+Iva
+
+
+
+From martin.chrz at email.cz  Wed Feb 22 09:51:11 2006
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Wed, 22 Feb 2006 09:51:11 +0100 (CET)
+Subject: [Reportasistent-list] =?us-ascii?Q?schuzka=20ctvrtek=2022=2E2=2E?=
+In-Reply-To: <0bc8ca35ca3926ddf67b23b7d3e3ebcc@www2.mail.volny.cz>
+Message-ID: <40.61-13553-1900421531-1140598271@email.cz>
+
+Ahoj,
+me do ctvrtka neco vlezlo a vubec se nebudu moc zucastnit. Muzem se dohodnout na patek dopoledne, pripadne nekdy na pondeli. Pokud se vam to nehodi, tak schuzujte beze me, ja pripadne poslu materialy.
+
+Mejte se. 
+
+Martin
+
+
+> ------------ P?vodn? zpr?va ------------
+> Od: Iva Bartunkova <iva.b at volny.cz>
+> P?edm?t: [Reportasistent-list] schuzka ctvrtek 22.2.
+> Datum: 22.2.2006 09:25:15
+> ----------------------------------------
+> Ahojky,
+> 
+> tak kdy se vam zitra hodi schuzka tymu?
+> Me nejlepe mezi 14:00-17:20. Pri nejhorsim taky 10:30-11:30.
+> 
+> Iva
+> 
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+> 
+> 
+
+Martin Chrz
+martin.chrz at email.cz
+
+
+From honza.dedek at volny.cz  Wed Feb 22 12:28:34 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Wed, 22 Feb 2006 12:28:34 +0100 (CET)
+Subject: [Reportasistent-list] schuzka ctvrtek 22.2.
+In-Reply-To: <0bc8ca35ca3926ddf67b23b7d3e3ebcc@www2.mail.volny.cz>
+References: <0bc8ca35ca3926ddf67b23b7d3e3ebcc@www2.mail.volny.cz>
+Message-ID: <18c5737d7b70533bad66b86ef6a19880@www3.mail.volny.cz>
+
+zitra muzu 13-14 (po obede) a pak od 17:20 mam vlono (XML pro me za
+navstevu nestoji :)
+
+honza
+
+
+----- P?VODN? ZPR?VA -----
+Od: "Iva Bartunkova" <iva.b at volny.cz>
+Komu: reportasistent-list at lists.berlios.de
+P?edm?t: [Reportasistent-list] schuzka ctvrtek 22.2.
+Datum: 22.2.2006 - 9:25:12
+
+> Ahojky,
+> 
+> tak kdy se vam zitra hodi schuzka tymu?
+> Me nejlepe mezi 14:00-17:20. Pri nejhorsim taky 10:30-11:30.
+> 
+> Iva
+> 
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+
+
+
+From jan.kodym at post.cz  Wed Feb 22 20:31:37 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Wed, 22 Feb 2006 20:31:37 +0100
+Subject: [Reportasistent-list] zasuvky a datove zdroje
+Message-ID: <43FCBC19.4000100@post.cz>
+
+Ahojte,
+dal jsem na web ten svuj dokument.
+
+http://reportasistent.berlios.de/dokumenty/Zasuvky_a_datove_zdroje_v0_1.doc
+
+ Nekolik veci:
+- da se predpokladat, ze nad nekterejma dokumentama se bude diskutovat a 
+pripadne v nich neco menit. Proto by bylo asi vhodny zacit u dokumentu 
+uvadet i jejich verzi. Tomu svymu jsem pridelil verzi 0.1 tak kdybyste 
+tam nekdo neco predelaval, klidne to hodte na web, akorat opravte cislo 
+verze (a muzete se tami podepsat :-)
+- k tomu dokumentu samotnymu - mozna je to trochu ukecany, mistama jsem 
+vpodstate "premejslel tak, ze jsem zaroven psal" takze jeto spis takova 
+uvaha :-) Casto se tam vyskytujou fraze typu "Program by mohl ..." nebo 
+"Mozna by bylo vhodne, kdyby ...". Pocitam s tim, ze az se domluvime, 
+prepisu tyhle casti do formy "Program bude ..." aby kvuli tomu 
+nevznikaly problemy a bylo jasny, na cem jsme se teda nakonec domluvili.
+
+Jinak chcete se teda zejtra sejit bez Martina? A vubec - ten predchozi 
+dnesni mail jsem omylem posilal na jinou adresu 
+(reportasistent-list-admin at lists.berlios.de misto 
+reportasistent-list at lists.berlios.de) a nevim, jak to funguje. Prisel vam?
+
+Mejte se
+
+Kody
+
+
+From jan.kodym at post.cz  Thu Feb 23 00:20:53 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Thu, 23 Feb 2006 00:20:53 +0100
+Subject: [Reportasistent-list] schuzka
+Message-ID: <43FCF1D5.3010509@post.cz>
+
+Psala mi Iva, ze ji ten puvodni mail nedosel. Poslal jsem ho na blbou 
+adresu, tak ho radsi posilam jeste jednou. Tak sory, jestli vam prisel 
+podruhy.
+Jen doplnuju, ze schuzka v 18:00 je na me uz pozde, protoze se nutne 
+potrebuju jeste zitra dostat domu a posledni autobus mi jede z Florence 
+v 18:40.
+
+
+
+Ahojte,
+ja tady zase uz nebudu v patek. Ohledne ctvrtka - nekdy mezi 14:00 a 
+17:20 (jednu z tech dvouhodinovek) bych mel jit na cviko z Datovek. 
+Jinak, Martine, materialy klidne posli. Ja vam taky asi jeste behem 
+dneska poslu dokument, kterej jsem vytvoril (respektive kterej jeste 
+dovytvarim:-) a byl bych rad, kdybyste si to precetli jeste pred 
+schuzkou a tam by se pak nejen prezentovaly predstavy jednotlivejch lidi 
+o dilcich castech, ktery zpracovali, ale hlavne resily pripominky a 
+pripadny rozpory, kdyby do sebe treba nezapadalo to, jak kazdej svoji 
+cast zpracoval. Porad ve me trochu hloda takovej spatnej pocit a nejsem 
+si jistej, jestli v nekterejch zakladnich vecech se moje predstava 
+nelisi od vasi a povazuju za velice dulezity si tohle vyjasnit. Proto 
+bych byl hrozne rad za kritickej pristup z vasi strany ohledne toho, co 
+napisu a budu radsi, kdyz me s tim treba poslete uplne do haje, ze jsem 
+uplne mimo a vyvedete me z omylu, nez kdyz to vezmete s tim, ze takhle 
+jsem to napsal tak to tak nejak bude.
+ Ze stejnyho duvodu bych radsi videl jeste pred schuzkou i to, co 
+vytvorite vy. Mozna by to bylo vubec lepsi, kdyby kazdej poslal ostatnim 
+tu svoji cast, oni si to precetli, napsali pripominky a pak bysme se 
+mohli klidne sejit az v pondeli a ty pripominky vyresit. Aby proste 
+kazdej z ty schuzky odchazel s tim, ze je mu vsechno jasny a hlavne ze 
+vsichni maj stejnou predstavu. Coz nelze, kdyz se nesejdeme vsichni.
+
+Jinak se nebranim i pripadny "neoficialni" schuzce zejtra s tema, kdo 
+budete mit cas, kdyz uz treba budou k reseni nejaky pripominky.
+Jestli vam prijde, zes to zbytecne hrotim, tak sorac :-) Ale fakt si 
+myslim, ze tahle cast je hrozne dulezita k tomu, abysme mohli zacit neco 
+implementovat a hlavne - aby pak nedelal kazdej neco uplne jinyho.
+
+Mejte se
+
+Kody
+
+
+From martin.chrz at email.cz  Thu Feb 23 09:59:52 2006
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Thu, 23 Feb 2006 09:59:52 +0100 (CET)
+Subject: [Reportasistent-list] =?us-ascii?Q?hierarchie=20aktivnich=20prvku?=
+Message-ID: <253.23-27045-1882123567-1140685192@email.cz>
+
+Ahoj,
+
+v priloze posilam dokument s popisem hierarchie aktivnich prvku. Doufam, ze je to pokud mozno uplny. Detaily asi probereme v diskuzi a bude je urcite potreba doplnit, pripadne prepracovat. Musim se jeste seznamit s tema dokumentama od vas, je to uzce provazany. Dejte vedet, jak dopadla schuzka, jestli se bude konat:)
+
+Mejte se
+
+Martin Chrz
+martin.chrz at email.cz
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: hierarchie struktur0.1.doc
+Type: application/msword
+Size: 32256 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20060223/b9e7b0c1/attachment.doc>
+
+From iva.b at volny.cz  Thu Feb 23 10:54:53 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Thu, 23 Feb 2006 10:54:53 +0100 (CET)
+Subject: [Reportasistent-list] schuzka
+Message-ID: <69c915a6b4b9d9726558c13066ecdc1b@www1.mail.volny.cz>
+
+Ahojky,
+
+protoze ve ctrtek prunik nasich moznosti zrejme nenajdem, tak
+rovnou navrhuju pondeli kdykoliv mezi 10:40 a 15:40. Jestli by byl
+zajem sejit se jen ve trech, tak muzu i v patek dopoledne.
+
+Jsem rozhodne pro to, abychom si vysledky toho co melo bejt hotovy
+dneska poslali. Svoje prepisu a jeste dneska poslu.
+
+Kody: rozhodne se nemusis omlouvat za rozvlacnost popisu - takhle
+se mi to dobre cte i chape.
+
+Ale mam jeden navrh: co dulezite akce rozkreslit do UML diagramu?
+Takovej stavovej diagram (=Statechart) pro kopirovani casti kostry
+by se urcite chapal vsem daleko lip a lip by se nad nim
+diskutovalo. Krasny strucny UML utorial:
+http://bdn.borland.com/article/0,1410,31863,00.html A dobre se to
+kresli v programu Enterprise architect - 30denni verze ke stazeni
+na webu.
+
+Iva
+
+
+
+
+
+
+From honza.dedek at volny.cz  Thu Feb 23 11:04:18 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Thu, 23 Feb 2006 11:04:18 +0100 (CET)
+Subject: [Reportasistent-list] Fwd: Reportasistent-list post from martin.chrz@email.cz requires approval
+Message-ID: <fdbc600a8d55bb4d1ed1021e323cef48@www3.mail.volny.cz>
+
+Neposilejte do mail-listu velke zpravy, musim pak jako administrator
+schvalovat jejich prijeti. Na dokumenty mame na berlios web, prip
+verejne ftp.
+
+btw: Ten dopis co Kody posilal na list-admina mi (asi jako jedinemu
+:) prisel.
+
+ohledne schuzky napisu pozdeji
+honza
+
+----- P?VODN? ZPR?VA -----
+Od: reportasistent-list-admin at berlios.de
+Komu: reportasistent-list-admin at lists.berlios.de
+P?edm?t: Reportasistent-list post from martin.chrz at email.cz
+Datum: 23.2.2006 - 10:01:03
+
+As list administrator, your authorization is requested for the
+following mailing list posting:
+
+    List:    Reportasistent-list at lists.berlios.de
+    From:    martin.chrz at email.cz
+    Subject: =?us-ascii?Q?hierarchie=20aktivnich=20prvku?=
+    Reason:  Message body is too big: 44432 bytes but there's a
+limit of 40 KB
+
+At your convenience, visit:
+
+    http://lists.berlios.de/mailman/admindb/reportasistent-list
+        
+to approve or deny the request.
+
+
+
+
+From honza.dedek at volny.cz  Thu Feb 23 13:11:57 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Thu, 23 Feb 2006 13:11:57 +0100 (CET)
+Subject: [Reportasistent-list] zasuvky a datove zdroje
+Message-ID: <121e793dcc6b3f4afe8469548a46723e@www3.mail.volny.cz>
+
+Ahoj.
+Posilam sve poznamky ke Kodyho praci. Nemusite to cist, je to spis
+abych nezapomnel na neco, co me pri cteni napadlo.
+
+
+Navrhuji zjednoduseni SZZ:
+Zasuvky se nepripojuji ani neodpojuji, ty proste jsou soucasti
+system LMRA. Dalsi zasuvky se daji maximalne doinstalovat. LMRA si
+pri startu zjisti vsechny nainstalovane zasuvky, ty pak nabizi
+uzivateli. Pripojit se da pouze datovy zdroj, ne zasuvka.
+
+
+
+Pro pripojeni metabaze bych umoznil i primo najit .mdb soubor na
+disku, podobne u Ferdy - tam to bude asi jedina moznost.
+
+
+
+k dialogu pro p?id?v?n? ? odeb?r?n? zdroj? nemam namitek, snad jen
+bych bokem pridal funkci pripojit novy zdroj (pruvodce?).
+
+
+
+tabulku zdroju lze ukladat do kostry, ale nevim je-li to
+nejvhodnejsi, napad :-) mozna jo..
+
+
+
+ad default zdroj:
+Mam takovou vizi: Toolbar (paleta) aktivnich prvku pro kazdy zdroj
+zvlast. Uzivatel si vibere ktere toolbary (datove zdroje) chce
+videt, kde je chce mit na obrazovce. S default zdrojem se to
+nevylucuje, ten se tez bude hodit.
+
+
+
+Sirotci jsou fajn oznaceni :) Pro odstraneni sirotku bych pridal
+moznost s potvrzovanim (analogie text replace dialogu).
+
+
+
+ad "z?suvka, ke kter? je p?ipojen, tento typ prvku nepodporuje":
+Dalo by se zakazat prirazeni nevhodneho zdroje k prvku.
+Predpokladam, ze vystup ze zasuvek bude pres nekolik "interfaceu" a
+kazdy prvek bude ocekavat konkretni interface na svem vstutpu. Tedy
+zname podporovane interfacy u zasuvky a ocekavany interface prvku.
+
+
+prvky A1 podporovane vsemi zasuvkami myslim ze spis asi nebudou
+
+
+Navrhuji archytekturu jadro/zasuvky:
+Zasuvky pouze zpristupnuji data.
+Jadro LMRA nad daty ziskanymi ze zasuvek vyvolava uzivatelske
+dialogy, provadi trideni a filtry aktivnich prvku. Tedy zasuvky
+maji za ukol predesim vratit vsechny "objekty" zvoleneho typu. A
+kazdy objekt opatrit identifikatorem.
+
+
+pretahovani z kostry do kostry, rekapitulace :)
+mohlo by exitovat nekolik moznosti jak prenaset
+- prenest i se zdrojem
+- pokusit se zmenit zdroj na deufaultni prip. zvoleny
+- vymazat zdroj
+
+
+
+relativni adresace zdroju:
+Nebo by slo zdroje adresovat relativne pomoci nejakeho
+identifikatoru. Pak by se dal globalne zmenit konkretni zdroj
+odpovidajici danemu identifikatoru a odkazy v prvcich by mohly
+zustat nezmenene.
+
+
+idetifikace zdroju:
+Nejsnaze bych to videl tak, ze zasuvka po pripojeni zdroje vrati
+nejaky retezec, kteremu zbytek programu vubec nebude rozumnet. Ale
+bude ho umet uchovat. Pri dotazech program zasuvce posle tento
+retezec a zasuvka podle nej zdroj urci. Pravdepodobne bude stacit,
+aby retezec obsahoval uplnou cestu k souboru nebo ODBC connection
+string.
+
+
+
+Pro Kodyho: Myslim, ze je to dobra prace. Hlavne se mi libila
+struktura: zformulovani problemu -> navrhy reseni.
+
+
+honza
+
+----- P?VODN? ZPR?VA -----
+Od: "Jan Kodym" <jan.kodym at post.cz>
+Komu: "Projekt LM-RA" <reportasistent-list at lists.berlios.de>
+P?edm?t: [Reportasistent-list] zasuvky a datove zdroje
+Datum: 22.2.2006 - 20:32:11
+
+> Ahojte,
+> dal jsem na web ten svuj dokument.
+> 
+>
+http://reportasistent.berlios.de/dokumenty/Zasuvky_a_datove_zdroje_v0_1.doc
+> 
+> Nekolik veci:
+> - da se predpokladat, ze nad nekterejma dokumentama se bude
+> - diskutovat a 
+> pripadne v nich neco menit. Proto by bylo asi vhodny zacit u
+> dokumentu 
+> uvadet i jejich verzi. Tomu svymu jsem pridelil verzi 0.1 tak
+> kdybyste 
+> tam nekdo neco predelaval, klidne to hodte na web, akorat
+> opravte cislo 
+> verze (a muzete se tami podepsat :-)
+> - k tomu dokumentu samotnymu - mozna je to trochu ukecany,
+> - mistama jsem 
+> vpodstate "premejslel tak, ze jsem zaroven psal" takze jeto
+> spis takova 
+> uvaha :-) Casto se tam vyskytujou fraze typu "Program by mohl
+> ..." nebo 
+> "Mozna by bylo vhodne, kdyby ...". Pocitam s tim, ze az se
+> domluvime, 
+> prepisu tyhle casti do formy "Program bude ..." aby kvuli tomu 
+> nevznikaly problemy a bylo jasny, na cem jsme se teda nakonec
+> domluvili.
+> 
+> Jinak chcete se teda zejtra sejit bez Martina? A vubec - ten
+> predchozi 
+> dnesni mail jsem omylem posilal na jinou adresu 
+> (reportasistent-list-admin at lists.berlios.de misto 
+> reportasistent-list at lists.berlios.de) a nevim, jak to funguje.
+> Prisel vam?
+> 
+> Mejte se
+> 
+> Kody
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+
+
+
+
+
+
+
+From jan.kodym at post.cz  Thu Feb 23 14:43:02 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Thu, 23 Feb 2006 14:43:02 +0100
+Subject: [Reportasistent-list] zasuvky a datove zdroje
+In-Reply-To: <121e793dcc6b3f4afe8469548a46723e@www3.mail.volny.cz>
+References: <121e793dcc6b3f4afe8469548a46723e@www3.mail.volny.cz>
+Message-ID: <43FDBBE6.7040007@post.cz>
+
+To Deda: Diky, takhle nejak jsem si tu oponenturu predstavoval. Myslim, 
+ze vesmes jsou to dobry napady, ktery se daji do toho myho stavajiciho 
+modelu bez drastictejsich zasahu napasovat. Za obzvlast dulezity 
+povazuju vyresit tu architekturu jadro/zasuvky. Priznam se, ze z toho 
+tvyho kratkyho popisu mi neni dost dobre jasny, jak by to melo fungovat. 
+Moh bys to prosim kdyztak nejak rozvest? Muzes (kdyz se ti bude chtit) o 
+tom bud neco napsat, nebo se aspon priprav na to, ze az se sejdem, tak 
+po tobe asi budu chtit, abys mi tu svoji predstavu (jak by rekl Ruda 
+Kryl - "jako debilovi":-) trochu vysvetlil.
+
+Kody
+
+honza.dedek at volny.cz napsal(a):
+> Ahoj.
+> Posilam sve poznamky ke Kodyho praci. Nemusite to cist, je to spis
+> abych nezapomnel na neco, co me pri cteni napadlo.
+>
+>
+> Navrhuji zjednoduseni SZZ:
+> Zasuvky se nepripojuji ani neodpojuji, ty proste jsou soucasti
+> system LMRA. Dalsi zasuvky se daji maximalne doinstalovat. LMRA si
+> pri startu zjisti vsechny nainstalovane zasuvky, ty pak nabizi
+> uzivateli. Pripojit se da pouze datovy zdroj, ne zasuvka.
+>
+>
+>
+> Pro pripojeni metabaze bych umoznil i primo najit .mdb soubor na
+> disku, podobne u Ferdy - tam to bude asi jedina moznost.
+>
+>
+>
+> k dialogu pro p?id?v?n? ? odeb?r?n? zdroj? nemam namitek, snad jen
+> bych bokem pridal funkci pripojit novy zdroj (pruvodce?).
+>
+>
+>
+> tabulku zdroju lze ukladat do kostry, ale nevim je-li to
+> nejvhodnejsi, napad :-) mozna jo..
+>
+>
+>
+> ad default zdroj:
+> Mam takovou vizi: Toolbar (paleta) aktivnich prvku pro kazdy zdroj
+> zvlast. Uzivatel si vibere ktere toolbary (datove zdroje) chce
+> videt, kde je chce mit na obrazovce. S default zdrojem se to
+> nevylucuje, ten se tez bude hodit.
+>
+>
+>
+> Sirotci jsou fajn oznaceni :) Pro odstraneni sirotku bych pridal
+> moznost s potvrzovanim (analogie text replace dialogu).
+>
+>
+>
+> ad "z?suvka, ke kter? je p?ipojen, tento typ prvku nepodporuje":
+> Dalo by se zakazat prirazeni nevhodneho zdroje k prvku.
+> Predpokladam, ze vystup ze zasuvek bude pres nekolik "interfaceu" a
+> kazdy prvek bude ocekavat konkretni interface na svem vstutpu. Tedy
+> zname podporovane interfacy u zasuvky a ocekavany interface prvku.
+>
+>
+> prvky A1 podporovane vsemi zasuvkami myslim ze spis asi nebudou
+>
+>
+> Navrhuji archytekturu jadro/zasuvky:
+> Zasuvky pouze zpristupnuji data.
+> Jadro LMRA nad daty ziskanymi ze zasuvek vyvolava uzivatelske
+> dialogy, provadi trideni a filtry aktivnich prvku. Tedy zasuvky
+> maji za ukol predesim vratit vsechny "objekty" zvoleneho typu. A
+> kazdy objekt opatrit identifikatorem.
+>
+>
+> pretahovani z kostry do kostry, rekapitulace :)
+> mohlo by exitovat nekolik moznosti jak prenaset
+> - prenest i se zdrojem
+> - pokusit se zmenit zdroj na deufaultni prip. zvoleny
+> - vymazat zdroj
+>
+>
+>
+> relativni adresace zdroju:
+> Nebo by slo zdroje adresovat relativne pomoci nejakeho
+> identifikatoru. Pak by se dal globalne zmenit konkretni zdroj
+> odpovidajici danemu identifikatoru a odkazy v prvcich by mohly
+> zustat nezmenene.
+>
+>
+> idetifikace zdroju:
+> Nejsnaze bych to videl tak, ze zasuvka po pripojeni zdroje vrati
+> nejaky retezec, kteremu zbytek programu vubec nebude rozumnet. Ale
+> bude ho umet uchovat. Pri dotazech program zasuvce posle tento
+> retezec a zasuvka podle nej zdroj urci. Pravdepodobne bude stacit,
+> aby retezec obsahoval uplnou cestu k souboru nebo ODBC connection
+> string.
+>
+>
+>
+> Pro Kodyho: Myslim, ze je to dobra prace. Hlavne se mi libila
+> struktura: zformulovani problemu -> navrhy reseni.
+>
+>
+> honza
+>
+> ----- P?VODN? ZPR?VA -----
+> Od: "Jan Kodym" <jan.kodym at post.cz>
+> Komu: "Projekt LM-RA" <reportasistent-list at lists.berlios.de>
+> P?edm?t: [Reportasistent-list] zasuvky a datove zdroje
+> Datum: 22.2.2006 - 20:32:11
+>
+>   
+>> Ahojte,
+>> dal jsem na web ten svuj dokument.
+>>
+>>
+>>     
+> http://reportasistent.berlios.de/dokumenty/Zasuvky_a_datove_zdroje_v0_1.doc
+>   
+>> Nekolik veci:
+>> - da se predpokladat, ze nad nekterejma dokumentama se bude
+>> - diskutovat a 
+>> pripadne v nich neco menit. Proto by bylo asi vhodny zacit u
+>> dokumentu 
+>> uvadet i jejich verzi. Tomu svymu jsem pridelil verzi 0.1 tak
+>> kdybyste 
+>> tam nekdo neco predelaval, klidne to hodte na web, akorat
+>> opravte cislo 
+>> verze (a muzete se tami podepsat :-)
+>> - k tomu dokumentu samotnymu - mozna je to trochu ukecany,
+>> - mistama jsem 
+>> vpodstate "premejslel tak, ze jsem zaroven psal" takze jeto
+>> spis takova 
+>> uvaha :-) Casto se tam vyskytujou fraze typu "Program by mohl
+>> ..." nebo 
+>> "Mozna by bylo vhodne, kdyby ...". Pocitam s tim, ze az se
+>> domluvime, 
+>> prepisu tyhle casti do formy "Program bude ..." aby kvuli tomu 
+>> nevznikaly problemy a bylo jasny, na cem jsme se teda nakonec
+>> domluvili.
+>>
+>> Jinak chcete se teda zejtra sejit bez Martina? A vubec - ten
+>> predchozi 
+>> dnesni mail jsem omylem posilal na jinou adresu 
+>> (reportasistent-list-admin at lists.berlios.de misto 
+>> reportasistent-list at lists.berlios.de) a nevim, jak to funguje.
+>> Prisel vam?
+>>
+>> Mejte se
+>>
+>> Kody
+>> _______________________________________________
+>> Reportasistent-list mailing list
+>> Reportasistent-list at lists.berlios.de
+>> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+>>
+>>     
+>
+>
+>
+>
+>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+>
+> __________ Informace od NOD32 1.1416 (20060222) __________
+>
+> Tato zprava byla proverena antivirovym systemem NOD32.
+> http://www.nod32.cz
+>
+>
+>
+>   
+
+
+From honza.dedek at volny.cz  Thu Feb 23 23:45:06 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Thu, 23 Feb 2006 23:45:06 +0100 (CET)
+Subject: [Reportasistent-list] zasuvky & aktivni prvky
+In-Reply-To: <43FDBBE6.7040007@post.cz>
+References: <121e793dcc6b3f4afe8469548a46723e@www3.mail.volny.cz> <43FDBBE6.7040007@post.cz>
+Message-ID: <342e23f9086e105b4c020f17f7f942da@www2.mail.volny.cz>
+
+Ahoj, na
+
+http://reportasistent.berlios.de/dokumenty/Zasuvky&Aprvky-princip.doc
+
+jsem sepsal neco o zasuvkach a aktivnich prvcich.
+
+Povazujte to za navrh, i kdyz je to napsany jak ze to tak bude :)
+
+honza
+
+
+
+
+From iva.b at volny.cz  Sat Feb 25 22:44:25 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Sat, 25 Feb 2006 22:44:25 +0100 (CET)
+Subject: [Reportasistent-list] Navrh Uzivatelskeho Interface
+Message-ID: <8690f708a3d3ca4605d05a434b417aa0@www3.mail.volny.cz>
+
+Ahojky,
+
+tak s malym zpozdenim ale preci jsem navrhla uzivatelske interface
+pro nas report asistent. Mrknete na to, je tam spousta peknejch
+vobrazku :-) :
+http://reportasistent.berlios.de/dokumenty/Navrh_vzhledu_uzivatelsk?ho_prostredi_0.1.doc
+
+Iva
+
+
+
+From honza.dedek at volny.cz  Sun Feb 26 14:27:19 2006
+From: honza.dedek at volny.cz (honza dedek)
+Date: Sun, 26 Feb 2006 14:27:19 +0100
+Subject: [Reportasistent-list] Navrh Uzivatelskeho Interface
+References: <8690f708a3d3ca4605d05a434b417aa0@www3.mail.volny.cz>
+Message-ID: <000401c63ad8$61839c80$6601a8c0@pcdedek>
+
+Ahojte!
+No jo jsou tam vazne hezoucky barevny obrazky. Ikona u reportu - neni to 
+trilobit? :-)
+Mam radost, ze zase mame v ruce o papir vic, nad ketrym se bude dat vecne 
+diskutovat. A protoze uz se na to docela tesim, tak posilam par postrehu 
+dopredu. Nemusite to cist, jen na to nechci zapomenout :)
+
+Navigace programu bude Ceska nebo Anglicka?
+
+Musime dohodnout popisky u elementu v graficke kostre.
+
+
+ad Textovy editor (elemet text):
+Moje prestava (kterou uz mam funkcne imlementovanou - nicmene neni to nutne 
+definitivni) je takova, ze formatovani textu a odstavcu se dela zasadne 
+pomoci stylu Wordu. Navic zvoleny styl je atributem celeho prvku resp. tagu. 
+Tedy naformatovany text se rozpadne na vic tagu. Ale asi bude vhodne tyto 
+tagy schovat do jednoho prvku kostry. Coz ovsem bude obnaset dalsi kod 
+navic. Muj puvodni navrh byl, ze se to schova do prvku odstavec, ale nevim. 
+Otazka zpetne editace..? Formatovani pouze styly bych zachoval. Mam pro to 
+par argumentu. Editor jsme nikdy psat nechteli a pokud ho nakonec napisem, 
+nebude to uplne zanedbatelna prace. Tedy muj navrh zni: zjednodusit dialog 
+pro elemet text (odstavec? ..ale v odstavci mohou byt i grafy a tabulky).
+
+
+
+ad Prvek odkaz na atribut prvku kostry:
+*** Prvek odkaz na atribut prvku kostry neni odkaz na atribut metabaze 
+(objektu v metabazi).
+*** Potencialne lze odkazovat i na atributy statickych prvku kostry.
+*** Napriklad musi jit odkaz na atribu "prah konfidence" nebo "pocet 
+vybranych hypotez" aktivniho prvku podmnozina hypotez.
+*** To, ze aktivni prvek nektere atributy nezobrazuje (negeneruje do Wordu) 
+neznamena, ze tyto atributy nama.
+
+Dialog (pro odkaz na atribut) se zklada ze dvou ukonu:
+1) volba konkretniho prvku kostry, na ktery bude odkazovano (nejlepe primo 
+ukazat v graficke kostre, prip. pres jmeno prvku)
+2) volba konkretniho atributu (ke kaznemu prvku zname kopletni seznam 
+podporovanych atributu - staci z nej jeden vybrat)
+
+
+
+ad Dialog pro vlo?en? nov?ho prvku
+Nedalo by se to odbyt ctyrmi polozkami menu?
+Komboboxy bych osobne pouzival co nejmene. Je to nejhur prehledne pro 
+hledani a hlavne nejnarocnejsi na pocet kliknuti. Ani klavesove zkratky 
+nejdou moc pouzit (proti napriklad menu, radiobutton, prip. button).
+
+
+
+
+A co moje toolbary / palety prvku  +pro kazdy datovy zdroj zvlast?  :-) (o 
+tom si doufam jeste spolecne popovidame)
+A kam se podela volba cile z pruzkumnika? Na to jsem se nejvic tesil :-)
+
+Verim, ze se nam nakonec spolecne podari predstavu sjednotit.
+honza
+
+
+----- Original Message ----- 
+From: "Iva Bartunkova" <iva.b at volny.cz>
+To: <reportasistent-list at lists.berlios.de>
+Sent: Saturday, February 25, 2006 10:44 PM
+Subject: [Reportasistent-list] Navrh Uzivatelskeho Interface
+
+
+> Ahojky,
+>
+> tak s malym zpozdenim ale preci jsem navrhla uzivatelske interface
+> pro nas report asistent. Mrknete na to, je tam spousta peknejch
+> vobrazku :-) :
+> http://reportasistent.berlios.de/dokumenty/Navrh_vzhledu_uzivatelsk?ho_prostredi_0.1.doc
+>
+> Iva
+>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+
+
+
+From honza.dedek at volny.cz  Tue Feb 28 19:30:04 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Tue, 28 Feb 2006 19:30:04 +0100 (CET)
+Subject: [Reportasistent-list] stavy LMRA
+Message-ID: <e6d999ecc5d63e69bdfe520dbaced861@www2.mail.volny.cz>
+
+prekreslene stavy LMRA
+http://reportasistent.berlios.de/dokumenty/stavy_LMRA.ppt
+
+pokud najdete chybu - opravte
+
+honza
+
+
+

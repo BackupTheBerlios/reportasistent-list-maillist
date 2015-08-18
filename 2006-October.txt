@@ -1,0 +1,278 @@
+From jan.kodym at post.cz  Sun Oct  1 22:42:35 2006
+From: jan.kodym at post.cz (=?us-ascii?Q?Jan=20Kodym?=)
+Date: Sun, 01 Oct 2006 22:42:35 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka
+Message-ID: <1690.3570-17106-1803745436-1159735355@post.cz>
+
+Ahoj, ten predchozi mail co jsem posilal vam asi nedosel, takze jeste jednou strucne - muzete vsichni na schuzku projektu ted v utery na MS nekdy k veceru/vecer? Mozno od cca. 6 hodin kdykoliv dal. Martin a Iva s tim predbezne pocitaji.
+
+Kody
+
+
+From iva.b at volny.cz  Mon Oct  2 07:46:44 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Mon, 02 Oct 2006 07:46:44 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka utery
+Message-ID: <9d86fddd8d37cfaed8e0f70ad231950f@www2.mail.volny.cz>
+
+Ahojky,
+
+utery vecer.. rekneme v 19:45? To mi akorat konci cvika:-)
+
+I.
+
+
+-- 
+KR?LOVNA LETENEK nejni??? ceny letenek.
+http://im.impact.as/sign/kralovna/
+
+
+
+From jan.kodym at post.cz  Sun Oct  1 21:23:44 2006
+From: jan.kodym at post.cz (=?us-ascii?Q?Jan=20Kodym?=)
+Date: Sun, 01 Oct 2006 21:23:44 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka
+Message-ID: <1693.3572-10355-1574875595-1159730624@post.cz>
+
+Ahojte,
+muzete vsichni v utery k veceru/vecer na schuzku projektu na MS? Mame s Martinem schuzky s Rauchem kvuli diplomkam tak nekdy potom ... Martin ma po mne snad od ctyr tak uz kolem sesty by to slo... budete vsici moct? Hlavne ty, Dedo, ostatni jsme se predbezne domluvili ... dejte prosim co nejdriv vedet. A pripravte si konkretni pripominky, v priloze posilam prezentaci, co jsme probirali s Rauchem a Ivou u nej minulej tejden.
+Mejte se
+
+Kody
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: stav_09_2006.ppt
+Type: application/vnd.ms-powerpoint
+Size: 40960 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20061001/930b8759/attachment.ppt>
+
+From dedekj at gmail.com  Mon Oct  2 11:33:56 2006
+From: dedekj at gmail.com (Jan Dedek)
+Date: Mon, 2 Oct 2006 11:33:56 +0200
+Subject: [Reportasistent-list] schuzka utery
+In-Reply-To: <9d86fddd8d37cfaed8e0f70ad231950f@www2.mail.volny.cz>
+References: <9d86fddd8d37cfaed8e0f70ad231950f@www2.mail.volny.cz>
+Message-ID: <7c08ba520610020233s192d84e1l9744f24b44ea620f@mail.gmail.com>
+
+Cau, tak zitra 19:45 na MS, budu tam.
+honza
+
+
+
+2006/10/2, Iva Bartunkova <iva.b at volny.cz>:
+> Ahojky,
+>
+> utery vecer.. rekneme v 19:45? To mi akorat konci cvika:-)
+>
+> I.
+>
+>
+> --
+> KR?LOVNA LETENEK nejni??? ceny letenek.
+> http://im.impact.as/sign/kralovna/
+>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+
+From iva.b at volny.cz  Wed Oct 11 12:32:21 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Wed, 11 Oct 2006 12:32:21 +0200 (CEST)
+Subject: [Reportasistent-list] vcerejsi schuzka 10.10.
+Message-ID: <36475c61e7972d435efe417f1df93c83@www1.mail.volny.cz>
+
+Ahojky,
+
+na verejsi schuzce k softwaraku jsem nebyla, jak jsem predem avizovala
+a prijdu az na tu za 14 dni. (Do Prahy se z Finska vracim 19.10.).
+
+Ukol z minula jsem splnila - kostra se uz rozbaluje a zabaluje jak je
+potreba a ne cela. Jestli jsou s tim nejake problemy, napiste mi to
+prosim mailem, na SVN se tu nedostanu, budu pracovat na verzi ze 7.10.
+
+
+Ukol do utery 17.10.: Jestli mate nejakou prioritu, co bych mela prednostne
+udelat, napiste mi to. Jinak do priste udelam zasednuti prvku, ktere
+nejdou vlozit do prvku kostry do prvku, ktery je prave vybran.
+
+Jsou-li uz nejake guidelines k tomu, jak psat komentare, aby z toho pak
+byl pekny C++doc, tak moc prosim, jestli byste mi to nemailnuli, na
+SVN se tady nejspis nedostanu.
+
+Mejte se!
+
+IVA
+
+
+
+-- 
+Na tisk?rn? m??e? tisknout v?razn? levn?ji! Vyzkou?ej si www.TisknuLevne.cz
+http://im.impact.as/sign/tisknulevne/
+
+
+
+From jan.kodym at post.cz  Thu Oct 12 20:52:07 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Thu, 12 Oct 2006 20:52:07 +0200
+Subject: [Reportasistent-list] vyrocni zprava
+Message-ID: <452E8ED7.3020101@post.cz>
+
+Ahojte,
+posilam vam vyrocni zpravu o stavu projektu, co jsem sepsal. Zaroven ji 
+davam na SVN do adresare Dokumenty. Podivejte se prosim na to co nejdriv 
+a zaslete mi pripadne pripominky, at to muzu poslat Rauchovi, at to muze 
+poslat komisi. Nebo to rovnou upravte na tom SVNku. Nevim, jak moc v 
+tomhle bazirujou na terminech, ale zprava ma bejt sepsana kdyz neni 
+projekt dokoncen do roka od zahajeni, coz bude uz pristi tyden (19. 10.)
+Takze v nejhorsim to muzeme doresit na schuzce pristi utery :-)
+Mejte se
+
+Kody
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: stavLMRA2006.zip
+Type: application/x-zip
+Size: 11538 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20061012/e94af8a1/attachment.bin>
+
+From jan.kodym at post.cz  Tue Oct 17 15:03:21 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Tue, 17 Oct 2006 15:03:21 +0200
+Subject: [Reportasistent-list] zapis schuze
+Message-ID: <4534D499.4010902@post.cz>
+
+Ahoj,
+posilam zapis z dnesni schuzky a zaroven ho davam do dokumentu na SVN.
+
+Kody
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: schuze_17_10_2006.zip
+Type: application/x-zip
+Size: 6027 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20061017/252c9c3e/attachment.bin>
+
+From jan.kodym at post.cz  Wed Oct 18 22:45:28 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Wed, 18 Oct 2006 22:45:28 +0200
+Subject: [Reportasistent-list] prispevek Znalosti 2007
+Message-ID: <45369268.7030204@post.cz>
+
+Ahojte,
+sepsal jsem prispevek o LM-RA na konferenci Znalosti. Podivejte se 
+prosim na nej na SVN
+ http://svn.berlios.de/svnroot/repos/reportasistent/trunk/Dokumenty/Znalosti2007LMRA_CZ.doc
+Budu rad za jakykoliv pripominky ohledne jazyka i obsahu. Deadline je 
+konec rijna, ale nemusime vsechno nechavat na posledni chvili :-)
+Mejte se
+
+Kody
+
+
+From jan.kodym at post.cz  Tue Oct 24 22:24:50 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Tue, 24 Oct 2006 22:24:50 +0200
+Subject: [Reportasistent-list] bugy v betaverzi
+Message-ID: <453E7692.3090607@post.cz>
+
+Tak jsme s Ivou proklepli novou betaverzi a dockali se nekolika 
+neprijemnejch prekvapeni.
+
+1)  MessageBox s ladici hlaskou o nazvu DB driveru pro Access (Kody) - 
+odstraneno
+2) spatne prekreslovani dialogu nastaveni vizualizaci (jak ho dneska 
+Deda zvetsoval) zhruba uprostred je prouzek, kterej se obcas neprekresli 
+(Deda)
+3) v rezimu "plugin wordu" - pri vkladani aktivniho prvku s 
+transformacemi vyskoci na konci dva ladici messageboxy, v jednom je 
+hlaska neco jako "Atribut elementu neni v danem DTD podporovan" a v 
+druhym je obsah elementu <output>  (Deda)
+4) chyba v LMpluginu v AP Kategorie. Ve "functions.cpp" z volani funkce 
+na radku 1497 se vraci neosetrena vyjimka a celej program zbuchne. (Chrzi)
+
+Myslim, ze chyby tohohle typu by asi betaverze prezentovana pred 
+studentama obsahovat nemela. Asi by bylo dobry je do ctvrtka vychytat, 
+aby Iva nemela trapas :-)
+
+
+Kody
+
+
+From dedekj at gmail.com  Wed Oct 25 10:28:28 2006
+From: dedekj at gmail.com (Jan Dedek)
+Date: Wed, 25 Oct 2006 10:28:28 +0200
+Subject: [Reportasistent-list] bugy v betaverzi
+In-Reply-To: <453E7692.3090607@post.cz>
+References: <453E7692.3090607@post.cz>
+Message-ID: <7c08ba520610250128q3865b4afoef78d1977bda673f@mail.gmail.com>
+
+Cau, cekal jsem to horsi :-)
+
+Mysl?m ze jsou to jen drobnosti, ten property dialog uz jsem opravil.
+S word pluginem je to horsi, jeste neni uplne vyladeny pro opravdov?
+pou??v?n?.. Ale ty ladici hlasky by se samozrejm? daly schovat. Nebo
+predelat na ofici?ln? chybov? hl?sky, protoze se zobrazuj? POUZE pokud
+v?stup transformace nen? validn? :-) Coz bohuzel plat? o drtiv?
+vet?in? transformac? :o) Nebo by se jest? dalo "zvolnit" to DTD..
+
+Do ?tvrtka do 16ti hodin oprav?m betu, zat?m pi?te o chyb?ch nebo
+je?t? l?pe je opravcujte na svn.
+
+honza
+
+2006/10/24, Jan Kodym <jan.kodym at post.cz>:
+> Tak jsme s Ivou proklepli novou betaverzi a dockali se nekolika
+> neprijemnejch prekvapeni.
+>
+> 1)  MessageBox s ladici hlaskou o nazvu DB driveru pro Access (Kody) -
+> odstraneno
+> 2) spatne prekreslovani dialogu nastaveni vizualizaci (jak ho dneska
+> Deda zvetsoval) zhruba uprostred je prouzek, kterej se obcas neprekresli
+> (Deda)
+> 3) v rezimu "plugin wordu" - pri vkladani aktivniho prvku s
+> transformacemi vyskoci na konci dva ladici messageboxy, v jednom je
+> hlaska neco jako "Atribut elementu neni v danem DTD podporovan" a v
+> druhym je obsah elementu <output>  (Deda)
+> 4) chyba v LMpluginu v AP Kategorie. Ve "functions.cpp" z volani funkce
+> na radku 1497 se vraci neosetrena vyjimka a celej program zbuchne. (Chrzi)
+>
+> Myslim, ze chyby tohohle typu by asi betaverze prezentovana pred
+> studentama obsahovat nemela. Asi by bylo dobry je do ctvrtka vychytat,
+> aby Iva nemela trapas :-)
+>
+>
+> Kody
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+
+From jan.kodym at post.cz  Sat Oct 28 20:52:47 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Sat, 28 Oct 2006 20:52:47 +0200
+Subject: [Reportasistent-list] Znalosti + testovani
+Message-ID: <4543A6FF.9010701@post.cz>
+
+Ahoj,
+po konzultaci s Rauchem jsem prekopal prispevek na Znalosti
+http://svn.berlios.de/svnroot/repos/reportasistent/trunk/Dokumenty/Znalosti2007LMRA_CZ.doc
+vyjadrujte se, kritizujte (nejlepe konstruktivne :-)  casu do odevzdani 
+moc nezbyva.
+
+Zkousel jsem testovat LM-RA z "uzivatelskyho hlediska" - napsat v tom 
+nejaky analyzy. Pridal jsem do projektu textovej soubor 
+"zlepseni_ovladani.txt", kam pisu svoje postrehy, co mi jako uzivateli 
+na ovladani LM-RA vadi nebo si myslim, ze by bylo uzitecny. Pak jsou tam 
+taky popsany chyby, co jsem nasel v ovladacich prvcich LM-RA. Soubor je 
+v adresari ReportAsistent a taky je pridanej do projektu (ale jen DSW - 
+pro VS 6). Jinak se s tim uz docela da pracovat.
+
+Kody
+
+

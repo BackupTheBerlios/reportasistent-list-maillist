@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Reportasistent-list] zasuvky a datove zdroje
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/reportasistent-list/2006-February/index.html" >
+   <LINK REL="made" HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20zasuvky%20a%20datove%20zdroje&In-Reply-To=%3C121e793dcc6b3f4afe8469548a46723e%40www3.mail.volny.cz%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000023.html">
+   <LINK REL="Next"  HREF="000025.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Reportasistent-list] zasuvky a datove zdroje</H1>
+    <B>honza.dedek at volny.cz</B> 
+    <A HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20zasuvky%20a%20datove%20zdroje&In-Reply-To=%3C121e793dcc6b3f4afe8469548a46723e%40www3.mail.volny.cz%3E"
+       TITLE="[Reportasistent-list] zasuvky a datove zdroje">honza.dedek at volny.cz
+       </A><BR>
+    <I>Thu Feb 23 13:11:57 CET 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000023.html">[Reportasistent-list] Fwd: Reportasistent-list post from martin.chrz at email.cz requires approval
+</A></li>
+        <LI>Next message: <A HREF="000025.html">[Reportasistent-list] zasuvky a datove zdroje
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#24">[ date ]</a>
+              <a href="thread.html#24">[ thread ]</a>
+              <a href="subject.html#24">[ subject ]</a>
+              <a href="author.html#24">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ahoj.
+Posilam sve poznamky ke Kodyho praci. Nemusite to cist, je to spis
+abych nezapomnel na neco, co me pri cteni napadlo.
+
+
+Navrhuji zjednoduseni SZZ:
+Zasuvky se nepripojuji ani neodpojuji, ty proste jsou soucasti
+system LMRA. Dalsi zasuvky se daji maximalne doinstalovat. LMRA si
+pri startu zjisti vsechny nainstalovane zasuvky, ty pak nabizi
+uzivateli. Pripojit se da pouze datovy zdroj, ne zasuvka.
+
+
+
+Pro pripojeni metabaze bych umoznil i primo najit .mdb soubor na
+disku, podobne u Ferdy - tam to bude asi jedina moznost.
+
+
+
+k dialogu pro p&#345;id&#225;v&#225;n&#237; &#150; odeb&#237;r&#225;n&#237; zdroj&#367; nemam namitek, snad jen
+bych bokem pridal funkci pripojit novy zdroj (pruvodce?).
+
+
+
+tabulku zdroju lze ukladat do kostry, ale nevim je-li to
+nejvhodnejsi, napad :-) mozna jo..
+
+
+
+ad default zdroj:
+Mam takovou vizi: Toolbar (paleta) aktivnich prvku pro kazdy zdroj
+zvlast. Uzivatel si vibere ktere toolbary (datove zdroje) chce
+videt, kde je chce mit na obrazovce. S default zdrojem se to
+nevylucuje, ten se tez bude hodit.
+
+
+
+Sirotci jsou fajn oznaceni :) Pro odstraneni sirotku bych pridal
+moznost s potvrzovanim (analogie text replace dialogu).
+
+
+
+ad &quot;z&#225;suvka, ke kter&#233; je p&#345;ipojen, tento typ prvku nepodporuje&quot;:
+Dalo by se zakazat prirazeni nevhodneho zdroje k prvku.
+Predpokladam, ze vystup ze zasuvek bude pres nekolik &quot;interfaceu&quot; a
+kazdy prvek bude ocekavat konkretni interface na svem vstutpu. Tedy
+zname podporovane interfacy u zasuvky a ocekavany interface prvku.
+
+
+prvky A1 podporovane vsemi zasuvkami myslim ze spis asi nebudou
+
+
+Navrhuji archytekturu jadro/zasuvky:
+Zasuvky pouze zpristupnuji data.
+Jadro LMRA nad daty ziskanymi ze zasuvek vyvolava uzivatelske
+dialogy, provadi trideni a filtry aktivnich prvku. Tedy zasuvky
+maji za ukol predesim vratit vsechny &quot;objekty&quot; zvoleneho typu. A
+kazdy objekt opatrit identifikatorem.
+
+
+pretahovani z kostry do kostry, rekapitulace :)
+mohlo by exitovat nekolik moznosti jak prenaset
+- prenest i se zdrojem
+- pokusit se zmenit zdroj na deufaultni prip. zvoleny
+- vymazat zdroj
+
+
+
+relativni adresace zdroju:
+Nebo by slo zdroje adresovat relativne pomoci nejakeho
+identifikatoru. Pak by se dal globalne zmenit konkretni zdroj
+odpovidajici danemu identifikatoru a odkazy v prvcich by mohly
+zustat nezmenene.
+
+
+idetifikace zdroju:
+Nejsnaze bych to videl tak, ze zasuvka po pripojeni zdroje vrati
+nejaky retezec, kteremu zbytek programu vubec nebude rozumnet. Ale
+bude ho umet uchovat. Pri dotazech program zasuvce posle tento
+retezec a zasuvka podle nej zdroj urci. Pravdepodobne bude stacit,
+aby retezec obsahoval uplnou cestu k souboru nebo ODBC connection
+string.
+
+
+
+Pro Kodyho: Myslim, ze je to dobra prace. Hlavne se mi libila
+struktura: zformulovani problemu -&gt; navrhy reseni.
+
+
+honza
+
+----- P&#366;VODN&#205; ZPR&#193;VA -----
+Od: &quot;Jan Kodym&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">jan.kodym at post.cz</A>&gt;
+Komu: &quot;Projekt LM-RA&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">reportasistent-list at lists.berlios.de</A>&gt;
+P&#345;edm&#283;t: [Reportasistent-list] zasuvky a datove zdroje
+Datum: 22.2.2006 - 20:32:11
+
+&gt;<i> Ahojte,
+</I>&gt;<i> dal jsem na web ten svuj dokument.
+</I>&gt;<i> 
+</I>&gt;<i>
+</I><A HREF="http://reportasistent.berlios.de/dokumenty/Zasuvky_a_datove_zdroje_v0_1.doc">http://reportasistent.berlios.de/dokumenty/Zasuvky_a_datove_zdroje_v0_1.doc</A>
+&gt;<i> 
+</I>&gt;<i> Nekolik veci:
+</I>&gt;<i> - da se predpokladat, ze nad nekterejma dokumentama se bude
+</I>&gt;<i> - diskutovat a 
+</I>&gt;<i> pripadne v nich neco menit. Proto by bylo asi vhodny zacit u
+</I>&gt;<i> dokumentu 
+</I>&gt;<i> uvadet i jejich verzi. Tomu svymu jsem pridelil verzi 0.1 tak
+</I>&gt;<i> kdybyste 
+</I>&gt;<i> tam nekdo neco predelaval, klidne to hodte na web, akorat
+</I>&gt;<i> opravte cislo 
+</I>&gt;<i> verze (a muzete se tami podepsat :-)
+</I>&gt;<i> - k tomu dokumentu samotnymu - mozna je to trochu ukecany,
+</I>&gt;<i> - mistama jsem 
+</I>&gt;<i> vpodstate &quot;premejslel tak, ze jsem zaroven psal&quot; takze jeto
+</I>&gt;<i> spis takova 
+</I>&gt;<i> uvaha :-) Casto se tam vyskytujou fraze typu &quot;Program by mohl
+</I>&gt;<i> ...&quot; nebo 
+</I>&gt;<i> &quot;Mozna by bylo vhodne, kdyby ...&quot;. Pocitam s tim, ze az se
+</I>&gt;<i> domluvime, 
+</I>&gt;<i> prepisu tyhle casti do formy &quot;Program bude ...&quot; aby kvuli tomu 
+</I>&gt;<i> nevznikaly problemy a bylo jasny, na cem jsme se teda nakonec
+</I>&gt;<i> domluvili.
+</I>&gt;<i> 
+</I>&gt;<i> Jinak chcete se teda zejtra sejit bez Martina? A vubec - ten
+</I>&gt;<i> predchozi 
+</I>&gt;<i> dnesni mail jsem omylem posilal na jinou adresu 
+</I>&gt;<i> (<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">reportasistent-list-admin at lists.berlios.de</A> misto 
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">reportasistent-list at lists.berlios.de</A>) a nevim, jak to funguje.
+</I>&gt;<i> Prisel vam?
+</I>&gt;<i> 
+</I>&gt;<i> Mejte se
+</I>&gt;<i> 
+</I>&gt;<i> Kody
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Reportasistent-list mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">Reportasistent-list at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="http://lists.berlios.de/mailman/listinfo/reportasistent-list">http://lists.berlios.de/mailman/listinfo/reportasistent-list</A>
+</I>&gt;<i> 
+</I>
+
+
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000023.html">[Reportasistent-list] Fwd: Reportasistent-list post from martin.chrz at email.cz requires approval
+</A></li>
+	<LI>Next message: <A HREF="000025.html">[Reportasistent-list] zasuvky a datove zdroje
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#24">[ date ]</a>
+              <a href="thread.html#24">[ thread ]</a>
+              <a href="subject.html#24">[ subject ]</a>
+              <a href="author.html#24">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/reportasistent-list">More information about the Reportasistent-list
+mailing list</a><br>
+</body></html>

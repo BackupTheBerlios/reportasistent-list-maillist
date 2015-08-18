@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Reportasistent-list] beta3
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/reportasistent-list/2006-July/index.html" >
+   <LINK REL="made" HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20beta3&In-Reply-To=%3C44C08E51.4080103%40post.cz%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000087.html">
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Reportasistent-list] beta3</H1>
+    <B>Jan Kodym</B> 
+    <A HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20beta3&In-Reply-To=%3C44C08E51.4080103%40post.cz%3E"
+       TITLE="[Reportasistent-list] beta3">jan.kodym at post.cz
+       </A><BR>
+    <I>Fri Jul 21 10:20:34 CEST 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000087.html">[Reportasistent-list] beta3
+</A></li>
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#88">[ date ]</a>
+              <a href="thread.html#88">[ thread ]</a>
+              <a href="subject.html#88">[ subject ]</a>
+              <a href="author.html#88">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ahoj,
+ Ferdovska zasuvka by mela bejt nezavisla na adresari. Zkousel jsem ted 
+tu betaverzi a funguje mi. Pokud by byl problem s adresarem, vubec by se 
+nepripojila. Jestli ti fungovala a najednou prestala vracet data, tak 
+bud tam zadny data nebyly :-) nebo pravdepodobne odesel jeden z tech Ice 
+procesu. Pokud mas to standardni nastaveni ferdy bez ty sluzby (tj. ve 
+FrontEndConfig.xml je &lt;StopIceGridLocaly&gt;true&lt;/StopIceGridLocaly&gt;) tak 
+zavreni jakyhokoliv zdroje ukonci ty procesy, ktery ale pouzivaj i ty 
+ostatni otevreny zdroje a prestane to vracet data. Nebo jestli jsi treba 
+nemel soubezne s tim otevrenyho Ferdu a pak jsi ho zavrel.
+(Tak ted jsem si s tim chvili hral, nastavil jsem tu sluzbu a taky mi to 
+nic nevracelo. Dokonce uplne odesel Ferda a musel jsem ho reinstalovat. 
+Je s tim docela sranda. Ale zkus ten srandovni navod, jak jsem ti vcera 
+psal. Odinstaluj sluzbu, pust Ferdu normalne. Pritom se presvedci, ze 
+bezi iceboxnet.exe, nekdy nabehne Ferda i bez nej, to je pak vlevo dole 
+v tom strome jen jedna polozka. Pak killni icegridnode.exe, zavri Ferdu, 
+on zbuchne...nainstaluj sluzbu, nastav konfiguracni soubor ... a uz mi 
+to beha :-))) Ale overil jsem si, ze to neni nejakou zavislosti na 
+adresari.
+
+Jo a zkousel jsem to &quot;&lt;&lt;refresh&quot; u text stylu a zbuchlo mi to taky..
+
+Mejte se
+
+Kody
+ 
+
+honza dedek napsal(a):
+&gt;<i> Ahoj tak snad mame treti betu.
+</I>&gt;<i>
+</I>&gt;<i> Ke stazeni na:
+</I>&gt;<i> <A HREF="http://developer.berlios.de/project/showfiles.php?group_id=4999">http://developer.berlios.de/project/showfiles.php?group_id=4999</A>
+</I>&gt;<i>
+</I>&gt;<i> Jsou tam snad funkcni obe zasuvky.
+</I>&gt;<i> Dal jsem tam ukazkove ferdovske projekty 
+</I>&gt;<i> (lmra_beta3\ReportAsistent\FEProjects).
+</I>&gt;<i> Vypada to, ze je to konecne nezavisle no adresari ve kterem to bezi (trochu 
+</I>&gt;<i> jsem predelal LMplugin).
+</I>&gt;<i> A je tam ten kousek dokumentace, co mame.
+</I>&gt;<i>
+</I>&gt;<i> Tak to ted trochu testuju a Ferdovska zasuvka mi pretala vracet data. No 
+</I>&gt;<i> snad je chyba na me strane..
+</I>&gt;<i> A asi to u Ferda zasuvky s tou nezavislosti na adresari nebude tak horky :-)
+</I>&gt;<i>
+</I>&gt;<i> A az budete psat Rauchovi nebo s nim mluivit:
+</I>&gt;<i> Mohl by u sebe na pocitaci znovu zkusit to &quot;&lt;&lt;refresh&quot; tlacitku u text stylu 
+</I>&gt;<i> v dilaogu pro attr_link?
+</I>&gt;<i> ..posledne to na tom spadlo tusim.
+</I>&gt;<i>
+</I>&gt;<i> Jo a kdyz by nefungovalo gerovani do wordu tak zkuste starej
+</I>&gt;<i> lmra_beta2\VB-LMRA_WordLoader\LMRA_WordLoader.exe
+</I>&gt;<i> prepsat novym. Treba to zabere :-)
+</I>&gt;<i>
+</I>&gt;<i> honza
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Reportasistent-list mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">Reportasistent-list at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="http://bat.berlios.de/mailman/listinfo/reportasistent-list">http://bat.berlios.de/mailman/listinfo/reportasistent-list</A>
+</I>&gt;<i>
+</I>&gt;<i> __________ Informace od NOD32 1.1671 (20060720) __________
+</I>&gt;<i>
+</I>&gt;<i> Tato zprava byla proverena antivirovym systemem NOD32.
+</I>&gt;<i> <A HREF="http://www.nod32.cz">http://www.nod32.cz</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000087.html">[Reportasistent-list] beta3
+</A></li>
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#88">[ date ]</a>
+              <a href="thread.html#88">[ thread ]</a>
+              <a href="subject.html#88">[ subject ]</a>
+              <a href="author.html#88">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/reportasistent-list">More information about the Reportasistent-list
+mailing list</a><br>
+</body></html>

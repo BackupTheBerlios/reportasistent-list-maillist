@@ -1,0 +1,352 @@
+From jan.kodym at post.cz  Tue Jan  2 18:00:45 2007
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Tue, 02 Jan 2007 18:00:45 +0100
+Subject: [Reportasistent-list] obhajoba, prezentace, oponent
+Message-ID: <459A8FBD.1020405@post.cz>
+
+Ahojte,
+myslim, ze je nejvyssi cas zacit myslet na obhajobu projektu. Od 
+odevzdani jsem nedostal zadny zpravy. Nevite uz nekdo neco?
+Neozval uz se oponent s nejakou pripominkou? Musime se taky domluvit, 
+jak to bude s prezentaci - co v ni bude, kdo ji udela a kdo ji bude 
+prezentovat.
+Trochu se mi to tedka zkomplikovalo - byl jsem nastehovan ke svy 
+imobilni babicce a jmenovan jejim osobnim asistentem 24h/d :-/ Takze mam 
+omezenej pristup do Prahy a taky na internet. Pokud mam neco pripravit 
+ohledne obhajoby, cas na to mam, ale potrebuju vedet co presne. Tak se 
+kdyztak prosimvas co nejdriv vyzvejknete a taky pravidelne podavejte 
+hlaseni, kdyby se neco delo. Obcas se na ten net snad dostanu a maily si 
+stahnu.
+Jinak na Znalosti nas neprijali jako clanek do konference - pro 
+zajimavost v priloze posilam recenze na nas clanek, obcas docela soda 
+:-) Nabidli nam prestup do kategorie "prezentace v?zkumn?ch projekt? 
+nebo demoverz? vytvo?en?ho software". Akorat ze deadline finalni verze 
+je 15.1. Meli to vyrozumeni poslat do 18.12. ale prislo mi az dneska. 
+Tak jsem napsal Rauchovi, ze to asi nestihneme predelat...
+Mejte se
+
+Kody
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20070102/b30d4740/attachment.htm>
+
+From martin.chrz at email.cz  Wed Jan  3 21:49:00 2007
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Wed, 03 Jan 2007 21:49:00 +0100 (CET)
+Subject: [Reportasistent-list] obhajoba projektu
+Message-ID: <722.1259-10446-14628365-1167857340@email.cz>
+
+Zdravim vespolek.
+
+Nejdulezitejsi hned na zacatek: obhajoby projektu se bohuzel nakonec nezucastnim, i kdyz jsem byl po Dedove mailu rozhodnut skoleni v praci zrusit a byt tam s vami (rozebirat duvody moji nepritomnosti je asi v tuto chvili zbytecne). Bohuzel priletam zpet az v patek kolem pulnoci. Pevne verim, ze moje absence nikterak neovlivni vysledek obhajoby.
+
+Ja mam tradicne cas na skolu az vecer po praci + vikendy a svatky, nicmene jsem pripraven se maximalne podilet na pripravach prezentace (maximalne = muzu zpracovat temata, na kterych jsem se pri vyvoji podilel). Nechci se poustet solo do vytvareni prezentace (nevim, jestli uz neexistuje nejaky prototyp:) -> mame uz nejaky prvni nastrel, na ktery muzu eventualne navazat? Nedelam si ambice, ze bych nejak pomohl po strance designove:), nicmene do obsahu prispet muzu.
+
+Vypada, ze budu mit v Zeneve na hotelu k dispozici net, takze vecer bych mel byt dostupny porad.
+
+Omlouvam se, ze to takhle dopadlo.
+
+Mejte se.
+
+Martin Chrz
+martin.chrz at email.cz
+
+
+From dedekj at gmail.com  Fri Jan  5 21:04:44 2007
+From: dedekj at gmail.com (Jan Dedek)
+Date: Fri, 5 Jan 2007 21:04:44 +0100
+Subject: [Reportasistent-list] schuzka s alanem
+Message-ID: <7c08ba520701051204r35cb410fg1f866ecab76fe886@mail.gmail.com>
+
+Cau, tak jsem predbezne domluvil s Alanem schuzku na ctvrtek
+dopoledne. Alan muze byt na Male Strane do 13ti hodin. Dejte vedet,
+kdo se s nim chcete setkat, v kolik to bude nejlepsi. Ja mam dopoledne
+volne.
+
+honza
+
+
+From jan.kodym at post.cz  Fri Jan  5 23:12:15 2007
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Fri, 05 Jan 2007 23:12:15 +0100
+Subject: [Reportasistent-list] schuzka s alanem
+In-Reply-To: <7c08ba520701051204r35cb410fg1f866ecab76fe886@mail.gmail.com>
+References: <7c08ba520701051204r35cb410fg1f866ecab76fe886@mail.gmail.com>
+Message-ID: <459ECD3F.7010100@post.cz>
+
+Ja prijdu, pokud to bude ve ctvrtek dopoledne, tak muzu kdykoliv.
+
+Kody
+
+Jan Dedek napsal(a):
+> Cau, tak jsem predbezne domluvil s Alanem schuzku na ctvrtek
+> dopoledne. Alan muze byt na Male Strane do 13ti hodin. Dejte vedet,
+> kdo se s nim chcete setkat, v kolik to bude nejlepsi. Ja mam dopoledne
+> volne.
+>
+> honza
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+> __________ Informace od NOD32 1958 (20070105) __________
+>
+> Tato zprava byla proverena antivirovym systemem NOD32.
+> http://www.nod32.cz
+>
+>
+>
+>   
+
+
+From dedekj at gmail.com  Mon Jan  8 13:42:55 2007
+From: dedekj at gmail.com (Jan Dedek)
+Date: Mon, 8 Jan 2007 13:42:55 +0100
+Subject: [Reportasistent-list] SW projekt Report Asistent
+In-Reply-To: <45A2130A.1010901@mff.cuni.cz>
+References: <7c08ba520612210733y3b18d955y8cfe4c8317639764@mail.gmail.com>
+	<459E6A79.1080301@mff.cuni.cz>
+	<7c08ba520701050804k2eafc901i5a3193c3d846d527@mail.gmail.com>
+	<7c08ba520701050817o3326ba86yf8932dd0e160ef64@mail.gmail.com>
+	<459E7D43.4000805@mff.cuni.cz>
+	<7c08ba520701050850g2c5ed5afpb2a2df152c30e6d8@mail.gmail.com>
+	<45A2130A.1010901@mff.cuni.cz>
+Message-ID: <7c08ba520701080442g140c452fp6c1b34c619c7c1b0@mail.gmail.com>
+
+Ahoj,
+schuzka ve ctvrtek by se nam nejlepe hodila od desti hodin. Vyhovuje?
+
+Na to procisteni kodu se jeste podivam.. Myslim, ze kdyz by na tom po
+nas (po me) mel nekdo pracovat, tak bych se trochu stydel. Hlavne
+vymazat ty zakomentovany veci..
+Ve ctvrtek bych na to mel mit cas..
+
+Kod jsme se snazili psat anglicky, ale na nekolika mistech (mozna
+podvedome) se cestina vloudila. Komentare v kodu jsou napul ceske.
+Osobne se v anglickych komentarich obcas ztracim, tak je to asi hlavne
+moje vina. Ze zacatku byl plan je pak prelozit..
+
+Nedokazali jsme vcas ukoncit vyvoj a ladeni a na nektere veci uz
+nezbyl cas. To je jedno z pouceni z projektu. Na druhou stranu myslim,
+ze veci ktere jsme nedotahly nejsou tak vazne. Pokud na RA bude chtit
+nekdo dal pracovat, bude se muset mene srozumitelnymi castmi kodu
+probojovat. Snad jich neni moc. Zda se mi, ze nazvy identifikatoru
+jsou celkem vystizne a mnoho mist je i dobre komentovanych.
+Sikovnejsimu programatorovi (prumernemu na MFF :-) by snad mohla jedna
+konzultace (nebo nekolik kratsich kozultaci) stacit, aby dal mohl
+samostatne RA rozvijet. Uvidime, az / jestli k tomu dojde..
+
+Zatim ahoj.
+honza
+
+
+2007/1/8, Alan Eckhardt <alan.eckhardt at mff.cuni.cz>:
+> Ahoj,
+> tak jsem si stahnul ty zbyle soubory a uz to bezi dobre.
+> Jedina vec je, jak jsi sam napsal, ty komentare v kodu. Moc se mi
+> nelibi, ze kod je psany castecne anglicky a castecne cesky, i kdyz
+> dokumentace na papire je anglicky. Navic jste zjevne nedelali nejake
+> cisteni kodu, protoze hodne z kodu je zakomentovano a jsou tam takove ty
+> komentare typu //??Jaky mam dat format??  apod.
+> Jako neni to extra kriticky nedostatek, nicmene to jsou veci, kterych si
+> clovek hned vsimne. Nevim, jestli to chcete prepisovat - na jednu stranu
+> by to bylo urcite dobre, na druhou to zaverecne cisteni kodu vyzaduje
+> jistou peclivost a tudiz vic casu. Muzeme to probrat v ten ctvrtek.
+> Kazdopadne to neni vec, za co by se vyhazoval projekt. Ta dokumentace na
+> papire je dobra a dostacujici pro nove pluginy, akorat v chybovych
+> hlaskach je par preklepu. Ty komentare v kodu budou vadit lidem, kteri
+> by na tom delali po vas.
+> Az na ty komentare a nekonzistence v anglickych a ceskych nazvech a
+> komentarich, ted po uspesne kompilaci, je to v pohode. Jako pracuje to
+> dobre, dokonce jsem si vyzkousel vytvorit novou hypotezu v 4ft-Mineru a
+> pouzit na to vasi ukazkovou sablonu a v pohode.
+>     Zdravi
+>            Alan
+>
+> Jan Dedek napsal(a):
+> > Ahoj, Holenu  uz jsem vzdal, tolik casu, kolik by me to stalo, tomu
+> > ted nedam. Napisu mu omluvu a ze bych se prisel jen podivat, jak se s
+> > tim ostatni vyporadali..
+> >
+> > A k tem warningum - v labu jich to vyhodi trochu vic.. Hlavne LMplugin.
+> >
+> > Taky jsme moc nedali komentarum CPPdoc, ale myslim, ze to neni tak
+> > dulezita vec. Misto toho jsme se zamerili spis na tistenou
+> > dokumentaci. To by mohlo pomoct, kdyz by to treba jednou nekdo chtel
+> > rozsirit o zasuvku nebo aktivni prvek..
+> >
+> > Do obhajoby by se to pripadne dalo jeste trochu CPPdoc okomentovat..
+> >
+> > Cau honza.
+>
+
+
+From iva.bartunkova at gmail.com  Tue Jan  9 13:56:20 2007
+From: iva.bartunkova at gmail.com (Iva Bartunkova)
+Date: Tue, 9 Jan 2007 13:56:20 +0100
+Subject: [Reportasistent-list] prezentace
+Message-ID: <b1503eb40701090456x6b75bae3u26d6123c23e552e4@mail.gmail.com>
+
+Ahojky,
+
+hruba verze prezentace je na SVN v Dokumenty/LM-Report Asistent.ppt.
+Vylepsete a upravte co jen se vam libi. Ja povazuji za nutne vylepsit slidy
+:What is LMRA a rozsiritelnost  LM-RA.
+
+Iva
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20070109/adc9e994/attachment.html>
+
+From martin.chrz at email.cz  Mon Jan 15 10:59:13 2007
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Mon, 15 Jan 2007 10:59:13 +0100 (CET)
+Subject: [Reportasistent-list] oslava uspesneho konce projektu
+Message-ID: <735.1291-24043-901186250-1168855153@email.cz>
+
+Ahoj,
+rad bych vas pozval nejaky vecer do hospody na nejake to jidlo a piti:) Jsem si vedom toho, ze jsem neodvedl zdaleka tolik prace, co vy, takze to muzete brat jako castecnou kompenzaci za vynalozene usili a zaroven podekovani za odvedenou praci. Posilejte prosim navrhy, ktery vecer by vam nejvice sedel, me je to celkem jedno, az na patky v praze byvam. Do zahranici se behem pristich 14 dnu nechystam, dale uz to neni jiste, nicmene prostor mame. Od Kodyho uz mam predbezny termin tuto stredu (17.1.), ale tim nevylucuji pristi tyden. Prosim tedy i Kodyho, aby se vyjadril, pripadne nahodil vic moznych terminu. Potrebuji znat datum dostatecne v predstihu, abych mohl zarezervovat nejaka mista.
+
+Tesim se na navrhy
+
+mejte se
+
+P.S.: misto upresnim az budeme mit termin
+
+Martin Chrz
+martin.chrz at email.cz
+
+
+From dedekj at gmail.com  Tue Jan 16 13:08:00 2007
+From: dedekj at gmail.com (Jan Dedek)
+Date: Tue, 16 Jan 2007 13:08:00 +0100
+Subject: [Reportasistent-list] oslava uspesneho konce projektu
+In-Reply-To: <735.1291-24043-901186250-1168855153@email.cz>
+References: <735.1291-24043-901186250-1168855153@email.cz>
+Message-ID: <7c08ba520701160408s5d911c37haf0163dfa95744c3@mail.gmail.com>
+
+Ahoj!
+Ve stredu nemuzu, ale ve ctvrtek jo a pristi tyden mam zatim vecer
+volno kazdy den.
+
+Jinak, nemyslim si, ze by byla nutna nejaka kompenzace. Tez vam vsem
+chci podekovat za uzasnou a poucnou spolupraci a za to, ze to mame
+doma :-) Pozvani rad prijimam a tesim se, ze si hlavne s Martinem po
+dlouhe dobe trochu popovidame o necem jinem nez o projektu.
+
+Hezky den!
+honza
+
+2007/1/15, martin.chrz at email.cz <martin.chrz at email.cz>:
+> Ahoj,
+> rad bych vas pozval nejaky vecer do hospody na nejake to jidlo a piti:) Jsem si vedom toho, ze jsem neodvedl zdaleka tolik prace, co vy, takze to muzete brat jako castecnou kompenzaci za vynalozene usili a zaroven podekovani za odvedenou praci. Posilejte prosim navrhy, ktery vecer by vam nejvice sedel, me je to celkem jedno, az na patky v praze byvam. Do zahranici se behem pristich 14 dnu nechystam, dale uz to neni jiste, nicmene prostor mame. Od Kodyho uz mam predbezny termin tuto stredu (17.1.), ale tim nevylucuji pristi tyden. Prosim tedy i Kodyho, aby se vyjadril, pripadne nahodil vic moznych terminu. Potrebuji znat datum dostatecne v predstihu, abych mohl zarezervovat nejaka mista.
+>
+> Tesim se na navrhy
+>
+> mejte se
+>
+> P.S.: misto upresnim az budeme mit termin
+>
+> Martin Chrz
+> martin.chrz at email.cz
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+
+
+From iva.bartunkova at gmail.com  Tue Jan 16 17:51:21 2007
+From: iva.bartunkova at gmail.com (Iva Bartunkova)
+Date: Tue, 16 Jan 2007 17:51:21 +0100
+Subject: [Reportasistent-list] oslava uspesneho konce projektu
+In-Reply-To: <7c08ba520701160408s5d911c37haf0163dfa95744c3@mail.gmail.com>
+References: <735.1291-24043-901186250-1168855153@email.cz>
+	<7c08ba520701160408s5d911c37haf0163dfa95744c3@mail.gmail.com>
+Message-ID: <b1503eb40701160851n3884e938sf8e87f428ac340c@mail.gmail.com>
+
+Ahojda,
+
+diky za pozvani, Martine, me se hodi ctvrtek vecer.
+
+Iva
+
+2007/1/16, Jan Dedek <dedekj at gmail.com>:
+>
+> Ahoj!
+> Ve stredu nemuzu, ale ve ctvrtek jo a pristi tyden mam zatim vecer
+> volno kazdy den.
+>
+> Jinak, nemyslim si, ze by byla nutna nejaka kompenzace. Tez vam vsem
+> chci podekovat za uzasnou a poucnou spolupraci a za to, ze to mame
+> doma :-) Pozvani rad prijimam a tesim se, ze si hlavne s Martinem po
+> dlouhe dobe trochu popovidame o necem jinem nez o projektu.
+>
+> Hezky den!
+> honza
+>
+> 2007/1/15, martin.chrz at email.cz <martin.chrz at email.cz>:
+> > Ahoj,
+> > rad bych vas pozval nejaky vecer do hospody na nejake to jidlo a piti:)
+> Jsem si vedom toho, ze jsem neodvedl zdaleka tolik prace, co vy, takze to
+> muzete brat jako castecnou kompenzaci za vynalozene usili a zaroven
+> podekovani za odvedenou praci. Posilejte prosim navrhy, ktery vecer by vam
+> nejvice sedel, me je to celkem jedno, az na patky v praze byvam. Do
+> zahranici se behem pristich 14 dnu nechystam, dale uz to neni jiste, nicmene
+> prostor mame. Od Kodyho uz mam predbezny termin tuto stredu (17.1.), ale
+> tim nevylucuji pristi tyden. Prosim tedy i Kodyho, aby se vyjadril, pripadne
+> nahodil vic moznych terminu. Potrebuji znat datum dostatecne v predstihu,
+> abych mohl zarezervovat nejaka mista.
+> >
+> > Tesim se na navrhy
+> >
+> > mejte se
+> >
+> > P.S.: misto upresnim az budeme mit termin
+> >
+> > Martin Chrz
+> > martin.chrz at email.cz
+> > _______________________________________________
+> > Reportasistent-list mailing list
+> > Reportasistent-list at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/reportasistent-list
+> >
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20070116/d2050c9e/attachment.html>
+
+From jan.kodym at post.cz  Tue Jan 16 18:15:56 2007
+From: jan.kodym at post.cz (=?us-ascii?Q?Jan=20Kodym?=)
+Date: Tue, 16 Jan 2007 18:15:56 +0100 (CET)
+Subject: [Reportasistent-list] oslava konce projektu
+Message-ID: <1831.3330-14987-1352316812-1168967746@post.cz>
+
+Ahojte,
+jelikoz jste se vsichni shodli s oslavou na tento ctvrtek a i mne to celkem vyhovuje, budiz tedy oslava tento ctvrtek. Misto a cas srazu jeste Martin upresni, podle toho, jakej podnik vybere a na kdy da rezervaci. Uz se na vas tesim, az se konecne sejdem a nebudem muset resit, kde zase neco hori nebo nefunguje :-)
+
+Kody
+
+
+From martin.chrz at email.cz  Tue Jan 16 22:49:39 2007
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Tue, 16 Jan 2007 22:49:39 +0100 (CET)
+Subject: [Reportasistent-list] oslava konce projektu
+Message-ID: <736.1291-13473-990038112-1168984179@email.cz>
+
+Ahoj,
+
+na tento ctvrtek, tedy 18.1.2007, jsem nam rezervoval stul v Pivnici U Lazanskych (muzete kouknout sem: http://www.restaurantparnas.cz/pivnice/ ). Rezervace je na 18:30, takze navrhuji sraz tak 10 minut predem pred kavarnou Slavie (naproti Narodnimu divadlu).
+
+Tesim se na vas.
+
+
+Martin Chrz
+martin.chrz at email.cz
+
+

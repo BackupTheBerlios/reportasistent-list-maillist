@@ -1,0 +1,556 @@
+From jan.kodym at post.cz  Sun Aug 13 11:00:35 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Sun, 13 Aug 2006 11:00:35 +0200
+Subject: [Reportasistent-list] ElementReportDialog
+Message-ID: <44DEEA33.5060602@post.cz>
+
+Ahojte,
+ kdo z vas pridal do projektu soubory ElementReportDialog.cpp a 
+ElementReportDialog.h , zrejme je zapomnel pridat na SVN, kvuli cemuz 
+ted LM-RA nejde prelozit. Prosim vas, abyste tak co nejdriv ucinili :-)
+
+Kody
+
+
+From iva.b at volny.cz  Mon Aug 14 11:30:14 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Mon, 14 Aug 2006 11:30:14 +0200 (CEST)
+Subject: [Reportasistent-list] reportdialog.cpp
+Message-ID: <7518af2169e839283968ee3262a862f6@www6.mail.volny.cz>
+
+Cus, moc se omlouvam.. je to zrejme moje chyba. Domu dorazim dneska vecer,
+pak to hnedky opravim.
+
+Iva
+
+
+-- 
+P?ipojte se s VOLN? ADSL ji? od 389 K? a z?skejte skv?l? d?rek ? t?eba
+p?ehr?va? MP3. ??dn? zpomalov?n? rychlosti a aktivace zdarma. U?ijte
+si lep?? internet s VOLN?. http://adsl.volny.cz/adsl/
+
+
+From honza.dedek at volny.cz  Tue Aug 15 00:58:02 2006
+From: honza.dedek at volny.cz (honza dedek)
+Date: Tue, 15 Aug 2006 00:58:02 +0200
+Subject: [Reportasistent-list] skeleton DTD
+Message-ID: <000501c6bff5$19f97770$6601a8c0@pcdedek>
+
+Ahoj, trochu jsem rozsiril moznosti generovani do Wordu. Oceni to asi hlavne 
+Kody.
+
+Pribylo:
+
+atribut bgcolor elementu <graph> - umoznuje nastavit barvu pozdi grafu
+atribut color elementu <chart> - umoznuje nastavit barvu sloupcu grafu
+atribut color elementu <value>  - umoznuje nastavit barvu bodu grafu napr. 
+jedne vysece v kolaci nebo jedineho sloupce
+
+atributy border_top, border_bottom, border_left, border_right elementu 
+<td> - umoznuji nastavit tloustku jednotlivych okraju bunky tabulky
+vyznamne hodnoty resp. tloustky okraje (stejne jako u borderwidth elementu 
+<table>) jsou 0 0,25 0,50 0,75 1,00 1,50 2,25 3,00 4,50 6,00 ..prevzato z 
+Wordu
+
+
+
+A jeste dulezita vec ve stredu zase na tyden odjizdim na hory, tak mezi tim 
+zkuste pohnout s dokumentaci a vubec.. Jestli to do 7.9. chcem odevzdat tak 
+mame co delat!!
+
+Mejte se!
+honza
+
+
+
+From honza.dedek at volny.cz  Tue Aug 15 08:27:12 2006
+From: honza.dedek at volny.cz (honza dedek)
+Date: Tue, 15 Aug 2006 08:27:12 +0200
+Subject: [Reportasistent-list] skeleton DTD2
+References: <7518af2169e839283968ee3262a862f6@www6.mail.volny.cz>
+Message-ID: <000c01c6c033$dad9cdd0$6601a8c0@pcdedek>
+
+Ahoj, trochu jsem rozsiril moznosti generovani do Wordu. Oceni to asi hlavne
+Kody.
+
+Pro Martina:
+Mylim, ze by v LM zasuvce mel byt jeste jeden AP pro AR2NL. Zkus se na to 
+podivat. Predstavoval bych si ho stejne jako hyp_4ft jen by mel navic ty 
+AR2NL stringy..
+
+
+Pribylo:
+
+atribut bgcolor elementu <graph> - umoznuje nastavit barvu pozdi grafu
+atribut color elementu <chart> - umoznuje nastavit barvu sloupcu grafu
+atribut color elementu <value>  - umoznuje nastavit barvu bodu grafu napr.
+jedne vysece v kolaci nebo jedineho sloupce
+
+atributy border_top, border_bottom, border_left, border_right elementu
+<td> - umoznuji nastavit tloustku jednotlivych okraju bunky tabulky
+vyznamne hodnoty resp. tloustky okraje (stejne jako u borderwidth elementu
+<table>) jsou 0 0,25 0,50 0,75 1,00 1,50 2,25 3,00 4,50 6,00 ..prevzato z
+Wordu
+
+
+
+A jeste dulezita vec ve stredu zase na tyden odjizdim na hory, tak mezi tim
+zkuste pohnout s dokumentaci a vubec.. Jestli to do 7.9. chcem odevzdat tak
+mame co delat!!
+
+Mejte se!
+honza
+
+
+
+From jan.kodym at post.cz  Sun Aug 20 19:10:38 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Sun, 20 Aug 2006 19:10:38 +0200
+Subject: [Reportasistent-list] schuzka s Rauchem
+Message-ID: <44E8978E.2050407@post.cz>
+
+Ahojte,
+
+tento tyden (21. - 25. 8.) je Rauch k zastizeni v Praze, pak zase bude 
+az do zari nekde pryc. Mame tedy mozna posledni prilezitost se sejit a 
+seznamit ho se stavem projektu. Myslim, ze sejit se s nim pred 
+odevzdanim (a cim driv, tim lip) je temer nutnost. (Preci jenom taky 
+musi sepsat na projekt posudek, na kterym mimochodem dost zalezi a bylo 
+by hooodne trapny, kdyby ho nemoh napsat, protoze by projekt pred 
+odevzdanim ani nevidel :-).  Zkrakta bysme tam meli zajit, ukazat mu 
+aktualni stav a pripadne ho nechat se vyjadrit a mit jeste nejakej cas 
+ty pripominky zapracovat.
+    Tak se co nejdriv vyzvejknete, kdy byste kdo mohl. Nebylo by od 
+veci, kdybysme se sesli i my v co nejvetsim poctu a dohodli se na finisi 
+projektu. Ja specialne kvuli tomu budu muset jet do Prahy, tak bych 
+uvital, kdyby aspon ti z vas, kteri bydli nebo pracujou v Praze si nasli 
+cas a racili se tam dostavit. Fakt to povazuju za dost dulezity.
+Mejte se a praci zdar :-)
+
+Kody
+
+
+From jan.kodym at post.cz  Fri Aug 25 11:34:56 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Fri, 25 Aug 2006 11:34:56 +0200
+Subject: [Reportasistent-list] aktualni stav - spatna zprava
+In-Reply-To: <OF23DA53D7.4069FCF0-ONC12571D5.001BE825-C12571D5.001D6210@kotelna.vse.cz>
+References: <OF23DA53D7.4069FCF0-ONC12571D5.001BE825-C12571D5.001D6210@kotelna.vse.cz>
+Message-ID: <44EEC440.2060309@post.cz>
+
+
+Ahojte,
+tak to bohuzel vypada, ze zarijovej termin je v haji :-( Rauch dneska 
+odjizdi, vraci se az tesne pred obhajobou a projekt momentalne neni v 
+takovym stavu, aby si mohl dovolit ho jako vedouci pripustit k obhajobe 
+(aniz by ho mel predtim (hotovej) dukladne otestovanej a vyzkousenej), i 
+kdyby se nam ho jeste povedlo nejak dodelat do odevzdatelny podoby. I 
+kdyz se mi vcera nakonec podarilo po dlouhejch pataliich problem s 
+databazi u Raucha vyresit, ukazalo se, ze projekt obsahuje spoustu 
+slabin, o kterejch nemame tuseni a je potreba je vychytat pri poradnym 
+testovani, coz nevim, jak bysme pri soucasny konstelaci zvladli - to by 
+ten zaver musel vypadat jinak  ...
+Rad bych, aby i nadale byla snaha to dodelat co nejdriv. Dalsi obhajoby 
+jsou nekdy pred Vanocema a nerad bych v pulce prosince resil stejny 
+problemy jako ted. Taky by nebylo od veci se nekdy sejit a urcity veci 
+probrat - komplet, pripadne i s Rauchem. Co si tak vzpominam, v plny 
+sestave jsme se nesesli uz tak pul roku ...
+Doufam, ze to pro nikoho z vas nebude znamenat nejaky vazny studijni 
+komplikace ...
+
+Mejte se
+
+Kody
+
+p.s. tady mate vytazek s moji konverzace s Rauchem + jeho finalni vyjadreni
+
+
+Jan Rauch napsal(a):
+> Vcera se mi nepodarilo odeslat reakci
+> na predposledni mail - nevim proc to neodeslo.
+> Pred chvili jsem to poslal znovu, snad to dojde.
+>
+> Reagovat na tuto novou betaverzi se pokusim v prubehu dne
+> ale uz moc casu nemam.
+>
+> Situaci vidim takto:
+>
+> LMRA po doladeni toho co jsem posledne videl bude splnovat
+> co jsem od nej ocekaval.
+>
+> K odevzdani projektu byl na jare treba muj souhlas ze je OK,
+> predpokladam  ze ted bude potreba souhlas taky.
+>
+> Vratim se do prace 5.9.  rano (s malou pravdepodobnosti  6. nebo 7.9.)
+> a budu zahlcen spoustou prace ktera
+> mi neumozni dostatecne protestovat projekt.
+> I kdybych v te dobe nemel nic jineho na praci tak je to je asi
+> nestihnutelne.
+>
+> Je tedy temer jiste ze projekt nebude mozno odevzdat  7.9.
+>
+> Pokud potrebujete zalohove kredity tak neni problem.
+>
+> Navrhuji:
+>
+> 1)
+> Dodelat projekt co nejdrive ale bez sturmovani.
+> Idealni by bylo kdybych ho mohl v rijnu nabidnout na
+> vyuce k volitelnemu pouziti. To projekt velmi spolehlive otestuje.
+> Mohu ho nabidnout jak na MFF na DBI022
+> tak na V?E na  4IZ460 - Pokrocile pristupy k DZD viz
+> https://pes.vse.cz/main.php?action=PRED_INFO&id_predmetu=4IZ460
+>
+> 2)
+> Zahajit prace na diplomkach
+>
+> 3)
+> Nabidnout jako rozvoj LMRA jeho napojeni na novou versi
+> Ferdy v ramci bakalarske prace (neni-li to prilis malo).
+>
+> 4)
+> Publikovat LMRA na konferenci ZNALOSTI 2007, viz
+> http://www.cs.vsb.cz/znalosti/znal2007/
+> Predpokladani autori - tym + Rauch (jako posledni  spoluautor)
+> muj prispevek by byl v pripomenuti zadani a v navrhu dalsich
+> smeru rozvoje (s cilem sehnat studenty).
+>
+> JR
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>                                                                            
+>              Jan Kodym                                                     
+>              <jan.kodym at post.c                                             
+>              z>                                                       Komu 
+>                                            Jan Rauch <Rauch at vse.cz>        
+>              25.08.2006 00:06                                        Kopie 
+>                                                                            
+>                                                                    P?edm?t 
+>                                            Re: release                     
+>                                                                            
+>                                                                            
+>                                                                            
+>                                                                            
+>                                                                            
+>                                                                            
+>
+>
+>
+>
+> Tak snad se mi podarilo problem s nalezenim spravneho ODBC driveru
+> vyresit ... posilam novou verzi betaverze. Doufam, ze uz bude fungovat ...
+> Budou se zrejme obcas zobrazovat nejake ladici hlasky. V adresari, kde
+> je spustitelny soubor, se vytvori soubor "drivers.txt" se seznamem ODBC
+> driveru a zdroju na Vasem pocitaci. Mohl byste mi jej prosim poslat?
+> Zejmena v pripade, ze program nebude stale fungovat, ale i jinak by pro
+> testovani a vyvoj byl pro nas uzitecny ...
+>
+> S pozdravem
+>
+> J. Kodym
+>
+>
+> Jan Rauch napsal(a):
+>   
+>> Program jsem od te doby restartoval.
+>> Ted jsem navic restartoval pocitac a pak i program.
+>> Pak jsem vymazal vsechny zdroje
+>> a znovu dal Add new sources.
+>> Opet stejne blikne a prida zdroj.
+>>
+>> Za chvili musim odejit, maily budu cist opet vecer.
+>>
+>> JR
+>>
+>>
+>>
+>>
+>>
+>>     
+>
+>   
+>>              Jan Kodym
+>>     
+>
+>   
+>>              <jan.kodym at post.c
+>>     
+>
+>   
+>>              z>
+>>     
+> Komu
+>   
+>>                                            Jan Rauch <Rauch at vse.cz>
+>>     
+>
+>   
+>>              24.08.2006 16:20
+>>     
+> Kopie
+>   
+>
+>   
+> P?edm?t
+>   
+>>                                            Re: release
+>>     
+>
+>   
+>
+>   
+>
+>   
+>
+>   
+>
+>   
+>
+>   
+>
+>   
+>>
+>>
+>> Aha, to cervene je WaitDialog. Obsahuje tlacitka na ukonceni
+>> nebo odstrihnuti vlakna operace a navrat do programu. To uvede program
+>> do "nouzoveho stavu" a je mozne, ze stejna operace provadena nasledne
+>> narazi na nejake problemy.
+>> Pokud jste od te doby co jste toto "odklikl" program nerestartoval,
+>> zkuste tak prosim ucinit, pripadne restartovat pocitac (mohly zustat
+>> viset nejake procesy).
+>> Kdyby to nebylo timto, zkuste odstranit ze seznamu vsechny zdroje a pak
+>> vytvorit novy, co se stane.
+>>
+>> JK
+>>
+>> Jan Rauch napsal(a):
+>>
+>>     
+>>> Alt+Tab nepomuze, nic se neotevre.
+>>>
+>>> Blikne tam neco cerveneho. Myslim ze kdyz jsem to otviral uplne poprve
+>>>
+>>>       
+>> tak
+>>
+>>     
+>>> jsem (mozna trochu zbrkle) neco odkliknul - mohlo to byt vytvoreni
+>>>       
+> zdroje
+>   
+>>> kterym buhviproc byl ten slesinger co tam je. To cervene typuju na
+>>>
+>>>       
+>> klikaci
+>>
+>>     
+>>> hledani zdroje.
+>>>
+>>> Jinak musim zitra dopoledne do skoly tak se tam muzem pripadne setkat.
+>>> Ale potom odpoledne balim a odjizdim do Tater ... .
+>>>
+>>> JR
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>       
+>>     
+>>>              Jan Kodym
+>>>
+>>>       
+>>     
+>>>              <jan.kodym at post.c
+>>>
+>>>       
+>>     
+>>>              z>
+>>>
+>>>       
+>> Komu
+>>
+>>     
+>>>                                            Jan Rauch <Rauch at vse.cz>
+>>>
+>>>       
+>>     
+>>>              24.08.2006 15:42
+>>>
+>>>       
+>> Kopie
+>>
+>>
+>>
+>> P?edm?t
+>>
+>>     
+>>>                                            Re: release
+>>>
+>>>       
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>     
+>>> Zkousel jsem to na pocitaci s "uplne cistymi" Win XP SP1 a dialog pro
+>>> vyber souboru se mi zobrazil ... jeste je take mozne, ze nastala chyba a
+>>> dialog se nezobrazi uplne na vrchu, ale nekde vzadu. Zkuste prosim
+>>> prepnout napr. pomoci Alt+Tab.
+>>> Velmi cenna by pro me byla informace, jak se tam dostal prvni zdroj
+>>> D:\slesinger\pkdd2003.mdb
+>>> Predtim se Vam nekdy podarilo tento zdroj nastavit? Od te doby se neda
+>>> vytvorit jiny ale vzdy se rovnou vytvori tento? Chtel jste si vytvorit
+>>> prave tento zdroj nebo se tam "nejak uplne sam" vytvoril?
+>>>
+>>> JK
+>>>
+>>> Jan Rauch napsal(a):
+>>>
+>>>
+>>>       
+>>>> Viz priloha
+>>>> JR
+>>>>
+>>>> (See attached file: Pokus LMRA Beta 4.doc)
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>         
+>>>>              Jan Kodym
+>>>>
+>>>>
+>>>>         
+>>>>              <jan.kodym at post.c
+>>>>
+>>>>
+>>>>         
+>>>>              z>
+>>>>
+>>>>
+>>>>         
+>>> Komu
+>>>
+>>>
+>>>       
+>>>>                                            Jan Rauch <Rauch at vse.cz>
+>>>>
+>>>>
+>>>>         
+>>>>              24.08.2006 14:43
+>>>>
+>>>>
+>>>>         
+>>> Kopie
+>>>
+>>>
+>>>
+>>> P?edm?t
+>>>
+>>>
+>>>       
+>>>>                                            Re: release
+>>>>
+>>>>
+>>>>         
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>       
+>>>> Zvlastni, neotevre se dialog "Vybrat databazi"? Na obrazku bohuzel
+>>>> nevidim cele persist_ID (D:\slesinger\) kam vede ta cesta? Vede k
+>>>> metabazi? Pokud ano, jak se Vam ji podarilo nastavit jinak nez ze se
+>>>> otevrel dialog "Vybrat databazi"?
+>>>>
+>>>> JK
+>>>>
+>>>> Jan Rauch napsal(a):
+>>>>
+>>>>
+>>>>
+>>>>         
+>>>>> Kdyz v tomto okne
+>>>>> (Embedded image moved to file: pic13359.jpg)
+>>>>>
+>>>>>
+>>>>> kliknu na Add new source tak
+>>>>> mne to nenecha nikam doklikat ale rovnou
+>>>>> prida novy zdroj
+>>>>>
+>>>>> JR
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>
+>>>>>           
+>>>> __________ Informace od NOD32 1.1721 (20060823) __________
+>>>>
+>>>> Tato zprava byla proverena antivirovym systemem NOD32.
+>>>> http://www.nod32.cz
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>         
+>>> __________ Informace od NOD32 1.1723 (20060824) __________
+>>>
+>>> Tato zprava byla proverena antivirovym systemem NOD32.
+>>> http://www.nod32.cz
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>       
+>>
+>> __________ Informace od NOD32 1.1723 (20060824) __________
+>>
+>> Tato zprava byla proverena antivirovym systemem NOD32.
+>> http://www.nod32.cz
+>>
+>>
+>>
+>>
+>>     
+> [p??loha lmra_beta4.zip odstran?na u?ivatelem Jan Rauch/KIZI/VSE]
+>
+>
+> __________ Informace od NOD32 1.1723 (20060824) __________
+>
+> Tato zprava byla proverena antivirovym systemem NOD32.
+> http://www.nod32.cz
+>
+>
+>
+>   
+
+

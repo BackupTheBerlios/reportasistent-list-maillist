@@ -1,0 +1,366 @@
+From jan.kodym at post.cz  Fri Apr  7 14:24:32 2006
+From: jan.kodym at post.cz (=?us-ascii?Q?Jan=20Kodym?=)
+Date: Fri, 07 Apr 2006 14:24:32 +0200 (CEST)
+Subject: [Reportasistent-list] =?us-ascii?Q?Referat=20z=20dnesni=20obhajoby=20projektu?=
+Message-ID: <957.1589-17519-2037105829-1144412672@post.cz>
+
+Mili kolegove :-)
+Tak jsem se byl dneska podivat na obhajobe projektu, abych videl, jak takova vec vypada. Vydrzel jsem tam na prvni tri projekty a musim rict, ze asi dneska moc dobre spat nebudu .. :-) Tak se s vami aspon trochu o ten zazitek podelim, abyste vedeli, co nas ceka.
+Sesla se komise ve slozeni Zavoral (predseda), Yaghob, Bednarek, Holan a Lukes.
+Jako prvni obhajovali nejakej lingvistickej projekt ohledne morfologie, ci co. To vypadalo docela vpohode. Projev vedouci byl v tom smyslu, ze to funguje, nepada, bude se pouzivat na UFALu a pripadny veci se doresi. Oponent byl nejakej chlapik z UFALu, tak tam vypravel, jak se to snazil vsemozne shodit a ze to je docela stabilni a tak. Pak mel nejaky vyhrady k dokumentaci. (Jak se pozdeji ukazalo, to je asi obligatni). Projekt obhajen bez bodu navic.
+No a pak prisel na radu Ferda..
+Prezentace probehla vpohode. Prisel tam Rauch a vytahnul nejaky dve vytisknuty a svazany bichle (uzivatelskou a programatorskou dokumentaci), cimz, jak se pozdeji ukazalo, jim to pekne zavaril. 
+Projev Raucha byl v rovine takovy spis obecny o vyznamu toho projektu. Zatrnulo mi, kdyz zacal rikat, jak mu to obcas padalo, ale dodal, ze to vzdycky vyresili. Mrazova mluvila v tom smyslu, ze se ji to libi, akorat by to mohlo bejt prehlednejsi, pac u vetsich projektu je ta plocha zaplacana a chtelo by to treba nejakou funkci na sbaleni a rozbaleni urcitejch casti. Predtim jeste zacala rikat neco o tom, ze nevyhodou Ferdy je to, ze je na hodne nizky urovni (mi taky trochu zatrnulo) ale pak z toho vylezlo to, ze "nizkou urovni" se nemysli nizka kvalita, ale prace na urovni sloupcu tabulek, atributu atd.
+Jeste v prubehu prezentace mavnul Holan na Raucha, jestli si muze pujcit tu vytistenou dokumentaci. Zacal v tom listovat s Lukesem a kdyz na konci byl prostor pro dotazy, zeptal se Lukes, v cem to tiskli. Ze prej to, ze nadpisy zacinaj na konci stranky, je jeste bezny, ale aby pulka obrazku byla na jedny strance a pulka na druhy, to uz je blby. Nasledne se rozvinula bourliva debata o zoufalosti Ferdovsky dokumentace, ktera ma formu sborniku nezavislejch clanku, pricemz nektery jsou cesky, nektery anglicky, kazdej ma jinou velikost fontu a obrazky se lamou pres stranku. Uz to vypadalo, ze je za to zadupou do zeme, kdyz se nastesti prihlasil Rauch a rekl jim, ze to neni oficialni tistena dokumentace, ale ze si to jenom on vytisk pro svoji potrebu.
+Pak se radili a slysel jsem hlasky Zavorala typu "uz jsem taky videl diplomku, kdy vedouci navrhoval jednicku a oponent ho chtel vyrazit" atd. Nakonec byl verdikt "obhajeno bez bodu navic". Prej nekdo chtel body navic, nekdo chtel neschvalit. Vytceno jim bylo jednak ta dokumentace a jednak to, ze prej se s tim flakali moc dlouho ... no co k tomu dodat.
+A pak prisel na radu nejakej projekt redakcni system. Delal to Michal Srajer a spol, takze na zakazku pro nejakou velkou firmu. Super prezentace, pekne to vypadalo, psali tam, ze uz to nekde nasadili atd. Jejich vedouci je nekde v Americe, tak poslal posudek a cetl ho Yaghob. To jsem teda ziral. Prej ze to je totalne nevyzkouseny, netestovany, nedoladeny, nehodi se na realny nasazeni ... a uz pri testovani s 500 dokumentama dlouha odezva, coz teprv az jich tam bude 500000 ...zaver: prej nutno posuzovat ze dvou hledisek - jako studentskej projekt dobry, ale jako realnej blby. Hmmm. Pak povidal Holan jako oponent - ze si k tomu sedl a zacal vymejslet kraviny - scenare typu, co to udela, kdyz ... kdyz deleguju zamestnanci ukol a nedam mu k nemu pristupovy prava ... atd. Zaver - "delal jsem s tim par hodin a nasel dost chyb na to, abych si troufnul to nekam nasadit".
+Jsem radsi zdrhnul, takze verdikt nevim. Kazdopadne jsem dosel k zaveru, ze obhajit projekt neni zadna fraska.
+
+Mejte se
+
+Kody
+
+
+From iva.b at volny.cz  Mon Apr 10 11:10:06 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Mon, 10 Apr 2006 11:10:06 +0200 (CEST)
+Subject: [Reportasistent-list] dalsi verze, dalsi ukoliky
+Message-ID: <c0d47ffdb3cb8137b479c9105edf761d@www1.mail.volny.cz>
+
+Ahojky,
+
+tak do dneska jsme makali na druhe verzi Report Asistenta, takze je
+cas se sejit, zhodnotit a rozhodit ukoly do treti verze.
+
+Navrhuju termin: utery 11.4. v 10:00 v Labu - hodi se me a Dedovi
+
+Dejte vedet, jak muzete
+
+
+Iva
+
+
+
+From martin.chrz at email.cz  Mon Apr 10 14:44:34 2006
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Mon, 10 Apr 2006 14:44:34 +0200 (CEST)
+Subject: [Reportasistent-list] =?us-ascii?Q?Re=3A=20=5BReportasistent=2Dlist=5D=20dalsi=20verze=2C=20dalsi=20ukoliky?=
+In-Reply-To: <c0d47ffdb3cb8137b479c9105edf761d@www1.mail.volny.cz>
+Message-ID: <499.827-23821-796119718-1144673074@email.cz>
+
+Ahoj, ten cas urcite nemuzu, nekdy pozdeji odpoledne, tak od 14 dal je asi OK.
+Martin
+> ------------ P?vodn? zpr?va ------------
+> Od: Iva Bartunkova <iva.b at volny.cz>
+> P?edm?t: [Reportasistent-list] dalsi verze, dalsi ukoliky
+> Datum: 10.4.2006 11:10:46
+> ----------------------------------------
+> Ahojky,
+> 
+> tak do dneska jsme makali na druhe verzi Report Asistenta, takze je
+> cas se sejit, zhodnotit a rozhodit ukoly do treti verze.
+> 
+> Navrhuju termin: utery 11.4. v 10:00 v Labu - hodi se me a Dedovi
+> 
+> Dejte vedet, jak muzete
+> 
+> 
+> Iva
+> 
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+> 
+> 
+
+Martin Chrz
+martin.chrz at email.cz
+
+
+From jan.kodym at post.cz  Mon Apr 10 15:09:20 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Mon, 10 Apr 2006 15:09:20 +0200
+Subject: [Reportasistent-list] schuzka
+Message-ID: <001401c65c9f$fb791610$5d96110a@honzadom>
+
+Ahoj,
+ ja muzu zejtra vpodstate kdykoliv - od cca. 9 rano az do vecera. Akorat bych to potreboval vedet jeste dneska, pac od toho se bude odvijet, kdy pojedu zejtra do Prahy :-)
+Jinak ohledne moji casti - porad se mi nedari rozchodit vsechny potrebny casti Ferdovskyho modulu. Problem je mj. v tom, ze oni u nekterejch casti Ferdy, ktery ja potrebuju implicitne pouzivat, maji natvrdo nastaveny cesty k nejakejm dulezitejm souborum (konfiguraky, knihovny) relativne vuci adresari, kde je nainstalovanej Ferda. Coz je pro me naprd, protoze ja je potrebuju pouzivat v knihovne, ktera musi bejt v adresari Plugin v LM-RA. Dalsi problem je v tom, ze se tam pouzivaj i knihovny, ktery se vytvari az pri instalaci Ferdy, takze aby mohl clovek pouzivat zasuvku pro Ferdu, musi ho mit nainstalovanyho. Atd. Proste musim se tento tyden sejit zase s Michalem a spolecne s nim vymyslet, jak to vyresit. Napriklad jaky casti Ferdy je potreba prelozit spolecne se zasuvkou pro Ferdu, aby to bylo zivotaschopny i v adresari Plugin pripadne bez nainstalovanyho Ferdy. Kostra zasuvky pro ferdu je sice hotova, ale nez se tohle vyresi, zadny data poskytovat nebude. Takze v mym pripade je otazka "co delat dal" asi docela jasna :-)
+
+Mejte se
+
+Kody
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20060410/63c0cc45/attachment.html>
+
+From iva.b at volny.cz  Mon Apr 10 15:34:44 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Mon, 10 Apr 2006 15:34:44 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka
+Message-ID: <ef928a064c48d9cb255dd98e491a2a66@www3.mail.volny.cz>
+
+Ahojda,
+
+tak zitra od 14:00 mi vyhovuje, tak jestli to sedi i Dedovi, tak
+bych to prohlasila za domluveny.
+
+Iva
+
+
+
+From honza.dedek at volny.cz  Mon Apr 10 19:40:11 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 10 Apr 2006 19:40:11 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka
+In-Reply-To: <001401c65c9f$fb791610$5d96110a@honzadom>
+References: <001401c65c9f$fb791610$5d96110a@honzadom>
+Message-ID: <97d34251219e776461138ea75284927d@www2.mail.volny.cz>
+
+Cus zitra 14,00 - OK domluveno.
+
+Ted jeste sepisu, co by mela umet treti - finalni verze, abychom
+zitra mohli vecneji diskutovat. Pak to dam na web do dokument?.
+Kdyz by nekdo chtel kouknout, tak to tam za cca 2 hodky snad
+najde..
+
+Pro Kodyho:
+Problem s aktualnim adresarem by mel jit vyresit docasnym prepnutim
+aktualniho adresare, nebo pridanim potrebnych adresaru do PATH 
+promenne procesu, nebo se pletu?
+
+A jak si predstavujes pouziti zasuvky pro Ferdu bez instalace
+Ferdy? Soubory, s Ferda projektem cist nemame. Tak uz me napada jen
+to ze, si z instalcniho CD Ferdy vydolujes vse co je treba. To mi
+ale hodne pripomina instalaci Ferdy. Tak jak to ma byt? K cemu je
+vubec uzivateli, ze muze pouzivat zasuvku pro program, ktery ani
+nema nainstalovany?
+
+Cau zitra.
+honza
+
+
+
+----- P?VODN? ZPR?VA -----
+Od: "Jan Kodym" <jan.kodym at post.cz>
+Komu: reportasistent-list at lists.berlios.de
+P?edm?t: [Reportasistent-list] schuzka
+Datum: 10.4.2006 - 15:10:44
+
+> Ahoj,
+> ja muzu zejtra vpodstate kdykoliv - od cca. 9 rano az do
+> vecera. Akorat bych to potreboval vedet jeste dneska, pac od
+> toho se bude odvijet, kdy pojedu zejtra do Prahy :-)
+> Jinak ohledne moji casti - porad se mi nedari rozchodit vsechny
+> potrebny casti Ferdovskyho modulu. Problem je mj. v tom, ze oni
+> u nekterejch casti Ferdy, ktery ja potrebuju implicitne
+> pouzivat, maji natvrdo nastaveny cesty k nejakejm dulezitejm
+> souborum (konfiguraky, knihovny) relativne vuci adresari, kde
+> je nainstalovanej Ferda. Coz je pro me naprd, protoze ja je
+> potrebuju pouzivat v knihovne, ktera musi bejt v adresari
+> Plugin v LM-RA. Dalsi problem je v tom, ze se tam pouzivaj i
+> knihovny, ktery se vytvari az pri instalaci Ferdy, takze aby
+> mohl clovek pouzivat zasuvku pro Ferdu, musi ho mit
+> nainstalovanyho. Atd. Proste musim se tento tyden sejit zase s
+> Michalem a spolecne s nim vymyslet, jak to vyresit. Napriklad
+> jaky casti Ferdy je potreba prelozit spolecne se zasuvkou pro
+> Ferdu, aby to bylo zivotaschopny i v adresari Plugin pripadne
+> bez nainstalovanyho Ferdy. Kostra zasuvky pro ferdu je sice
+> hotova, ale nez se tohle vyresi, zadny data poskytovat nebude.
+> Takze v mym pripade je otazka "co delat dal" asi docela jasna
+> :-)
+> 
+> Mejte se
+> 
+> Kody
+> 
+
+
+
+From Rauch at vse.cz  Thu Apr 13 08:04:31 2006
+From: Rauch at vse.cz (Jan Rauch)
+Date: Thu, 13 Apr 2006 08:04:31 +0200
+Subject: [Reportasistent-list] Re: Report Asistnet - analyza dodatek1
+In-Reply-To: <827.1497-1843-158193754-1141737847@post.cz>
+Message-ID: <OFFA06487B.2DFA0D54-ONC125714F.0020A437-C125714F.00215FB2@kotelna.vse.cz>
+
+Dobry den,
+chci se zeptat co je noveho a take jak dlouhy
+prispevek planujete na KEG dne   4. 5.
+(viz http://146.102.64.29/%7Esvatek/keg/seminar/keg-sem.html)
+
+Jde mi  o to zda by se tam jeste vesly kratsi sdeleni o stavu Ferdy
+a o planech s EverMinerem.
+
+Dekuji
+
+S pozdravem
+J. Rauch
+
+
+
+
+
+
+
+From iva.b at volny.cz  Thu Apr 13 09:47:33 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Thu, 13 Apr 2006 09:47:33 +0200 (CEST)
+Subject: [Reportasistent-list] =?iso-8859-2?Q?z=E1pis_ze_sch=F9zky_t=FDmu_11.4.06?=
+Message-ID: <cb4aecce8d1a36b7e925b170a487d2ba@www2.mail.volny.cz>
+
+Ahojky,
+z?pis ze sch?zky t?mu 11.4.06 uz je na nasich strankach:
+http://reportasistent.berlios.de/Zapisy%20schuzek/
+
+Iva
+
+
+
+From jan.kodym at post.cz  Sun Apr 23 23:59:13 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Sun, 23 Apr 2006 23:59:13 +0200
+Subject: [Reportasistent-list] schuzka
+Message-ID: <444BF8B1.6010403@post.cz>
+
+Ahojte,
+uz jste se vsichni vratili z Italie atd? Udelame tento tyden schuzku? S 
+Martinem by nam to vyhovovalo nejvic v utery odpoledne/k veceru. Me 
+osobne se to moc nehodi ve stredu, nebo kdyz uz tak jedine k veceru, ale 
+radsi jindy. Potreboval bych vyresit urcity problemy, kterejch se 
+ohledne Ferdovsky zasuvky vynoruje vic a vic. Nektery veci uz sam 
+rozhodovat nemuzu, potrebuju se poradit. Cim driv, tim lip. Pak bychom 
+meli doladit ten rychle se blizici seminar KEG. Tak dejte vedet, kdy 
+mate cas.
+Mejte se
+
+Kody
+
+
+From honza.dedek at volny.cz  Mon Apr 24 12:20:24 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 24 Apr 2006 12:20:24 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka
+In-Reply-To: <444BF8B1.6010403@post.cz>
+References: <444BF8B1.6010403@post.cz>
+Message-ID: <14d98c29dd816d007b323344181c3fc7@www1.mail.volny.cz>
+
+Cus. Jo z Itosky jsme se vcera vecer stastne vratili.
+Utery i streda od obeda dal mi vyhovuje.
+honza
+
+
+
+----- P?VODN? ZPR?VA -----
+Od: "Jan Kodym" <jan.kodym at post.cz>
+Komu: "Projekt LM-RA" <reportasistent-list at lists.berlios.de>
+P?edm?t: [Reportasistent-list] schuzka
+Datum: 23.4.2006 - 23:59:32
+
+> Ahojte,
+> uz jste se vsichni vratili z Italie atd? Udelame tento tyden
+> schuzku? S 
+> Martinem by nam to vyhovovalo nejvic v utery odpoledne/k
+> veceru. Me 
+> osobne se to moc nehodi ve stredu, nebo kdyz uz tak jedine k
+> veceru, ale 
+> radsi jindy. Potreboval bych vyresit urcity problemy, kterejch
+> se 
+> ohledne Ferdovsky zasuvky vynoruje vic a vic. Nektery veci uz
+> sam 
+> rozhodovat nemuzu, potrebuju se poradit. Cim driv, tim lip. Pak
+> bychom 
+> meli doladit ten rychle se blizici seminar KEG. Tak dejte
+> vedet, kdy 
+> mate cas.
+> Mejte se
+> 
+> Kody
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+
+
+
+From jan.kodym at post.cz  Mon Apr 24 21:07:06 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Mon, 24 Apr 2006 21:07:06 +0200
+Subject: [Reportasistent-list] zitra schuzka (?)
+Message-ID: <444D21DA.9020805@post.cz>
+
+Ahojte,
+muzem se sejit zitra v 17:00 na MS? Mne a Martinovi to vyhovuje, Dedovi 
+snad taky (je to "utery od obeda dal", ne? :-) Co ty, Ivo? Jedina ses 
+zatim nevyjadrila. Mimochodem, vsechno nejlepsi ;-)
+ Zaroven bych se pokusil domluvit okolo toho casu (idealne cca hodinu 
+predtim) schuzku s Ferdou, kde bych potreboval jednak resit nektery 
+implementacni veci ale jednak taky urcity koncepcni (kdyz jsem se 
+naposled bavil s Michalem, tak rikal neco v tom smyslu, ze nase pojeti 
+aktivnich prvku je pro Ferdu nevhodny a chtelo by ho to zmenit. Prej 
+implementace vetsiny nasich prvku zalozena na hledani urcitejch typu 
+krabicek a ziskavani urcitejch jejich vlastnosti je dost na pytel, 
+protoze struktura/implementace stavajicich krabicek se bude neustale 
+menit a novy budou pribejvat. Bylo by prej lepsi zavest nejakej 
+univerzalni AP typu "krabicka". Dost dobre si to nedovedu predstavit, 
+ale na tom jejich argumentu je urcite neco pravdy. Vpodstate kdyz ted 
+napisu zasuvku pro podporu nasich AP ve Ferdovi, tak v pristi verzi 
+Ferdy pravdepodobne nebude fungovat. Psal jsem o tom Rauchovi a odepsal 
+mi neco v tom smyslu, ze od Ferdy i LM-RA si do budoucna slibuje snadnou 
+rozsiritelnost o novy krabicky/aktivni prvky, ktere s nima budou 
+pracovat. Tak bych rad mluvil o tom, jak by si to predstavovali.) Byl 
+bych rad, kdyby u toho byl od nas jeste nekdo, nejlepe aspon Deda. 
+Termin schuzky ale jeste musim s Michalem domluvit.
+
+Kody
+
+
+From iva.b at volny.cz  Tue Apr 25 00:38:35 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Tue, 25 Apr 2006 00:38:35 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka 25.4.
+Message-ID: <4cfca836a3319c44377889be3d7cda27@www6.mail.volny.cz>
+
+Ahojky,
+
+zitra mam cas 8:00-11:00 a 14:00-16:00 a potom ve stredu
+10:00-13:00 a od 19:30.
+
+Iva
+
+ps. diky, Kody :-)
+
+
+
+From jan.kodym at post.cz  Tue Apr 25 01:34:37 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Tue, 25 Apr 2006 01:34:37 +0200
+Subject: [Reportasistent-list] schuzka
+Message-ID: <444D608D.3070800@post.cz>
+
+Hmmm,
+ja bych nemel mit problem prijit zejtra driv, Deda asi taky ne. Teda 
+myslim tim driv odpoledne :-) Na 16:00 jsem domluvil s Michalem debatu o 
+podpore Ferdy v LM-RA. Jinak klidne bych mohl ve 14:00. Zalezi asi na 
+Martinovi. Ve stredu v 19:30 v krajnim pripade muzu taky :-)
+
+Kody
+
+
+From honza.dedek at volny.cz  Tue Apr 25 18:39:38 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Tue, 25 Apr 2006 18:39:38 +0200 (CEST)
+Subject: [Reportasistent-list] prvni betaverze
+Message-ID: <c0c9862a25c91c9b138105678e716945@www3.mail.volny.cz>
+
+Cau tak mame prvni release :-)
+Prvni snad funkcni betaverze ke stazeni na 
+http://developer.berlios.de/project/showfiles.php?group_id=4999
+
+honza
+
+
+

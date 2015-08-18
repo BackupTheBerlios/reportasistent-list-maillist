@@ -1,0 +1,257 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Reportasistent-list] Re: [Reportasistent-list] z&#225;pis ze sch&#367;zky t&#253;mu 16.2.06
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/reportasistent-list/2006-February/index.html" >
+   <LINK REL="made" HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20%3D%3Fiso-8859-2%3FQ%3FRe%3A_%5BReportasistent-list%5D_z%3DE1pis_ze_sch%3DF9zky_t%3DFDmu_16.2.06%3F%3D&In-Reply-To=%3Cf2b8e201419d18e80b814c6ee70ead64%40www4.mail.volny.cz%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000014.html">
+   <LINK REL="Next"  HREF="000016.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Reportasistent-list] Re: [Reportasistent-list] z&#225;pis ze sch&#367;zky t&#253;mu 16.2.06</H1>
+    <B>honza.dedek at volny.cz</B> 
+    <A HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20%3D%3Fiso-8859-2%3FQ%3FRe%3A_%5BReportasistent-list%5D_z%3DE1pis_ze_sch%3DF9zky_t%3DFDmu_16.2.06%3F%3D&In-Reply-To=%3Cf2b8e201419d18e80b814c6ee70ead64%40www4.mail.volny.cz%3E"
+       TITLE="[Reportasistent-list] Re: [Reportasistent-list] z&#225;pis ze sch&#367;zky t&#253;mu 16.2.06">honza.dedek at volny.cz
+       </A><BR>
+    <I>Sun Feb 19 22:34:48 CET 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000014.html">[Reportasistent-list] z&#225;pis ze sch&#367;zky t&#253;mu 16.2.06
+</A></li>
+        <LI>Next message: <A HREF="000016.html">[Reportasistent-list] schuzka ctvrtek 22.2.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#15">[ date ]</a>
+              <a href="thread.html#15">[ thread ]</a>
+              <a href="subject.html#15">[ subject ]</a>
+              <a href="author.html#15">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ivo: Zkusil jsem te vykopnout a znovu pridat do berlios projektu,
+pokud to nezabere asi se budes muset zaregistrovat pod novym
+jmenem. Ale mezi administratory jsi, tak mozna mas i pristup k
+webu.. 
+
+navod jak na berlios web:
+1) Spustit WinSCP (v labu &quot;C:\Program Files\ssh\WinSCP2.exe&quot;)
+2) Pripojit se pod vlastnim berlios user name na shell.berlios.de
+3) prepnot adresar (Ctrl + o) na 
+/net/pork-da/export/nfs/home/groups/reportasistent
+4) v adresari htdocs je koren naseho webu
+
+alternativa: pres ssh pripojit shell.berlios.de a ve stejnem
+adresari jako vyse nejak vytvorit prislusny dokument.
+
+
+
+
+odpovedi a pripominky k predchozimu mailu:
+
+nejsem si jisty, jestli vim jak vypada volba cile v pruzkumniku :)
+ale to pro porojekt asi nebude zasadni :))
+
+
+Ad kostra:
+1) Co je to MFC strom?
+2) Neni lepsi XML DOM strom v pameti? (viz MSXML knihovna a
+interface IXMLDOMDocument) Jdou na tom primo delat XSLT
+transformace, spostet XPath dotazy a spousta dasich vychytavek.
+CTreeCtrl z MFC bych pouzil jako graficke rozhrani pro praci s
+kostrou. Tak jsem to o vanocich hodne jednoduse naprogramoval do
+posledni verze &quot;metabase_load_pok1&quot; v nasem SVN. (viz dopis
+<A HREF="https://lists.berlios.de/pipermail/reportasistent-list/2006-January/000007.html">https://lists.berlios.de/pipermail/reportasistent-list/2006-January/000007.html</A>)
+
+
+
+Bohuzel neumim UML, tak me to snad casem naucite :)
+
+
+
+Ad prace s metabazi:
+Jako obsah aktivniho prvku bych ukladal informace nutne k provedeni
+dotazu v externim zdroji.  (lidove: Kde se v metabazi najdou data
+potebna k vizualizaci (vygenerovani) aktivniho prvku)
+
+Do metabaze by se melo sahat:
+1) Vzdy, kdyz se z aktivniho prvku dela staticky.
+2) Pri konfiguraci aktivniho prvku - uzivatel by mel videt, jaky by
+byl vystup aktivniho prvku v dobe, kdyz prvek konfiguruje.
+
+Zmeny v napojenem zdroji bych osobne v programu vubec nedetekoval.
+Mozna by bylo vhodne varovat uzivatele, kdyz pripoji zdroj, jak se
+zmena ve zdroji, muze projevit.
+
+Ad atribut chybejici v metabazi:
+Pokud v metabazi kyzeny atribut neni, atribut aktivniho prvku bude
+mit prazdnou hodnotu.
+
+Ad datum vytvoreni dokumentu: co se mych praci tyka - datum
+vytvoreni souboru (file created) odpovida datu sepsani.
+
+
+
+
+Timto povazuju svuj ukol za vyreseny, reklamace prosim primo na
+moji hlavu :)
+
+Mejte se!
+honza
+
+
+
+
+----- P&#366;VODN&#205; ZPR&#193;VA -----
+Od: &quot;Iva Bartunkova&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">iva.b at volny.cz</A>&gt;
+Komu: <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">reportasistent-list at lists.berlios.de</A>
+P&#345;edm&#283;t: [Reportasistent-list] z&#225;pis ze sch&#367;zky t&#253;mu 16.2.06
+Datum: 17.2.2006 - 10:01:06
+
+&gt;<i> Ahojky,
+</I>&gt;<i> 
+</I>&gt;<i> sepsala jsem, na cem jsme se vcera(16.2.) dohodli. Sepsala jsem
+</I>&gt;<i> tak&#233; &#250;koly pro ka&#382;d&#233;ho z n&#225;s, kter&#233; je nutn&#233; ud&#283;lat do p&#345;&#237;&#353;t&#237;
+</I>&gt;<i> sch&#367;zky. Je to v p&#345;ilo&#382;en&#233;m .rtf dokumentu.
+</I>&gt;<i> 
+</I>&gt;<i> P&#345;&#237;&#353;t&#237; sch&#367;zka t&#253;mu bude ve &#269;tvrtek 23.2., dejte v&#283;det, kdy
+</I>&gt;<i> m&#225;te
+</I>&gt;<i> kdo &#269;as. Sch&#367;zku s Rauchem nejsp&#237;&#353; ud&#283;l&#225;me kr&#225;tce pot&#233;.
+</I>&gt;<i> 
+</I>&gt;<i> D&#283;do, pros&#237;m o p&#345;id&#225;n&#237; tohoto dokumentu na n&#225;&#353; web a taky o
+</I>&gt;<i> znovuvysv&#283;tlen&#237;, jak se do na&#353;eho webov&#233;ho prostoru dostat -
+</I>&gt;<i> berlios mi zru&#353;il &#250;&#269;et.
+</I>&gt;<i> 
+</I>&gt;<i> M&#283;jte se 
+</I>&gt;<i> Iva
+</I>&gt;<i> 
+</I>&gt;<i> Obsah .rtf dokumentu:
+</I>&gt;<i> 
+</I>&gt;<i> Z&#225;pis sch&#367;zky t&#253;mu 16.2.06
+</I>&gt;<i> 
+</I>&gt;<i> Dohodnuto:
+</I>&gt;<i> 
+</I>&gt;<i> - Prvek kostry Odkaz na atribut bude &#345;e&#353;en jako samostatn&#253;
+</I>&gt;<i> - prvek (i
+</I>&gt;<i> p&#345;esto, &#382;e rozsek&#225; text na krat&#353;&#237; text&#237;ky), mo&#382;nost &#345;e&#353;en&#237;
+</I>&gt;<i> odkazu
+</I>&gt;<i> jako sou&#269;&#225;sti prvku text byla zam&#237;tnuta. Volba c&#237;le odkazu bude
+</I>&gt;<i> u&#382;ivatelsky vypadat stejn&#283; jako vypad&#225; volba c&#237;le pro z&#225;stupce
+</I>&gt;<i> ve
+</I>&gt;<i> windowsov&#233;m programu Pr&#367;zkumn&#237;k. Odkaz sm&#237; ukazovat jen na
+</I>&gt;<i> koncov&#233;
+</I>&gt;<i> listy kostry, kter&#233; samy nejsou odkazem.
+</I>&gt;<i> 
+</I>&gt;<i> - K ulo&#382;en&#237; a znovuna&#269;ten&#237; kostry bude slou&#382;it speci&#225;ln&#237; XML
+</I>&gt;<i> dokument. Kostra bude v pam&#283;ti dr&#382;ena jen jako MFC strom, XML
+</I>&gt;<i> reprezentace bude slou&#382;it pouze k ulo&#382;en&#237; a znovuna&#269;ten&#237;.
+</I>&gt;<i> 
+</I>&gt;<i> -N&#225;vrh u&#382;ivatelsk&#233;ho prost&#345;ed&#237;
+</I>&gt;<i> 
+</I>&gt;<i> -P&#345;i vkl&#225;d&#225;n&#237; nov&#233;ho aktivn&#237;ho prvku se u&#382;ivateli nab&#237;dnou
+</I>&gt;<i> -v&#353;echny
+</I>&gt;<i> aktivn&#237; prvky, kter&#233; se mohou vyskytnout v ji&#382; p&#345;ipojen&#253;ch
+</I>&gt;<i> metab&#225;z&#237;ch (mohou vyskytnout = typ z&#225;suvky, p&#345;es kter&#253; je
+</I>&gt;<i> metab&#225;ze
+</I>&gt;<i> p&#345;ipojena, je umo&#382;&#328;uje), tedy se samotn&#225; metab&#225;ze nebude
+</I>&gt;<i> prohled&#225;vat.
+</I>&gt;<i> 
+</I>&gt;<i> - &#218;koly ze sch&#367;zky 10.1.2006 jsou bu&#271; hotovy nebo budou
+</I>&gt;<i> - vyhotoveny
+</I>&gt;<i> spln&#283;n&#237;m &#250;kol&#367; z t&#233;to sch&#367;zky. Zb&#253;v&#225;: 	- n&#225;pov&#283;da u&#382;ivateli
+</I>&gt;<i> (prozat&#237;m odlo&#382;eno)
+</I>&gt;<i> - dialog pro prvek podmno&#382;ina hypot&#233;z (odlo&#382;eno, nejprve Martin
+</I>&gt;<i> ud&#283;l&#225; obecn&#253; n&#225;vrh hierarchie aktivn&#237;ch prvk&#367; a obecn&#233; sou&#269;&#225;sti
+</I>&gt;<i> a
+</I>&gt;<i> rozd&#237;ly dialog&#367; pro n&#283;)  
+</I>&gt;<i> 
+</I>&gt;<i> - TODO: Iva sem je&#353;t&#283; p&#345;id&#225; konkr&#233;tn&#237; rozpis &#250;kol&#367; z 10.1. - a
+</I>&gt;<i> p&#345;ip&#237;&#353;e kdo co spln&#283;n&#237;m sv&#253;ch &#250;kol&#367; n&#237;&#382;e vyhotov&#237; 
+</I>&gt;<i> 
+</I>&gt;<i> -&#218;koly do p&#345;&#237;&#353;t&#237; sch&#367;zky t&#253;mu (&#269;tvrtek 23.2.06):
+</I>&gt;<i> 
+</I>&gt;<i> KODY: Akce napojen&#237; extern&#237;ho zdroje. Po&#269;et mo&#382;n&#253;ch
+</I>&gt;<i> met&#225;b&#225;zov&#253;ch
+</I>&gt;<i> zdroj&#367; pro jednu kostru (mohou b&#253;t p&#345;es r&#367;zn&#233; z&#225;suvky?), &#345;e&#353;en&#237;
+</I>&gt;<i> odkaz&#367; na tyto zdroje ( v prvc&#237;ch ? nebo pro celou kostru a v
+</I>&gt;<i> prvc&#237;ch pouze relativn&#237;? nebo..?). Vliv zvolen&#233;ho &#345;e&#353;en&#237; na
+</I>&gt;<i> kop&#237;rov&#225;n&#237; prvk&#367; mezi kostrami. &#344;e&#353;en&#237; kop&#237;rov&#225;n&#237; mezi kostrami
+</I>&gt;<i> s
+</I>&gt;<i> r&#367;zn&#253;mi p&#345;ipojen&#253;mi zdroji, p&#345;&#237;padn&#283; i p&#345;ipojen&#253;mi p&#345;es jin&#233;
+</I>&gt;<i> z&#225;suvky.
+</I>&gt;<i> 
+</I>&gt;<i> MARTIN: Navrhnout hierarchii aktivn&#237;ch prvk&#367;.  Navrhnout
+</I>&gt;<i> stavov&#253;
+</I>&gt;<i> diagram pr&#225;ce dialog&#367; pro aktivn&#237; prvky. (Podle tohoto
+</I>&gt;<i> stavov&#233;ho
+</I>&gt;<i> diagramu Iva navrhne UI)
+</I>&gt;<i> 
+</I>&gt;<i> D&#282;DA: Navrhnout &#345;e&#353;en&#237; problematiky z&#237;sk&#225;v&#225;n&#237; informac&#237; ze
+</I>&gt;<i> zdrojov&#233;
+</I>&gt;<i> metab&#225;ze a aktualizace zdrojov&#233; metab&#225;ze (lidov&#283; &#345;e&#269;eno: kdy je
+</I>&gt;<i> pot&#345;eba do metab&#225;ze &#353;&#225;hnout?): p&#345;&#237;pad kdy se zm&#283;n&#237; zdroj - bude
+</I>&gt;<i> to
+</I>&gt;<i> editor kostry kontrolovat pr&#367;b&#283;&#382;n&#283;? Nebo na vy&#382;&#225;d&#225;n&#237; u&#382;ivatele?
+</I>&gt;<i> Nebo pouze p&#345;i generov&#225;n&#237; v&#253;sledn&#233;ho dokumentu? Jak to bude p&#345;i
+</I>&gt;<i> ukl&#225;d&#225;n&#237; a znovuna&#269;ten&#237; kostry? Jak se budou &#345;e&#353;it situace, kdy
+</I>&gt;<i> u&#382;ivatel chce n&#283;jak&#253; atribut aktivn&#237;ho prvku, a p&#345;i tom v
+</I>&gt;<i> met&#225;b&#225;z&#237;
+</I>&gt;<i> tenhle prvek dan&#253; atribut nem&#225; - jak a kdy se to u&#382;ivatel dov&#237;?
+</I>&gt;<i> 
+</I>&gt;<i> IVA: N&#225;vrh u&#382;ivatelsk&#233;ho prost&#345;ed&#237; z n&#225;&#269;rtu p&#345;en&#233;st minim&#225;ln&#283;
+</I>&gt;<i> do
+</I>&gt;<i> screenshotov&#233;ho prototypu, l&#233;pe do funk&#269;n&#237;ho prototypu: hlavn&#237;
+</I>&gt;<i> obrazovka programu, menu programu, toolbar, dialog pro statick&#253;
+</I>&gt;<i> prvek text, dialog pro prvek Odkaz na atribut, dialog pro
+</I>&gt;<i> vlo&#382;en&#237;
+</I>&gt;<i> nov&#233;ho prvku.
+</I>&gt;<i> 
+</I>&gt;<i> V&#253;stupy &#345;e&#353;en&#237; &#250;kol&#367;: Lep&#353;&#237; ne&#382; &#345;e&#353;en&#237; popsat textem, bude
+</I>&gt;<i> ur&#269;it&#283;
+</I>&gt;<i> nakreslit vhodn&#233; UML diagramy (p. Rauchovi jsme sl&#237;bili
+</I>&gt;<i> stavov&#233;,
+</I>&gt;<i> ale &#269;asto mohou b&#253;t vhodn&#283;j&#353;&#237; datov&#233;=class diagramy, sequence
+</I>&gt;<i> diagramy atd. - to u&#382; bude p&#345;&#237;mo sou&#269;&#225;st dokumentace na&#353;eho
+</I>&gt;<i> projektu.) 
+</I>&gt;<i> 
+</I>&gt;<i> V&#353;ichni: ve&#353;ker&#233; v&#253;stupy na&#353;&#237; pr&#225;ce by m&#283;ly b&#253;t k dispozici na
+</I>&gt;<i> webu, chyb&#237; nap&#345;. Kodyho prezentace o aktivn&#237;ch a statick&#253;ch
+</I>&gt;<i> prvc&#237;ch =&gt; &#250;kol pro n&#225;s v&#353;echny je zajisti si p&#345;&#237;stup do na&#353;eho
+</I>&gt;<i> webov&#233;ho prostoru (D&#283;da je snad jedin&#253;, kdo v&#237; jak se tam
+</I>&gt;<i> dostat) a
+</I>&gt;<i> d&#225;vat tam v&#353;echny v&#253;stupy ozna&#269;en&#233; datem kdy byly vytvo&#345;eny.
+</I>&gt;<i> 
+</I>&gt;<i> Zapsala dne 17.2. Iva
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000014.html">[Reportasistent-list] z&#225;pis ze sch&#367;zky t&#253;mu 16.2.06
+</A></li>
+	<LI>Next message: <A HREF="000016.html">[Reportasistent-list] schuzka ctvrtek 22.2.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#15">[ date ]</a>
+              <a href="thread.html#15">[ thread ]</a>
+              <a href="subject.html#15">[ subject ]</a>
+              <a href="author.html#15">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/reportasistent-list">More information about the Reportasistent-list
+mailing list</a><br>
+</body></html>

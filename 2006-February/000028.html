@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Reportasistent-list] Navrh Uzivatelskeho Interface
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/reportasistent-list/2006-February/index.html" >
+   <LINK REL="made" HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20Navrh%20Uzivatelskeho%20Interface&In-Reply-To=%3C000401c63ad8%2461839c80%246601a8c0%40pcdedek%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000027.html">
+   <LINK REL="Next"  HREF="000029.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Reportasistent-list] Navrh Uzivatelskeho Interface</H1>
+    <B>honza dedek</B> 
+    <A HREF="mailto:reportasistent-list%40lists.berlios.de?Subject=Re%3A%20%5BReportasistent-list%5D%20Navrh%20Uzivatelskeho%20Interface&In-Reply-To=%3C000401c63ad8%2461839c80%246601a8c0%40pcdedek%3E"
+       TITLE="[Reportasistent-list] Navrh Uzivatelskeho Interface">honza.dedek at volny.cz
+       </A><BR>
+    <I>Sun Feb 26 14:27:19 CET 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000027.html">[Reportasistent-list] Navrh Uzivatelskeho Interface
+</A></li>
+        <LI>Next message: <A HREF="000029.html">[Reportasistent-list] stavy LMRA
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#28">[ date ]</a>
+              <a href="thread.html#28">[ thread ]</a>
+              <a href="subject.html#28">[ subject ]</a>
+              <a href="author.html#28">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ahojte!
+No jo jsou tam vazne hezoucky barevny obrazky. Ikona u reportu - neni to 
+trilobit? :-)
+Mam radost, ze zase mame v ruce o papir vic, nad ketrym se bude dat vecne 
+diskutovat. A protoze uz se na to docela tesim, tak posilam par postrehu 
+dopredu. Nemusite to cist, jen na to nechci zapomenout :)
+
+Navigace programu bude Ceska nebo Anglicka?
+
+Musime dohodnout popisky u elementu v graficke kostre.
+
+
+ad Textovy editor (elemet text):
+Moje prestava (kterou uz mam funkcne imlementovanou - nicmene neni to nutne 
+definitivni) je takova, ze formatovani textu a odstavcu se dela zasadne 
+pomoci stylu Wordu. Navic zvoleny styl je atributem celeho prvku resp. tagu. 
+Tedy naformatovany text se rozpadne na vic tagu. Ale asi bude vhodne tyto 
+tagy schovat do jednoho prvku kostry. Coz ovsem bude obnaset dalsi kod 
+navic. Muj puvodni navrh byl, ze se to schova do prvku odstavec, ale nevim. 
+Otazka zpetne editace..? Formatovani pouze styly bych zachoval. Mam pro to 
+par argumentu. Editor jsme nikdy psat nechteli a pokud ho nakonec napisem, 
+nebude to uplne zanedbatelna prace. Tedy muj navrh zni: zjednodusit dialog 
+pro elemet text (odstavec? ..ale v odstavci mohou byt i grafy a tabulky).
+
+
+
+ad Prvek odkaz na atribut prvku kostry:
+*** Prvek odkaz na atribut prvku kostry neni odkaz na atribut metabaze 
+(objektu v metabazi).
+*** Potencialne lze odkazovat i na atributy statickych prvku kostry.
+*** Napriklad musi jit odkaz na atribu &quot;prah konfidence&quot; nebo &quot;pocet 
+vybranych hypotez&quot; aktivniho prvku podmnozina hypotez.
+*** To, ze aktivni prvek nektere atributy nezobrazuje (negeneruje do Wordu) 
+neznamena, ze tyto atributy nama.
+
+Dialog (pro odkaz na atribut) se zklada ze dvou ukonu:
+1) volba konkretniho prvku kostry, na ktery bude odkazovano (nejlepe primo 
+ukazat v graficke kostre, prip. pres jmeno prvku)
+2) volba konkretniho atributu (ke kaznemu prvku zname kopletni seznam 
+podporovanych atributu - staci z nej jeden vybrat)
+
+
+
+ad Dialog pro vlo&#382;en&#237; nov&#233;ho prvku
+Nedalo by se to odbyt ctyrmi polozkami menu?
+Komboboxy bych osobne pouzival co nejmene. Je to nejhur prehledne pro 
+hledani a hlavne nejnarocnejsi na pocet kliknuti. Ani klavesove zkratky 
+nejdou moc pouzit (proti napriklad menu, radiobutton, prip. button).
+
+
+
+
+A co moje toolbary / palety prvku  +pro kazdy datovy zdroj zvlast?  :-) (o 
+tom si doufam jeste spolecne popovidame)
+A kam se podela volba cile z pruzkumnika? Na to jsem se nejvic tesil :-)
+
+Verim, ze se nam nakonec spolecne podari predstavu sjednotit.
+honza
+
+
+----- Original Message ----- 
+From: &quot;Iva Bartunkova&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">iva.b at volny.cz</A>&gt;
+To: &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">reportasistent-list at lists.berlios.de</A>&gt;
+Sent: Saturday, February 25, 2006 10:44 PM
+Subject: [Reportasistent-list] Navrh Uzivatelskeho Interface
+
+
+&gt;<i> Ahojky,
+</I>&gt;<i>
+</I>&gt;<i> tak s malym zpozdenim ale preci jsem navrhla uzivatelske interface
+</I>&gt;<i> pro nas report asistent. Mrknete na to, je tam spousta peknejch
+</I>&gt;<i> vobrazku :-) :
+</I>&gt;<i> <A HREF="http://reportasistent.berlios.de/dokumenty/Navrh_vzhledu_uzivatelsk&#233;ho_prostredi_0.1.doc">http://reportasistent.berlios.de/dokumenty/Navrh_vzhledu_uzivatelsk&#233;ho_prostredi_0.1.doc</A>
+</I>&gt;<i>
+</I>&gt;<i> Iva
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Reportasistent-list mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/reportasistent-list">Reportasistent-list at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="http://lists.berlios.de/mailman/listinfo/reportasistent-list">http://lists.berlios.de/mailman/listinfo/reportasistent-list</A>
+</I>&gt;<i> 
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000027.html">[Reportasistent-list] Navrh Uzivatelskeho Interface
+</A></li>
+	<LI>Next message: <A HREF="000029.html">[Reportasistent-list] stavy LMRA
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#28">[ date ]</a>
+              <a href="thread.html#28">[ thread ]</a>
+              <a href="subject.html#28">[ subject ]</a>
+              <a href="author.html#28">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/reportasistent-list">More information about the Reportasistent-list
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,951 @@
+From honza.dedek at volny.cz  Thu Mar  2 13:43:42 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Thu, 02 Mar 2006 13:43:42 +0100 (CET)
+Subject: [Reportasistent-list] ostra aplikace v SVN
+Message-ID: <c4fa1164dce96200924bdc6b70215b26@www2.mail.volny.cz>
+
+Hlavne pro Ivu:
+
+Ahoj,
+v nasem SVN jsem vytvotil novy adresar & workspace s hlavnim
+programem ReportAsitent
+
+Je to MFC vygenerovana aplikace.
+s Document/View supportem
+
+trida CSkeletonDoc zastupuje kostru jako dokument (obsahoje XMLDom
+v pomenne m_XMLDOMDoc) trida CSkeletonView zobrazuje kostru na
+obrazovce
+
+predefinoval jsem funkci OpenFile a NewFile + neco malo navic
+v podstate jsem prenesl funkcionalitu z metabase_load_pok1 (krom
+generovani - dodelame pozdeji)
+
+zbytek je na tobe
+
+a jeste jeden hint: pri debugovani se program spusti s parametrem
+..\XML\euroregion_dedek.xml coz na zacatku tento soubor otevre (viz
+menu project->setings->debug)
+
+hodne zdaru marod honza :)
+
+
+
+From jan.kodym at post.cz  Sun Mar  5 14:19:08 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Sun, 5 Mar 2006 14:19:08 +0100
+Subject: [Reportasistent-list] XMLDOM
+Message-ID: <000f01c64057$63431170$5d96110a@honzadom>
+
+Ahojte,
+
+mel bych jednu prosbu (hlavne asi na Dedu, pripadne na Ivu). Potreboval bych se co nejrychlejs naucit zaklady, jak se pracuje ve Visual C++ s tim DOM modelem XML. Tedka se o to pokousim, jednak z nejaky dokumentace a tutorialu a jednak z ty aplikace ReportAsistent, kde uz je to nejak zabudovany. Akorat mam z toho dost blbej pocit, nejak se mi nedari z toho vytahnout presne to, co potrebuju a prijde mi, ze nad tim zbytecne travim spoustu casu, kterej bych mohl venovat praci na necem jinym. Potreboval bych vytvorit jednoduchouckou aplikaci (klidne konzolovou), ktera by umela z xml souboru udelat DOM, umela ulozit DOM do souboru a pripadne nejak modifikovat ten strom nebo v nem neco najit. Za prvy se mi nepodarilo ani podle tutorialu vytvorit zkusebni aplikaci - vzdycky to narazilo na nejakej technickej problem - i kdyz tam presne popisovali, jak se ma co udelat, vcetne stazeni a instalace xmlinst atd - vzdycky mi to nekde krachlo, kdyz tam psali "pripojte knihovnu blabla, kterou najdete v blabla" a ja tam nic takovyho nenasel ... kdyz jsem zkoumal ten nas program ReportAsistent, mam zase problem v tom, ze to co asi potrebuju je tam utopeny ve spouste jinejch veci, kterejm nerozumim a nevim, jestli je taky potrebuju nebo ne atd.a kdybych to mel zkoumat, zabralo by mi to jeste vic casu ... proste nemam moc schopnost, kdyz potrebuju rychle pracovat s necim, o cem toho nic moc nevim, abych se v tom rychle zorientoval a byl rychle schopnej to aspon nejak rozchodil ... pomohlo by mi, kdyby nekdo, kdo s tim umi prakticky zachazet, si na me nasel hodinku, pomohl mi vytvorit jednoduchouckou aplikaci a vysvetlil mi, ze "tohle je dulezity", "tohle je sice taky dulezity kvuli tomu a tomu ale to neres, proste to tam zkopiruj" pripadne "tohle je uplne na neco jinyho, to tam bejt nemusi". Mozna vas tim zbytecne zdrzuju, kdyz vy jste si to taky treba museli vycist v manualech, ale zase toho casu do 17.3. zas tak moc neni, tak bych ho chtel vyuzit co nejrozumnejs, ne tri ctvrte z nej neco marne hledat v manualech.
+Tak kdybyste si nekdo myslel, ze mi muzete pomoct, budu moc rad. Cas mam vpodstate kdykoliv. A kdyby se nekdo, kdo tomu taky nerozumi a chtel by, toho chtel taky zucastnit (tohle budem pouzivat asi vsichni), muzem se domluvit nejak hromadne. Ja bych uvital, aby to bylo co nejdriv.
+
+Mejte se
+
+Kody
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20060305/afb90b51/attachment.html>
+
+From iva.b at volny.cz  Sun Mar  5 16:08:08 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Sun, 05 Mar 2006 16:08:08 +0100 (CET)
+Subject: [Reportasistent-list] nova verze ReportAsistent
+Message-ID: <8bd47dbe10eabfd54d2b0433fe5cc9d4@www4.mail.volny.cz>
+
+Ahojky,
+
+prave jsem dala na web novou verzi aplikace ReportAsistent. 
+Oproti te Dedovo posledni ma:
+*patricne polozky v menu 
+*patricna tlacitka na toolbaru 
+*vylepsenej TreeControl 
+*pri poklepani na prvek Text se zobrazi zatim nefunkcni dialog
+
+Po nekolika hodinach boje s XMLDOM stromem, z nehoz chci vykuchat
+atributy uzlu, myslim, ze se Dedy potrebuji na par drobnosti zeptat
+:-)
+
+Iva
+
+
+
+
+
+From honza.dedek at volny.cz  Mon Mar  6 10:00:39 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Mon, 06 Mar 2006 10:00:39 +0100 (CET)
+Subject: [Reportasistent-list] XMLDOM
+In-Reply-To: <000f01c64057$63431170$5d96110a@honzadom>
+References: <000f01c64057$63431170$5d96110a@honzadom>
+Message-ID: <7a06f78637d39d269644d5c206420bf7@www2.mail.volny.cz>
+
+Ahoj, to je legrace, ja se v tom MSXML DOM zatim taky moc nevyznam,
+ale kouknu na to, a u delam nejakou ukazkovou aplikaci (pocitam
+zitra nebo pozitri) na osobni ani casove delsi konzultaci to tenhle
+tyden moc nevidim - budu vyhanet bacily.
+
+Hlavni problem je pocitam v praci s Windows COM-objekty + v tom co
+jsem udelal je pouzit Smart pointer (ma tusim predefinovany "->"
+operator) no sranda :-)
+
+Zkuste se zatim zamerit na veci okolo, pripadne badejte dal, na
+nektere veci clovek potrebuje vic casu..
+
+Nebo pokud mate nejake schudnejsi reseni, lepsi knihovnu - sem s
+tim.
+
+doporucuju stranky:
+MSXML DOM skrz Smart pointer:
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/b24aafc2-bf1b-4702-bf1c-b7ae3597eb0c.asp
+
+hezky priklad jak naplnit MSXML DOM (skrz Smart pointer):
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/89277447-8512-4f66-9d05-a063c63aca54.asp
+
+Jeste pro Kodyho:
+Nebylo by pro tebe nejjednodusi to jen nasypat do stringu, bez
+pouziti knihovny? - Mozna ne, nevim, jen me to napadlo.
+
+Zatim ahoj honza.
+
+----- P?VODN? ZPR?VA -----
+Od: "Jan Kodym" <jan.kodym at post.cz>
+Komu: reportasistent-list at lists.berlios.de
+P?edm?t: [Reportasistent-list] XMLDOM
+Datum: 5.3.2006 - 14:20:08
+
+> Ahojte,
+> 
+> mel bych jednu prosbu (hlavne asi na Dedu, pripadne na Ivu).
+> Potreboval bych se co nejrychlejs naucit zaklady, jak se
+> pracuje ve Visual C++ s tim DOM modelem XML. Tedka se o to
+> pokousim, jednak z nejaky dokumentace a tutorialu a jednak z
+> ty aplikace ReportAsistent, kde uz je to nejak zabudovany.
+> Akorat mam z toho dost blbej pocit, nejak se mi nedari z toho
+> vytahnout presne to, co potrebuju a prijde mi, ze nad tim
+> zbytecne travim spoustu casu, kterej bych mohl venovat praci
+> na necem jinym. Potreboval bych vytvorit jednoduchouckou
+> aplikaci (klidne konzolovou), ktera by umela z xml souboru
+> udelat DOM, umela ulozit DOM do souboru a pripadne nejak
+> modifikovat ten strom nebo v nem neco najit. Za prvy se mi
+> nepodarilo ani podle tutorialu vytvorit zkusebni aplikaci -
+> vzdycky to narazilo na nejakej technickej problem - i kdyz tam
+> presne popisovali, jak se ma co udelat, vcetne stazeni a
+> instalace xmlinst atd - vzdycky mi to nekde krachlo, kdyz tam
+> psali "pripojte knihovnu blabla, kterou najdete v blabla" a ja
+> tam nic takovyho nenasel ... kdyz jsem zkoumal ten nas program
+> ReportAsistent, mam zase problem v tom, ze to co asi potrebuju
+> je tam utopeny ve spouste jinejch veci, kterejm nerozumim a
+> nevim, jestli je taky potrebuju nebo ne atd.a kdybych to mel
+> zkoumat, zabralo by mi to jeste vic casu ... proste nemam moc
+> schopnost, kdyz potrebuju rychle pracovat s necim, o cem toho
+> nic moc nevim, abych se v tom rychle zorientoval a byl rychle
+> schopnej to aspon nejak rozchodil ... pomohlo by mi, kdyby
+> nekdo, kdo s tim umi prakticky zachazet, si na me nasel
+> hodinku, pomohl mi vytvorit jednoduchouckou aplikaci a
+> vysvetlil mi, ze "tohle je dulezity", "tohle je sice taky
+> dulezity kvuli tomu a tomu ale to neres, proste to tam
+> zkopiruj" pripadne "tohle je uplne na neco jinyho, to tam bejt
+> nemusi". Mozna vas tim zbytecne zdrzuju, kdyz vy jste si to
+> taky treba museli vycist v manualech, ale zase toho casu do
+> 17.3. zas tak moc neni, tak bych ho chtel vyuzit co
+> nejrozumnejs, ne tri ctvrte z nej neco marne hledat v
+> manualech.
+> Tak kdybyste si nekdo myslel, ze mi muzete pomoct, budu moc
+> rad. Cas mam vpodstate kdykoliv. A kdyby se nekdo, kdo tomu
+> taky nerozumi a chtel by, toho chtel taky zucastnit (tohle
+> budem pouzivat asi vsichni), muzem se domluvit nejak hromadne.
+> Ja bych uvital, aby to bylo co nejdriv.
+> 
+> Mejte se
+> 
+> Kody
+> 
+
+
+
+From jan.kodym at post.cz  Mon Mar  6 11:35:48 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Mon, 06 Mar 2006 11:35:48 +0100
+Subject: [Reportasistent-list] XMLDOM
+In-Reply-To: <7a06f78637d39d269644d5c206420bf7@www2.mail.volny.cz>
+References: <000f01c64057$63431170$5d96110a@honzadom> <7a06f78637d39d269644d5c206420bf7@www2.mail.volny.cz>
+Message-ID: <440C1084.4040500@post.cz>
+
+Jo, presne podle techhle navodu jsem se pokousel tu zkusebni aplikaci 
+vytvorit a nepovedlo se mi to :-)
+Jinak jo, vytvareni toho XML vystupu, co se vraci jadru, by se mohlo bez 
+DOMu obejit, ale ja chci ten DOM pouzivat i na jiny veci. Treba kazda 
+zasuvka bude obsahovat dve tabulky - jednu pro seznam pripojenejch 
+zdroju ty zasuvky a druhou pro seznam identifikatoru AP, kterejm rozumi 
+a jmena funkci, ktery zadost o tyhle prvky obslouzi. Zdroje i AP budou 
+nekde na disku v konfiguracnich souborech a konstruktor ty zasuvky je 
+natahne nejak do pameti, tam se bude jednak vyhledavat a jednak i 
+upravovat (pridat/odebrat zdroj atd.) a na konci se zase ulozi do toho 
+souboru. Kdyby ty konfiguracni soubory byly XML a "natazeni do pameti" 
+znamenalo vytvorit DOM, tak by to jednak bylo hezky a jednak spousta 
+veci (vyhledavani, pridavani, implementace tech tabulek) by byla 
+vpodstate zadarmo.
+
+Kody
+
+honza.dedek at volny.cz napsal(a):
+> Ahoj, to je legrace, ja se v tom MSXML DOM zatim taky moc nevyznam,
+> ale kouknu na to, a u delam nejakou ukazkovou aplikaci (pocitam
+> zitra nebo pozitri) na osobni ani casove delsi konzultaci to tenhle
+> tyden moc nevidim - budu vyhanet bacily.
+>
+> Hlavni problem je pocitam v praci s Windows COM-objekty + v tom co
+> jsem udelal je pouzit Smart pointer (ma tusim predefinovany "->"
+> operator) no sranda :-)
+>
+> Zkuste se zatim zamerit na veci okolo, pripadne badejte dal, na
+> nektere veci clovek potrebuje vic casu..
+>
+> Nebo pokud mate nejake schudnejsi reseni, lepsi knihovnu - sem s
+> tim.
+>
+> doporucuju stranky:
+> MSXML DOM skrz Smart pointer:
+> http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/b24aafc2-bf1b-4702-bf1c-b7ae3597eb0c.asp
+>
+> hezky priklad jak naplnit MSXML DOM (skrz Smart pointer):
+> http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/89277447-8512-4f66-9d05-a063c63aca54.asp
+>
+> Jeste pro Kodyho:
+> Nebylo by pro tebe nejjednodusi to jen nasypat do stringu, bez
+> pouziti knihovny? - Mozna ne, nevim, jen me to napadlo.
+>
+> Zatim ahoj honza.
+>
+> ----- P?VODN? ZPR?VA -----
+> Od: "Jan Kodym" <jan.kodym at post.cz>
+> Komu: reportasistent-list at lists.berlios.de
+> P?edm?t: [Reportasistent-list] XMLDOM
+> Datum: 5.3.2006 - 14:20:08
+>
+>   
+>> Ahojte,
+>>
+>> mel bych jednu prosbu (hlavne asi na Dedu, pripadne na Ivu).
+>> Potreboval bych se co nejrychlejs naucit zaklady, jak se
+>> pracuje ve Visual C++ s tim DOM modelem XML. Tedka se o to
+>> pokousim, jednak z nejaky dokumentace a tutorialu a jednak z
+>> ty aplikace ReportAsistent, kde uz je to nejak zabudovany.
+>> Akorat mam z toho dost blbej pocit, nejak se mi nedari z toho
+>> vytahnout presne to, co potrebuju a prijde mi, ze nad tim
+>> zbytecne travim spoustu casu, kterej bych mohl venovat praci
+>> na necem jinym. Potreboval bych vytvorit jednoduchouckou
+>> aplikaci (klidne konzolovou), ktera by umela z xml souboru
+>> udelat DOM, umela ulozit DOM do souboru a pripadne nejak
+>> modifikovat ten strom nebo v nem neco najit. Za prvy se mi
+>> nepodarilo ani podle tutorialu vytvorit zkusebni aplikaci -
+>> vzdycky to narazilo na nejakej technickej problem - i kdyz tam
+>> presne popisovali, jak se ma co udelat, vcetne stazeni a
+>> instalace xmlinst atd - vzdycky mi to nekde krachlo, kdyz tam
+>> psali "pripojte knihovnu blabla, kterou najdete v blabla" a ja
+>> tam nic takovyho nenasel ... kdyz jsem zkoumal ten nas program
+>> ReportAsistent, mam zase problem v tom, ze to co asi potrebuju
+>> je tam utopeny ve spouste jinejch veci, kterejm nerozumim a
+>> nevim, jestli je taky potrebuju nebo ne atd.a kdybych to mel
+>> zkoumat, zabralo by mi to jeste vic casu ... proste nemam moc
+>> schopnost, kdyz potrebuju rychle pracovat s necim, o cem toho
+>> nic moc nevim, abych se v tom rychle zorientoval a byl rychle
+>> schopnej to aspon nejak rozchodil ... pomohlo by mi, kdyby
+>> nekdo, kdo s tim umi prakticky zachazet, si na me nasel
+>> hodinku, pomohl mi vytvorit jednoduchouckou aplikaci a
+>> vysvetlil mi, ze "tohle je dulezity", "tohle je sice taky
+>> dulezity kvuli tomu a tomu ale to neres, proste to tam
+>> zkopiruj" pripadne "tohle je uplne na neco jinyho, to tam bejt
+>> nemusi". Mozna vas tim zbytecne zdrzuju, kdyz vy jste si to
+>> taky treba museli vycist v manualech, ale zase toho casu do
+>> 17.3. zas tak moc neni, tak bych ho chtel vyuzit co
+>> nejrozumnejs, ne tri ctvrte z nej neco marne hledat v
+>> manualech.
+>> Tak kdybyste si nekdo myslel, ze mi muzete pomoct, budu moc
+>> rad. Cas mam vpodstate kdykoliv. A kdyby se nekdo, kdo tomu
+>> taky nerozumi a chtel by, toho chtel taky zucastnit (tohle
+>> budem pouzivat asi vsichni), muzem se domluvit nejak hromadne.
+>> Ja bych uvital, aby to bylo co nejdriv.
+>>
+>> Mejte se
+>>
+>> Kody
+>>
+>>     
+>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+> __________ Informace od NOD32 1.1431 (20060305) __________
+>
+> Tato zprava byla proverena antivirovym systemem NOD32.
+> http://www.nod32.cz
+>
+>
+>
+>   
+
+
+From jan.kodym at post.cz  Mon Mar  6 12:13:36 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Mon, 06 Mar 2006 12:13:36 +0100
+Subject: [Reportasistent-list] :-)
+Message-ID: <440C1960.5090508@post.cz>
+
+Tak tohle me teda fakt pobavilo,
+
+http://msdn.microsoft.com/library/default.asp?url=/archive/en-us/dnarolegen/html/msdn_ole2a.asp
+
+Hledal jsem, jestli tam nahodou nekde nemaj i "MSXML DOM for Idiots" ale 
+bohuzel :-)
+
+
+From martin.chrz at email.cz  Mon Mar  6 17:51:56 2006
+From: martin.chrz at email.cz (martin.chrz at email.cz)
+Date: Mon, 06 Mar 2006 17:51:56 +0100 (CET)
+Subject: [Reportasistent-list] studijni
+Message-ID: <409.336-17208-2042699831-1141663916@email.cz>
+
+Ahoj, dneska jsem byl na studijnim a informoval jsem se, jak je to se zapisem projektu. Je mozny zapsat ho kdykoli behem semestru, dokonce je mozny napsat si to jen tak do indexu tesne pred obhajobou a az pak s tim jit na studijni, kde to zapisou do systemu:) Rovnez je kdykoli mozny si zapsat zapocet k projektu (zalohovy body), nechat si dat zapich od vedouciho a je za to prej 6 kreditu. Ptal jsem se i na uznavani tech fyzik, ktery nejsou v seznamu pro vedlejsi obor fyzika. Je nutny vyplnit nejaky formular, ktery dostanete na studijnim a prej s tim nedelaji zadny caviky:)
+
+Martin Chrz
+martin.chrz at email.cz
+
+
+From honza.dedek at volny.cz  Tue Mar  7 12:59:20 2006
+From: honza.dedek at volny.cz (honza dedek)
+Date: Tue, 7 Mar 2006 12:59:20 +0100
+Subject: [Reportasistent-list] XMLDOM
+References: <000f01c64057$63431170$5d96110a@honzadom> <7a06f78637d39d269644d5c206420bf7@www2.mail.volny.cz> <440C1084.4040500@post.cz>
+Message-ID: <000d01c641de$972e0ac0$6601a8c0@pcdedek>
+
+Ahoj,
+schuzku s Rauchem jsem nedomlouval. Tenhle tyden se ani nemuzu zucastnit. 
+Ale nebylo by od veci mu dat vedet. Uz od nas dlouho nic nevidel. A koukam, 
+ze zrovna pise :-)
+
+Ivco, pridej prosim nove soubory, ktere jsi vytvorila v projektu 
+ReportAsistent na SVN (pruzkumnik->na souboru, ktery chces pridat prave 
+tlacitko -> TortoiseSVN -> Add  a pak jeste vse comitnout) rad bych se na to 
+podival :-)
+
+A ted k MSXML.
+Omlouvam se, za druhy odkaz, ten priklad "Query Nodes from DOM " neni moc 
+nazorny, ilustruje pouziti XPath, coz ani tak moc nepotrebujem. Chtel jsem 
+dat odkaz na "Create an XML Document Dynamically" 
+http://msdn.microsoft.com/library/en-us/xmlsdk/html/404d7d8b-ba4a-4ddb-8db9-d5a126a65e7d.asp, 
+ktery je vyborny, ale nejak jsem se ukliknul asi.
+
+Kody, nevim v cem jsi mel problem pri spousteni, mne se vse rozjelo uplne 
+samo:
+Ve VS 6:
+New Project -> Win32 console application -> empty project
+pridat soubor:
+New File -> C++ source file
+sem pres clipboard pretahnout zdrojak z webu (nebo z MSXML SDK helpu)
+a spustit (Ctrl+F5) (predtim se to prelozi a slinkuje)
+.. takle se mi to hned rozjelo
+
+Mylsim ze jediny co potrebujes, je mit v systemu nainstalovanou knihovnu 
+msxml3.dll, coz vetsinou byva bez pricineni (napr. v labu) Pokud nemas 
+nainstaluj MSXML. (prip. ti ji muzu poslat a zkusis ji tam dat rucne). Asi 
+ted budu casto na ICQ. Ale vytahnete me tim z postele :-)
+
+MSXML SDK ke stazeni:
+http://www.microsoft.com/downloads/details.aspx?FamilyID=3144b72b-b4f2-46da-b4b6-c5d7485f2b42&DisplayLang=en
+
+
+pokud ti ale chodi XML v metabase_load_pok1 prip ReportAsistent - melo by ti 
+behat vsecko
+
+v priloze je maly priklad, ktery jsem pro vas vyrobil :)
+preklad - stejne jako vyse pro Kodyho..
+Nutne jako paramter predat jmeno nejakeho XML souboru
+Zabralo mi to vic casu, nez jsem cekal tak snad vam to aspon pomuze ve 
+vyvoji
+pripadne dotazy rad a snad rychle zodpovim
+
+cau
+honza
+
+
+----- Original Message ----- 
+From: "Jan Kodym" <jan.kodym at post.cz>
+To: <reportasistent-list at lists.berlios.de>
+Sent: Monday, March 06, 2006 11:35 AM
+Subject: Re: [Reportasistent-list] XMLDOM
+
+
+> Jo, presne podle techhle navodu jsem se pokousel tu zkusebni aplikaci 
+> vytvorit a nepovedlo se mi to :-)
+> Jinak jo, vytvareni toho XML vystupu, co se vraci jadru, by se mohlo bez 
+> DOMu obejit, ale ja chci ten DOM pouzivat i na jiny veci. Treba kazda 
+> zasuvka bude obsahovat dve tabulky - jednu pro seznam pripojenejch zdroju 
+> ty zasuvky a druhou pro seznam identifikatoru AP, kterejm rozumi a jmena 
+> funkci, ktery zadost o tyhle prvky obslouzi. Zdroje i AP budou nekde na 
+> disku v konfiguracnich souborech a konstruktor ty zasuvky je natahne nejak 
+> do pameti, tam se bude jednak vyhledavat a jednak i upravovat 
+> (pridat/odebrat zdroj atd.) a na konci se zase ulozi do toho souboru. 
+> Kdyby ty konfiguracni soubory byly XML a "natazeni do pameti" znamenalo 
+> vytvorit DOM, tak by to jednak bylo hezky a jednak spousta veci 
+> (vyhledavani, pridavani, implementace tech tabulek) by byla vpodstate 
+> zadarmo.
+>
+> Kody
+>
+> honza.dedek at volny.cz napsal(a):
+>> Ahoj, to je legrace, ja se v tom MSXML DOM zatim taky moc nevyznam,
+>> ale kouknu na to, a u delam nejakou ukazkovou aplikaci (pocitam
+>> zitra nebo pozitri) na osobni ani casove delsi konzultaci to tenhle
+>> tyden moc nevidim - budu vyhanet bacily.
+>>
+>> Hlavni problem je pocitam v praci s Windows COM-objekty + v tom co
+>> jsem udelal je pouzit Smart pointer (ma tusim predefinovany "->"
+>> operator) no sranda :-)
+>>
+>> Zkuste se zatim zamerit na veci okolo, pripadne badejte dal, na
+>> nektere veci clovek potrebuje vic casu..
+>>
+>> Nebo pokud mate nejake schudnejsi reseni, lepsi knihovnu - sem s
+>> tim.
+>>
+>> doporucuju stranky:
+>> MSXML DOM skrz Smart pointer:
+>> http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/b24aafc2-bf1b-4702-bf1c-b7ae3597eb0c.asp
+>>
+>> hezky priklad jak naplnit MSXML DOM (skrz Smart pointer):
+>> http://msdn.microsoft.com/library/default.asp?url=/library/en-us/xmlsdk/html/89277447-8512-4f66-9d05-a063c63aca54.asp
+>>
+>> Jeste pro Kodyho:
+>> Nebylo by pro tebe nejjednodusi to jen nasypat do stringu, bez
+>> pouziti knihovny? - Mozna ne, nevim, jen me to napadlo.
+>>
+>> Zatim ahoj honza.
+>>
+>> ----- P?VODN? ZPR?VA -----
+>> Od: "Jan Kodym" <jan.kodym at post.cz>
+>> Komu: reportasistent-list at lists.berlios.de
+>> P?edm?t: [Reportasistent-list] XMLDOM
+>> Datum: 5.3.2006 - 14:20:08
+>>
+>>
+>>> Ahojte,
+>>>
+>>> mel bych jednu prosbu (hlavne asi na Dedu, pripadne na Ivu).
+>>> Potreboval bych se co nejrychlejs naucit zaklady, jak se
+>>> pracuje ve Visual C++ s tim DOM modelem XML. Tedka se o to
+>>> pokousim, jednak z nejaky dokumentace a tutorialu a jednak z
+>>> ty aplikace ReportAsistent, kde uz je to nejak zabudovany.
+>>> Akorat mam z toho dost blbej pocit, nejak se mi nedari z toho
+>>> vytahnout presne to, co potrebuju a prijde mi, ze nad tim
+>>> zbytecne travim spoustu casu, kterej bych mohl venovat praci
+>>> na necem jinym. Potreboval bych vytvorit jednoduchouckou
+>>> aplikaci (klidne konzolovou), ktera by umela z xml souboru
+>>> udelat DOM, umela ulozit DOM do souboru a pripadne nejak
+>>> modifikovat ten strom nebo v nem neco najit. Za prvy se mi
+>>> nepodarilo ani podle tutorialu vytvorit zkusebni aplikaci -
+>>> vzdycky to narazilo na nejakej technickej problem - i kdyz tam
+>>> presne popisovali, jak se ma co udelat, vcetne stazeni a
+>>> instalace xmlinst atd - vzdycky mi to nekde krachlo, kdyz tam
+>>> psali "pripojte knihovnu blabla, kterou najdete v blabla" a ja
+>>> tam nic takovyho nenasel ... kdyz jsem zkoumal ten nas program
+>>> ReportAsistent, mam zase problem v tom, ze to co asi potrebuju
+>>> je tam utopeny ve spouste jinejch veci, kterejm nerozumim a
+>>> nevim, jestli je taky potrebuju nebo ne atd.a kdybych to mel
+>>> zkoumat, zabralo by mi to jeste vic casu ... proste nemam moc
+>>> schopnost, kdyz potrebuju rychle pracovat s necim, o cem toho
+>>> nic moc nevim, abych se v tom rychle zorientoval a byl rychle
+>>> schopnej to aspon nejak rozchodil ... pomohlo by mi, kdyby
+>>> nekdo, kdo s tim umi prakticky zachazet, si na me nasel
+>>> hodinku, pomohl mi vytvorit jednoduchouckou aplikaci a
+>>> vysvetlil mi, ze "tohle je dulezity", "tohle je sice taky
+>>> dulezity kvuli tomu a tomu ale to neres, proste to tam
+>>> zkopiruj" pripadne "tohle je uplne na neco jinyho, to tam bejt
+>>> nemusi". Mozna vas tim zbytecne zdrzuju, kdyz vy jste si to
+>>> taky treba museli vycist v manualech, ale zase toho casu do
+>>> 17.3. zas tak moc neni, tak bych ho chtel vyuzit co
+>>> nejrozumnejs, ne tri ctvrte z nej neco marne hledat v
+>>> manualech.
+>>> Tak kdybyste si nekdo myslel, ze mi muzete pomoct, budu moc
+>>> rad. Cas mam vpodstate kdykoliv. A kdyby se nekdo, kdo tomu
+>>> taky nerozumi a chtel by, toho chtel taky zucastnit (tohle
+>>> budem pouzivat asi vsichni), muzem se domluvit nejak hromadne.
+>>> Ja bych uvital, aby to bylo co nejdriv.
+>>>
+>>> Mejte se
+>>>
+>>> Kody
+>>>
+>>>
+>>
+>> _______________________________________________
+>> Reportasistent-list mailing list
+>> Reportasistent-list at lists.berlios.de
+>> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+>>
+>> __________ Informace od NOD32 1.1431 (20060305) __________
+>>
+>> Tato zprava byla proverena antivirovym systemem NOD32.
+>> http://www.nod32.cz
+>>
+>>
+>>
+>>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+> 
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: main.cpp
+Type: application/octet-stream
+Size: 3183 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/reportasistent-list/attachments/20060307/5182d4aa/attachment.obj>
+
+From jan.kodym at post.cz  Tue Mar  7 14:24:07 2006
+From: jan.kodym at post.cz (=?us-ascii?Q?Jan=20Kodym?=)
+Date: Tue, 07 Mar 2006 14:24:07 +0100 (CET)
+Subject: [Reportasistent-list] =?us-ascii?Q?Re=3A=20Report=20Asistnet=20=2D=20analyza=20dodatek1?=
+In-Reply-To: <OF39206E92.975F3212-ONC125712A.003BB244-C125712A.003BDFCB@kotelna.vse.cz>
+Message-ID: <827.1497-1843-158193754-1141737847@post.cz>
+
+Dobry den,
+omlouvame se, ze jsme se Vam neozvali driv. Ale rozhodli jsme se oproti puvodnimu planu pozmenit styl prace na "vyvoj ve spirale", aby to bylo efektivnejsi. Domluvili jsme se na zakladni architekture systemu, rozdelili jej na casti, dohodli zpusob komunikace (protokoly) mezi jednotlivymi castmi, rozdelili si praci a zacali jsme vytvaret zakladni funkcni verzi, kterou mame v planu dokoncit do 17.3.  Zatim bude umet jen neco (napriklad jen vyber aktivnich prvku jednoho typu, napriklad 4ft hypotezy). Pote budeme u teto zakladni verze rozsirovat funkcnost az do konecne podoby. Nevim, jestli ma cenu se ted schazet s Vami, jestli by to nebylo lepsi, az Vam budeme moci po tom 17.3. predvest funkcni program a pripadne diskutovat, co na nem zmenit. Potrebovali bychom s Vami potom dospecifikovat strukturu nekterych aktivnich prvku, ale to bude potreba, az budeme program o podporu techto AP rozsirovat.
+
+S pozdravem
+
+J. Kodym
+
+> ------------ P?vodn? zpr?va ------------
+> Od: Jan Rauch <Rauch at vse.cz>
+> P?edm?t: Re: Report Asistnet - analyza dodatek1
+> Datum: 07.3.2006 11:54:01
+> ----------------------------------------
+> Dobry den,
+> chci se zeptat v jakem stavu je Report Asistent.
+> Kdy bude treba schuzka?
+> 
+> Dekuji
+> 
+> S pozdravem
+> 
+> J. Rauch
+> 
+> 
+> 
+> 
+
+
+From Rauch at vse.cz  Tue Mar  7 15:00:50 2006
+From: Rauch at vse.cz (Jan Rauch)
+Date: Tue, 7 Mar 2006 15:00:50 +0100
+Subject: [Reportasistent-list] Re: Report Asistnet - analyza dodatek1
+In-Reply-To: <827.1497-1843-158193754-1141737847@post.cz>
+Message-ID: <OFFB5925A6.1D84A90F-ONC125712A.004C0D4B-C125712A.004CFC2A@kotelna.vse.cz>
+
+Dobr y den,
+dekuji za zpravu. 17. 3. nebo tesne pote se s vami rad sejdu a zacnu
+testovat
+zakladni versi. V breznu bude take odevzdan projekt Ferda a pokracuji na
+nem dve diplomky.
+Bude treba vzit v uvahu moznost spoluprace s  aktualni versi Ferdy.
+
+Byl bych rad kdyby jste v prubehu dubna nebo
+zacatkem kvetrna prezentovali vas projekt na pracovnim seminari KEG, viz
+
+http://146.102.64.29/%7Esvatek/keg/seminar/keg-sem.html
+
+jehoz program se ted dava dohromady. Muzete mi navrhnout nektery vhodny
+ctvrtek?
+
+
+Dekuji a zdravim
+
+J. Rauch
+
+
+
+
+
+                                                                           
+             Jan Kodym                                                     
+             <jan.kodym at post.c                                             
+             z>                                                       Komu 
+                                           Jan Rauch <Rauch at vse.cz>        
+             07.03.2006 14:24                                        Kopie 
+                                           reportasistent-list at lists.berli 
+                                           os.de                           
+             Odpov?zte pros?m                                      P?edm?t 
+                 u?ivateli                 Re: Report Asistnet - analyza   
+                 Jan Kodym                 dodatek1                        
+             <jan.kodym at post.c                                             
+                    z>                                                     
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+
+
+
+
+Dobry den,
+omlouvame se, ze jsme se Vam neozvali driv. Ale rozhodli jsme se oproti
+puvodnimu planu pozmenit styl prace na "vyvoj ve spirale", aby to bylo
+efektivnejsi. Domluvili jsme se na zakladni architekture systemu, rozdelili
+jej na casti, dohodli zpusob komunikace (protokoly) mezi jednotlivymi
+castmi, rozdelili si praci a zacali jsme vytvaret zakladni funkcni verzi,
+kterou mame v planu dokoncit do 17.3.  Zatim bude umet jen neco (napriklad
+jen vyber aktivnich prvku jednoho typu, napriklad 4ft hypotezy). Pote
+budeme u teto zakladni verze rozsirovat funkcnost az do konecne podoby.
+Nevim, jestli ma cenu se ted schazet s Vami, jestli by to nebylo lepsi, az
+Vam budeme moci po tom 17.3. predvest funkcni program a pripadne
+diskutovat, co na nem zmenit. Potrebovali bychom s Vami potom
+dospecifikovat strukturu nekterych aktivnich prvku, ale to bude potreba, az
+budeme program o podporu techto AP rozsirovat.
+
+S pozdravem
+
+J. Kodym
+
+> ------------ P?vodn? zpr?va ------------
+> Od: Jan Rauch <Rauch at vse.cz>
+> P?edm?t: Re: Report Asistnet - analyza dodatek1
+> Datum: 07.3.2006 11:54:01
+> ----------------------------------------
+> Dobry den,
+> chci se zeptat v jakem stavu je Report Asistent.
+> Kdy bude treba schuzka?
+>
+> Dekuji
+>
+> S pozdravem
+>
+> J. Rauch
+>
+>
+>
+>
+
+
+
+
+From honza.dedek at volny.cz  Fri Mar 10 12:25:19 2006
+From: honza.dedek at volny.cz (honza dedek)
+Date: Fri, 10 Mar 2006 12:25:19 +0100
+Subject: [Reportasistent-list] SVN - add new files
+References: <827.1497-1843-158193754-1141737847@post.cz>
+Message-ID: <001201c64435$5385c930$6601a8c0@pcdedek>
+
+Ahoj Ivco,
+fajn, ze prace na projektu ReportAsistent pokracuje (na SVN jsem zaznamenal 
+dalsi verzi), ale nemuzu si ji zkusit pustit, protoze na SVN chybeji nektere 
+soubory projektu - konkretne nove soubory, ktere jsi vytvorila.
+
+
+Takze - jak uz jsem jednou psal: 
+(https://lists.berlios.de/pipermail/reportasistent-list/2006-March/000037.html)
+
+Pridej prosim nove soubory, ktere jsi vytvorila v projektu
+ReportAsistent na SVN (pruzkumnik->na souboru, ktery chces pridat prave
+tlacitko -> TortoiseSVN -> Add  a pak jeste vse comitnout) rad bych se na to
+podival :-)
+
+Konkretne chybeji soubory:
+ElementText.cpp
+ElementText.h
+
+res\Chapter.bmp
+res\Paragraph.bmp
+res\Report.bmp
+res\Table.bmp
+res\Text.bmp
+
+
+
+Predpokladam, ze kdyz jsem to psal minule, tak doslo k nepochopeni. Priste 
+se prosim radeji zeptejte, nebo aspon napiste: Ty vole nechapu, co to 
+zvatlas za nesmyle? :-), at mezi sebou mame co mozna nejmene nejasnosti.
+
+Mejte se honza. 
+
+
+
+From iva.b at volny.cz  Thu Mar 16 08:46:54 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Thu, 16 Mar 2006 08:46:54 +0100 (CET)
+Subject: [Reportasistent-list] prvni verze - jak to dame do kupy?
+Message-ID: <f726de4a5610faa4cb02d18e0454835e@www1.mail.volny.cz>
+
+Ahojky, 
+termin na nasi prvni verzi je uz zitra, takze nadhazuji otazku: Jak
+to dame dohromady? Sejdeme se na to? Ja mam cas zitra odpoledne.
+
+Ja osobne nevim, jak vyresit spojeni ruznych verzi v SVN, takze tam
+svoji posledni praci neumim pridat.
+
+Iva
+
+
+
+
+From jan.kodym at post.cz  Thu Mar 16 14:37:12 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Thu, 16 Mar 2006 14:37:12 +0100
+Subject: [Reportasistent-list] prezentace na seminari KEG :-)
+Message-ID: <44196A08.9020401@post.cz>
+
+Ahojte,
+tak me napadlo, ze bysme se taky mohli dohodnout a dat Rauchovi vedet 
+(pokud tak nekdo z vas uz neucinil), kdy budeme nas projekt prezentovat 
+na seminari KEG :-) Ja si to teda nedovedu dost dobre predstavit, ale 
+asi tomu neunikneme a zase abysme si Raucha nenastvali tim, ze s nim 
+tedka nejak moc nekomunikujeme ... tak aspon ohlasit se mu a navrhnout 
+mu termin bysme mohli, kdyz na tom zas moc nesejde kdy to bude.
+Jinak jsem pro se zejtra sejit. Jednak kdyby to poskladany nefungovalo a 
+bylo treba to doladit. Jednak, abysme si vzajemne rekli zhruba, co ci 
+cast umi a +-jak je to udelany. Az budete pristi tejden pryc, muzu 
+(pripadne muzeme s Martinem) to testovat. A kdyz to bude fungovat a budu 
+se v tom orientovat, klidne s tim pudu za Rauchem. Pac mam pocit, ze uz 
+na to dost ceka (kdyz uz nam pise takovy veci jako "17. 3. nebo tesne 
+pote se s vami rad sejdu a zacnu testovat" tak dalsi tejden zdrzeni by 
+mohl nest s nevoli).  Zitra je mi celkem jedno kdy, i kdyz bych 
+preferoval spis dopoledne.  Pak se jen potrebuju nejak rozumne dostat 
+domu. A Dedo s Ivou - vy jedete nekdy k veceru taky pryc, ne?
+Tak zatim. Snad to bude fungovat :-)
+
+Kody
+
+
+From honza.dedek at volny.cz  Thu Mar 16 23:25:08 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Thu, 16 Mar 2006 23:25:08 +0100 (CET)
+Subject: [Reportasistent-list] schuzka zitra
+Message-ID: <fcc29b3c5fdfb6414375795a0b24ad78@www3.mail.volny.cz>
+
+Ahoj,
+na SVN je ode me posledni funkci verze. Pokud me budete chtit zitra
+potkat, tak budu od deviti na FneF (S5) nebo v labu, pak mam volno.
+V  17:30 mi jede bus domu.
+
+Rad bych nejak zdokumentoval to, co to zatim umi ale nevim, jestli
+budou sily. Ale moje zdrojaky myslim nejsou uplne necitelny..
+Muzete klidne testovat a chyby urcite i odstranovat. Ale staci i
+nekam napsat poznamku..
+
+Jeste tam prijdou pridat upravy od Ivy tak nam to zase trochu
+zkrasni :-)
+
+honza
+
+
+
+
+From iva.b at volny.cz  Wed Mar 29 21:52:39 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Wed, 29 Mar 2006 21:52:39 +0200 (CEST)
+Subject: [Reportasistent-list] schuzka 29.3. - zapis
+Message-ID: <6d7e52ce830eabcaf8aaa04f48790533@www5.mail.volny.cz>
+
+Ahoj vsici,
+
+zapis ze dnesni schuzky  - tedy 29.3. je u nas na strankach:
+
+http://reportasistent.berlios.de/dokumenty/SchuzkaTymu290306.rtf
+
+Mejte se
+
+Iva
+
+
+-- 
+Novinka pro zeny! I formovani postavy muze byt zabavne!
+Inline  brusle Nike za fantasticke ceny od 1999
+Kc!http://www.sportobchod.cz/Prehled.php?kat1=10
+
+
+
+From iva.b at volny.cz  Thu Mar 30 11:08:15 2006
+From: iva.b at volny.cz (Iva Bartunkova)
+Date: Thu, 30 Mar 2006 11:08:15 +0200 (CEST)
+Subject: [Reportasistent-list] Reakce p.Raucha a p.Svatka na navrh prezentace RA na KEGu
+Message-ID: <10d7e7581b76b7ff5f21230dcd5242fc@www2.mail.volny.cz>
+
+Reakce p. Svatka  a p. Raucha na nase oznameni prezentace na KEGu:
+
+**************************************
+Hezky den,
+
+dve prednasky na odlisna temata bych nemichal, mnohem radeji bych
+byl, kdybyste mohli promluvit uz v terminu 20.4., ktery mam zatim
+neobsazeny. Pokud by se vam tento termin nehodil, zkusil bych s M.
+Rimnacem domluvit vymenu.
+Pokud jde o to, ze prezentace bude kratka, to vubec nevadi, aspon
+bude prostor na diskusi. Pracujeme ted s J. Rauchem na vecech okolo
+aplikace ontologii, ktere se do analytickych zprav take potencialne
+promitaji, mohl bych vam o tom behem nekolika dnu poslat pracovni
+verzi clanku.
+
+Predem diky za rychlou reakci.
+
+S pozdravem
+
+V. Svatek
+
+
+----- P?VODN? ZPR?VA -----
+Od: "Jan Rauch" <Rauch at vse.cz>
+Komu: "Vojtech Svatek" <Svatek at vse.cz>
+P?edm?t: Re: seminar KEG - navrh na prednasku
+Datum: 30.3.2006 - 9:26:23
+
+Dobry den,
+co se tyce kratkosti prednasky tak to vubec nevadi, navrhuji
+ze zbyly cas pomohu vyplnit uvahami a navrhy o tom co dal
+s LISp-Miner (predpokladam predstavit nove uvahy o projektu
+EverMiner, a souvisejici diplomky). Mohu take pozadat  skupinu
+"Ferda" o
+zpravu o projektu.
+
+Co se tyce terminu tak je mi to celkem jedno pokud to nebude driv
+nez 20. 4.
+
+S pozdravem
+
+
+J. Rauch
+
+
+
+
+
+
+----------------------------------------------------------------------
+  Vojtech Svatek, University of Economics, Prague
+  Nam.W.Churchilla 4, 13067 Praha 3, CZECH REPUBLIC
+  phone: +420 224095462, e-mail: svatek at vse.cz
+  web: http://nb.vse.cz/~svatek/welcom_e.htm
+
+"Iva Bartunkova" <iva.b at volny.cz> napsal dne 29.03.2006 22:13:54:
+
+> Dobr? den,
+>
+> jsme skupina ?ty? student? MFF UK a od z??? 2005 pracujeme na
+> projektu Report Asistent u RNDr. Jana Raucha, CSc. V?sledkem
+na?eho > projektu bude aplikace, usnad?uj?c? tvorbu analytick?
+zpr?vy z
+> v?sledk? data minigov?ch n?stroj? jako LispMiner, 4ftMiner a
+> dal??ch. Na?e prezentace bude kr?tk?, tedy navrhujeme datum
+> 27.4.06, abychom se p?idali k term?nu ji? napl?novan? p?edn??ky.
+> Anglick? n?zev p?edn??ky: Report Asistent - utility for creating
+> analytic reports from results of data mining. P?edn??ej?c?: Iva
+> Bart??kov? , Jan D?dek
+>
+> S pozdravem
+>
+> Iva Bart??kov?
+>
+>
+>
+> --
+> Novinka pro zeny! I formovani postavy muze byt zabavne!
+> Inline  brusle Nike za fantasticke ceny od 1999
+> Kc!http://www.sportobchod.cz/Prehled.php?kat1=10
+>
+
+
+
+
+
+
+
+
+-- 
+! NOVINKA ! Vybruslete z jarni unavy!
+Inline  brusle Nike za fantasticke ceny od 1999 Kc!
+http://www.sportobchod.cz/Prehled.php?kat1=10
+
+
+
+From honza.dedek at volny.cz  Fri Mar 31 13:17:12 2006
+From: honza.dedek at volny.cz (honza.dedek at volny.cz)
+Date: Fri, 31 Mar 2006 13:17:12 +0200 (CEST)
+Subject: [Reportasistent-list] druha verze
+Message-ID: <ae357a7fbbab8e1699cd240db6e97c6b@www1.mail.volny.cz>
+
+Ahoj, znova procitam ty ukoly do dalsi verze.
+
+Neni 10.4. moc brzo? Nevim jestli to vsichni stihnem..
+Ale treba jo :-) Nebo treba napiste, jak to vidite - naplanovali
+jsem to dost narychlo..
+
+honza
+
+
+-- 
+! NOVINKA ! Vybruslete z jarni unavy!
+Inline  brusle Nike za fantasticke ceny od 1999 Kc!
+http://www.sportobchod.cz/Prehled.php?kat1=10
+
+
+
+From jan.kodym at post.cz  Fri Mar 31 14:29:08 2006
+From: jan.kodym at post.cz (Jan Kodym)
+Date: Fri, 31 Mar 2006 14:29:08 +0200
+Subject: [Reportasistent-list] druha verze
+References: <ae357a7fbbab8e1699cd240db6e97c6b@www1.mail.volny.cz>
+Message-ID: <000901c654be$b54c8c50$5d96110a@honzadom>
+
+Ahojte,
+no, taky si nejsem uplne jistej, jestli je to realny :-) Ja treba zatim moc 
+nevim, do ceho jdu a dozvim se to vpodstate az pristi tejden na schuzce s 
+Ferdasama a taky zatim nemam novy Visual Studio abych mohl neco zkouset a 
+neumim C# ... :-) No proste je mozny, ze to bude vpohode a taky je mozny, ze 
+zjistim, ze to bude vopruz a budu se s tim hrabat dyl. Zatim si nedokazu 
+udelat odhad. Nicmene deadline se da posunout vzdycky a takhle je to aspon 
+vic motivujici :-)
+Mejte se a hodne zdaru
+
+Kody
+
+----- Original Message ----- 
+From: <honza.dedek at volny.cz>
+To: <reportasistent-list at lists.berlios.de>
+Sent: Friday, March 31, 2006 1:17 PM
+Subject: [Reportasistent-list] druha verze
+
+
+> Ahoj, znova procitam ty ukoly do dalsi verze.
+>
+> Neni 10.4. moc brzo? Nevim jestli to vsichni stihnem..
+> Ale treba jo :-) Nebo treba napiste, jak to vidite - naplanovali
+> jsem to dost narychlo..
+>
+> honza
+>
+>
+> -- 
+> ! NOVINKA ! Vybruslete z jarni unavy!
+> Inline  brusle Nike za fantasticke ceny od 1999 Kc!
+> http://www.sportobchod.cz/Prehled.php?kat1=10
+>
+> _______________________________________________
+> Reportasistent-list mailing list
+> Reportasistent-list at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/reportasistent-list
+>
+> __________ Informace od NOD32 1.1464 (20060331) __________
+>
+> Tato zprava byla proverena antivirovym systemem NOD32.
+> http://www.nod32.cz
+>
+> 
+
+
+
